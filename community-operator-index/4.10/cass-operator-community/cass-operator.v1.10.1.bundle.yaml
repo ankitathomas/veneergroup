@@ -1,0 +1,24 @@
+image: quay.io/openshift-community-operators/cass-operator-community@sha256:0e9b0749469a4a6b37db41d1f716246e05c9238beeae14a2f212b37a57979d4d
+name: cass-operator.v1.10.1
+package: cass-operator-community
+properties:
+  - type: olm.gvk
+    value:
+      group: cassandra.datastax.com
+      kind: CassandraDatacenter
+      version: v1beta1
+  - type: olm.gvk
+    value:
+      group: control.k8ssandra.io
+      kind: CassandraTask
+      version: v1alpha1
+  - type: olm.package
+    value:
+      packageName: cass-operator-community
+      version: 1.10.1
+relatedImages:
+  - image: k8ssandra/cass-operator:v1.10.1
+    name: ""
+  - image: quay.io/openshift-community-operators/cass-operator-community@sha256:0e9b0749469a4a6b37db41d1f716246e05c9238beeae14a2f212b37a57979d4d
+    name: ""
+schema: olm.bundle

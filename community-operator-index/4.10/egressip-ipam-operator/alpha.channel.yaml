@@ -1,0 +1,31 @@
+entries:
+  - name: egressip-ipam-operator.v1.0.0
+  - name: egressip-ipam-operator.v1.0.1
+    replaces: egressip-ipam-operator.v1.0.0
+  - name: egressip-ipam-operator.v1.0.2
+    replaces: egressip-ipam-operator.v1.0.1
+  - name: egressip-ipam-operator.v1.0.3
+    replaces: egressip-ipam-operator.v1.0.2
+  - name: egressip-ipam-operator.v1.0.4
+    replaces: egressip-ipam-operator.v1.0.3
+  - name: egressip-ipam-operator.v1.0.5
+    replaces: egressip-ipam-operator.v1.0.4
+  - name: egressip-ipam-operator.v1.0.6
+    replaces: egressip-ipam-operator.v1.0.5
+  - name: egressip-ipam-operator.v1.0.7
+    replaces: egressip-ipam-operator.v1.0.6
+  - name: egressip-ipam-operator.v1.0.8
+    replaces: egressip-ipam-operator.v1.0.7
+  - name: egressip-ipam-operator.v1.1.0
+    replaces: egressip-ipam-operator.v1.0.8
+  - name: egressip-ipam-operator.v1.2.0
+    replaces: egressip-ipam-operator.v1.1.0
+  - name: egressip-ipam-operator.v1.2.1
+    replaces: egressip-ipam-operator.v1.2.0
+  - name: egressip-ipam-operator.v1.2.2
+    replaces: egressip-ipam-operator.v1.2.1
+  - name: egressip-ipam-operator.v1.2.3
+    replaces: egressip-ipam-operator.v1.2.2
+name: alpha
+package: egressip-ipam-operator
+schema: olm.channel

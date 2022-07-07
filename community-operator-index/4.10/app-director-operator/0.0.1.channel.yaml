@@ -1,0 +1,5 @@
+entries:
+  - name: app-director-operator.v0.0.1
+name: 0.0.1
+package: app-director-operator
+schema: olm.channel

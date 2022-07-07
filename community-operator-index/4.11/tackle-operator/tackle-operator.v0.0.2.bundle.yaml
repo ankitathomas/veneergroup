@@ -1,0 +1,19 @@
+image: quay.io/openshift-community-operators/tackle-operator@sha256:a2ee06905f5393946b97b2f72d6efb6f4ba52bb4d0b99a3546b9257d337302fc
+name: tackle-operator.v0.0.2
+package: tackle-operator
+properties:
+  - type: olm.gvk
+    value:
+      group: tackle.io
+      kind: Tackle
+      version: v1alpha1
+  - type: olm.package
+    value:
+      packageName: tackle-operator
+      version: 0.0.2
+relatedImages:
+  - image: quay.io/konveyor/tackle-operator:0.0.2-native
+    name: ""
+  - image: quay.io/openshift-community-operators/tackle-operator@sha256:a2ee06905f5393946b97b2f72d6efb6f4ba52bb4d0b99a3546b9257d337302fc
+    name: ""
+schema: olm.bundle

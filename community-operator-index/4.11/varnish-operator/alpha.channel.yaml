@@ -1,0 +1,5 @@
+entries:
+  - name: varnish-operator.v0.27.2
+name: alpha
+package: varnish-operator
+schema: olm.channel

@@ -1,0 +1,21 @@
+image: quay.io/openshift-community-operators/openshift-nfd-operator@sha256:d5fa99fe4ac3ab35171d9c860b3507219140c1b2472091d81707e6e33030e01b
+name: nfd.v4.8.0
+package: openshift-nfd-operator
+properties:
+  - type: olm.gvk
+    value:
+      group: nfd.openshift.io
+      kind: NodeFeatureDiscovery
+      version: v1
+  - type: olm.package
+    value:
+      packageName: openshift-nfd-operator
+      version: 4.8.0
+relatedImages:
+  - image: gcr.io/kubebuilder/kube-rbac-proxy:v0.5.0
+    name: ""
+  - image: quay.io/openshift-community-operators/openshift-nfd-operator@sha256:d5fa99fe4ac3ab35171d9c860b3507219140c1b2472091d81707e6e33030e01b
+    name: ""
+  - image: quay.io/openshift/origin-cluster-nfd-operator:4.8
+    name: ""
+schema: olm.bundle

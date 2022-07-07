@@ -1,0 +1,19 @@
+image: quay.io/openshift-community-operators/istio-workspace-operator@sha256:b8eb9a99e9ced771534b9d160f1c49167ce59f0196fd8c712a83e96ebbd14178
+name: istio-workspace-operator.v0.2.0
+package: istio-workspace-operator
+properties:
+  - type: olm.gvk
+    value:
+      group: maistra.io
+      kind: Session
+      version: v1alpha1
+  - type: olm.package
+    value:
+      packageName: istio-workspace-operator
+      version: 0.2.0
+relatedImages:
+  - image: quay.io/maistra/istio-workspace:v0.2.0
+    name: ""
+  - image: quay.io/openshift-community-operators/istio-workspace-operator@sha256:b8eb9a99e9ced771534b9d160f1c49167ce59f0196fd8c712a83e96ebbd14178
+    name: ""
+schema: olm.bundle

@@ -1,0 +1,74 @@
+image: quay.io/openshift-community-operators/ack-apigatewayv2-controller@sha256:57aeec11899bacfb7562957f499a555b7d2f1db3a956ceccf3746d3528b44968
+name: ack-apigatewayv2-controller.v0.0.15
+package: ack-apigatewayv2-controller
+properties:
+  - type: olm.gvk
+    value:
+      group: apigatewayv2.services.k8s.aws
+      kind: API
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: apigatewayv2.services.k8s.aws
+      kind: APIMapping
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: apigatewayv2.services.k8s.aws
+      kind: Authorizer
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: apigatewayv2.services.k8s.aws
+      kind: Deployment
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: apigatewayv2.services.k8s.aws
+      kind: DomainName
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: apigatewayv2.services.k8s.aws
+      kind: Integration
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: apigatewayv2.services.k8s.aws
+      kind: IntegrationResponse
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: apigatewayv2.services.k8s.aws
+      kind: Model
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: apigatewayv2.services.k8s.aws
+      kind: Route
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: apigatewayv2.services.k8s.aws
+      kind: RouteResponse
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: apigatewayv2.services.k8s.aws
+      kind: Stage
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: apigatewayv2.services.k8s.aws
+      kind: VPCLink
+      version: v1alpha1
+  - type: olm.package
+    value:
+      packageName: ack-apigatewayv2-controller
+      version: 0.0.15
+relatedImages:
+  - image: public.ecr.aws/aws-controllers-k8s/apigatewayv2-controller:v0.0.15
+    name: ""
+  - image: quay.io/openshift-community-operators/ack-apigatewayv2-controller@sha256:57aeec11899bacfb7562957f499a555b7d2f1db3a956ceccf3746d3528b44968
+    name: ""
+schema: olm.bundle

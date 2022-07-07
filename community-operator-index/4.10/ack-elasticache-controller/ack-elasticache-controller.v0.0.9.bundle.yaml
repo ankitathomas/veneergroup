@@ -1,0 +1,44 @@
+image: quay.io/openshift-community-operators/ack-elasticache-controller@sha256:22c9420006434e0faa2f2f612a29660ad2f3874573ffd92add78b271c6e75106
+name: ack-elasticache-controller.v0.0.9
+package: ack-elasticache-controller
+properties:
+  - type: olm.gvk
+    value:
+      group: elasticache.services.k8s.aws
+      kind: CacheParameterGroup
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: elasticache.services.k8s.aws
+      kind: CacheSubnetGroup
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: elasticache.services.k8s.aws
+      kind: ReplicationGroup
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: elasticache.services.k8s.aws
+      kind: Snapshot
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: elasticache.services.k8s.aws
+      kind: User
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: elasticache.services.k8s.aws
+      kind: UserGroup
+      version: v1alpha1
+  - type: olm.package
+    value:
+      packageName: ack-elasticache-controller
+      version: 0.0.9
+relatedImages:
+  - image: public.ecr.aws/aws-controllers-k8s/elasticache-controller:v0.0.9
+    name: ""
+  - image: quay.io/openshift-community-operators/ack-elasticache-controller@sha256:22c9420006434e0faa2f2f612a29660ad2f3874573ffd92add78b271c6e75106
+    name: ""
+schema: olm.bundle

@@ -1,0 +1,26 @@
+image: quay.io/openshift-community-operators/node-healthcheck-operator@sha256:611af87ec2d5839381e1db86c8604594d20f097c7648ad2c0a7bf8d9b362cf90
+name: node-healthcheck-operator.v0.0.1
+package: node-healthcheck-operator
+properties:
+  - type: olm.gvk
+    value:
+      group: remediation.medik8s.io
+      kind: NodeHealthCheck
+      version: v1alpha1
+  - type: olm.gvk.required
+    value:
+      group: poison-pill.medik8s.io
+      kind: PoisonPillRemediation
+      version: v1alpha1
+  - type: olm.package
+    value:
+      packageName: node-healthcheck-operator
+      version: 0.0.1
+relatedImages:
+  - image: gcr.io/kubebuilder/kube-rbac-proxy:v0.5.0
+    name: ""
+  - image: quay.io/medik8s/node-healthcheck-operator:0.0.1
+    name: ""
+  - image: quay.io/openshift-community-operators/node-healthcheck-operator@sha256:611af87ec2d5839381e1db86c8604594d20f097c7648ad2c0a7bf8d9b362cf90
+    name: ""
+schema: olm.bundle

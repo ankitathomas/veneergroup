@@ -1,0 +1,14 @@
+image: quay.io/openshift-community-operators/cert-utils-operator@sha256:b3f00b6ca6bc2d5d916fb7eb5e5b4f02ff747a7ccbaa9a5490d57cb8761f7bb0
+name: cert-utils-operator.v0.2.2
+package: cert-utils-operator
+properties:
+  - type: olm.package
+    value:
+      packageName: cert-utils-operator
+      version: 0.2.2
+relatedImages:
+  - image: quay.io/openshift-community-operators/cert-utils-operator@sha256:b3f00b6ca6bc2d5d916fb7eb5e5b4f02ff747a7ccbaa9a5490d57cb8761f7bb0
+    name: ""
+  - image: quay.io/redhat-cop/cert-utils-operator:v0.2.2
+    name: ""
+schema: olm.bundle

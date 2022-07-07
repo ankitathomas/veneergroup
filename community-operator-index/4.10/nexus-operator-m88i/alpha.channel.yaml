@@ -1,0 +1,7 @@
+entries:
+  - name: nexus-operator.v0.5.0
+  - name: nexus-operator.v0.6.0
+    replaces: nexus-operator.v0.5.0
+name: alpha
+package: nexus-operator-m88i
+schema: olm.channel

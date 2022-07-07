@@ -1,0 +1,19 @@
+image: quay.io/openshift-community-operators/kiali@sha256:99c8720f647fc89e51b4b4ffd1bfdcbfffabe316d34c24883dbf79d653c5bf1d
+name: kiali-operator.v1.51.0
+package: kiali
+properties:
+  - type: olm.gvk
+    value:
+      group: kiali.io
+      kind: Kiali
+      version: v1alpha1
+  - type: olm.package
+    value:
+      packageName: kiali
+      version: 1.51.0
+relatedImages:
+  - image: quay.io/kiali/kiali-operator:v1.51.0
+    name: ""
+  - image: quay.io/openshift-community-operators/kiali@sha256:99c8720f647fc89e51b4b4ffd1bfdcbfffabe316d34c24883dbf79d653c5bf1d
+    name: ""
+schema: olm.bundle

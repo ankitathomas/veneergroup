@@ -1,0 +1,139 @@
+image: quay.io/openshift-community-operators/flux@sha256:bf1b4cef4618cc1736df077544a03d83e00481a739d9cc4a952dca9ad2ddc760
+name: flux.v0.28.4
+package: flux
+properties:
+  - type: olm.gvk
+    value:
+      group: helm.toolkit.fluxcd.io
+      kind: HelmRelease
+      version: v2beta1
+  - type: olm.gvk
+    value:
+      group: image.toolkit.fluxcd.io
+      kind: ImagePolicy
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: image.toolkit.fluxcd.io
+      kind: ImagePolicy
+      version: v1alpha2
+  - type: olm.gvk
+    value:
+      group: image.toolkit.fluxcd.io
+      kind: ImagePolicy
+      version: v1beta1
+  - type: olm.gvk
+    value:
+      group: image.toolkit.fluxcd.io
+      kind: ImageRepository
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: image.toolkit.fluxcd.io
+      kind: ImageRepository
+      version: v1alpha2
+  - type: olm.gvk
+    value:
+      group: image.toolkit.fluxcd.io
+      kind: ImageRepository
+      version: v1beta1
+  - type: olm.gvk
+    value:
+      group: image.toolkit.fluxcd.io
+      kind: ImageUpdateAutomation
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: image.toolkit.fluxcd.io
+      kind: ImageUpdateAutomation
+      version: v1alpha2
+  - type: olm.gvk
+    value:
+      group: image.toolkit.fluxcd.io
+      kind: ImageUpdateAutomation
+      version: v1beta1
+  - type: olm.gvk
+    value:
+      group: kustomize.toolkit.fluxcd.io
+      kind: Kustomization
+      version: v1beta1
+  - type: olm.gvk
+    value:
+      group: kustomize.toolkit.fluxcd.io
+      kind: Kustomization
+      version: v1beta2
+  - type: olm.gvk
+    value:
+      group: notification.toolkit.fluxcd.io
+      kind: Alert
+      version: v1beta1
+  - type: olm.gvk
+    value:
+      group: notification.toolkit.fluxcd.io
+      kind: Provider
+      version: v1beta1
+  - type: olm.gvk
+    value:
+      group: notification.toolkit.fluxcd.io
+      kind: Receiver
+      version: v1beta1
+  - type: olm.gvk
+    value:
+      group: source.toolkit.fluxcd.io
+      kind: Bucket
+      version: v1beta1
+  - type: olm.gvk
+    value:
+      group: source.toolkit.fluxcd.io
+      kind: Bucket
+      version: v1beta2
+  - type: olm.gvk
+    value:
+      group: source.toolkit.fluxcd.io
+      kind: GitRepository
+      version: v1beta1
+  - type: olm.gvk
+    value:
+      group: source.toolkit.fluxcd.io
+      kind: GitRepository
+      version: v1beta2
+  - type: olm.gvk
+    value:
+      group: source.toolkit.fluxcd.io
+      kind: HelmChart
+      version: v1beta1
+  - type: olm.gvk
+    value:
+      group: source.toolkit.fluxcd.io
+      kind: HelmChart
+      version: v1beta2
+  - type: olm.gvk
+    value:
+      group: source.toolkit.fluxcd.io
+      kind: HelmRepository
+      version: v1beta1
+  - type: olm.gvk
+    value:
+      group: source.toolkit.fluxcd.io
+      kind: HelmRepository
+      version: v1beta2
+  - type: olm.package
+    value:
+      packageName: flux
+      version: 0.28.4
+relatedImages:
+  - image: ghcr.io/fluxcd/helm-controller:v0.18.2
+    name: ""
+  - image: ghcr.io/fluxcd/image-automation-controller:v0.21.2
+    name: ""
+  - image: ghcr.io/fluxcd/image-reflector-controller:v0.17.1
+    name: ""
+  - image: ghcr.io/fluxcd/kustomize-controller:v0.22.2
+    name: ""
+  - image: ghcr.io/fluxcd/notification-controller:v0.23.1
+    name: ""
+  - image: ghcr.io/fluxcd/source-controller:v0.22.4
+    name: ""
+  - image: quay.io/openshift-community-operators/flux@sha256:bf1b4cef4618cc1736df077544a03d83e00481a739d9cc4a952dca9ad2ddc760
+    name: ""
+schema: olm.bundle

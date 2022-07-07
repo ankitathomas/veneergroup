@@ -1,0 +1,5 @@
+entries:
+  - name: apicurio-registry-operator.v1.0.0-v2.0.0.final
+name: 2.x
+package: apicurio-registry
+schema: olm.channel

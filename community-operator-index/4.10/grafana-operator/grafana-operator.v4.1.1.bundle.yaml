@@ -1,0 +1,36 @@
+image: quay.io/openshift-community-operators/grafana-operator@sha256:3c4e97ab5deaf8346bd941660af47783f8482c5538d5a296bddfb36692e29b2e
+name: grafana-operator.v4.1.1
+package: grafana-operator
+properties:
+  - type: olm.gvk
+    value:
+      group: integreatly.org
+      kind: Grafana
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: integreatly.org
+      kind: GrafanaDashboard
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: integreatly.org
+      kind: GrafanaDataSource
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: integreatly.org
+      kind: GrafanaNotificationChannel
+      version: v1alpha1
+  - type: olm.package
+    value:
+      packageName: grafana-operator
+      version: 4.1.1
+relatedImages:
+  - image: gcr.io/kubebuilder/kube-rbac-proxy:v0.8.0
+    name: ""
+  - image: quay.io/grafana-operator/grafana-operator:v4.1.1
+    name: ""
+  - image: quay.io/openshift-community-operators/grafana-operator@sha256:3c4e97ab5deaf8346bd941660af47783f8482c5538d5a296bddfb36692e29b2e
+    name: ""
+schema: olm.bundle

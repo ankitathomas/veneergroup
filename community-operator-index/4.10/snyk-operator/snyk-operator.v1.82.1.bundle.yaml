@@ -1,0 +1,19 @@
+image: quay.io/openshift-community-operators/snyk-operator@sha256:7b72c119dd48a76839776bf58c6250c58ac49135bc4d480bd800590e2e2015d8
+name: snyk-operator.v1.82.1
+package: snyk-operator
+properties:
+  - type: olm.gvk
+    value:
+      group: charts.helm.k8s.io
+      kind: SnykMonitor
+      version: v1alpha1
+  - type: olm.package
+    value:
+      packageName: snyk-operator
+      version: 1.82.1
+relatedImages:
+  - image: docker.io/snyk/kubernetes-operator:1.82.1
+    name: ""
+  - image: quay.io/openshift-community-operators/snyk-operator@sha256:7b72c119dd48a76839776bf58c6250c58ac49135bc4d480bd800590e2e2015d8
+    name: ""
+schema: olm.bundle

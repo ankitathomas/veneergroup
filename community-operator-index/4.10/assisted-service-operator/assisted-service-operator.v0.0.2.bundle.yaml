@@ -1,0 +1,34 @@
+image: quay.io/openshift-community-operators/assisted-service-operator@sha256:62ad213f8659beac824da6295942627fad98314ae6671a74fee74b8613f72472
+name: assisted-service-operator.v0.0.2
+package: assisted-service-operator
+properties:
+  - type: olm.gvk
+    value:
+      group: agent-install.openshift.io
+      kind: Agent
+      version: v1beta1
+  - type: olm.gvk
+    value:
+      group: agent-install.openshift.io
+      kind: AgentServiceConfig
+      version: v1beta1
+  - type: olm.gvk
+    value:
+      group: agent-install.openshift.io
+      kind: InfraEnv
+      version: v1beta1
+  - type: olm.gvk
+    value:
+      group: agent-install.openshift.io
+      kind: NMStateConfig
+      version: v1beta1
+  - type: olm.package
+    value:
+      packageName: assisted-service-operator
+      version: 0.0.2
+relatedImages:
+  - image: quay.io/ocpmetal/assisted-service@sha256:330245cb266d2cc53fa0009fe949b0667cbaef3f72a548735734caf5c553eec6
+    name: ""
+  - image: quay.io/openshift-community-operators/assisted-service-operator@sha256:62ad213f8659beac824da6295942627fad98314ae6671a74fee74b8613f72472
+    name: ""
+schema: olm.bundle

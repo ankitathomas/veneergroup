@@ -1,0 +1,66 @@
+image: quay.io/openshift-community-operators/forklift-operator@sha256:ab3308c06ce322feb8d14fc1ab23da924bb46fe622b851fadd09f2bacdc26d2a
+name: forklift-operator.v2.3.0
+package: forklift-operator
+properties:
+  - type: olm.gvk
+    value:
+      group: forklift.konveyor.io
+      kind: ForkliftController
+      version: v1beta1
+  - type: olm.gvk
+    value:
+      group: forklift.konveyor.io
+      kind: Hook
+      version: v1beta1
+  - type: olm.gvk
+    value:
+      group: forklift.konveyor.io
+      kind: Host
+      version: v1beta1
+  - type: olm.gvk
+    value:
+      group: forklift.konveyor.io
+      kind: Migration
+      version: v1beta1
+  - type: olm.gvk
+    value:
+      group: forklift.konveyor.io
+      kind: NetworkMap
+      version: v1beta1
+  - type: olm.gvk
+    value:
+      group: forklift.konveyor.io
+      kind: Plan
+      version: v1beta1
+  - type: olm.gvk
+    value:
+      group: forklift.konveyor.io
+      kind: Provider
+      version: v1beta1
+  - type: olm.gvk
+    value:
+      group: forklift.konveyor.io
+      kind: StorageMap
+      version: v1beta1
+  - type: olm.package
+    value:
+      packageName: forklift-operator
+      version: 2.3.0
+relatedImages:
+  - image: quay.io/konveyor/forklift-controller:release-v2.3.0
+    name: ""
+  - image: quay.io/konveyor/forklift-must-gather-api:release-v2.3.0
+    name: ""
+  - image: quay.io/konveyor/forklift-must-gather:release-v2.3.0
+    name: ""
+  - image: quay.io/konveyor/forklift-operator:release-v2.3.0
+    name: ""
+  - image: quay.io/konveyor/forklift-ui:release-v2.3.0
+    name: ""
+  - image: quay.io/konveyor/forklift-validation:release-v2.3.0
+    name: ""
+  - image: quay.io/konveyor/forklift-virt-v2v:release-v2.3.0
+    name: ""
+  - image: quay.io/openshift-community-operators/forklift-operator@sha256:ab3308c06ce322feb8d14fc1ab23da924bb46fe622b851fadd09f2bacdc26d2a
+    name: ""
+schema: olm.bundle

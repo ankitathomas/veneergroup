@@ -1,0 +1,7 @@
+entries:
+  - name: cass-operator.v1.10.1
+  - name: cass-operator.v1.10.4
+    replaces: cass-operator.v1.10.1
+name: stable
+package: cass-operator-community
+schema: olm.channel

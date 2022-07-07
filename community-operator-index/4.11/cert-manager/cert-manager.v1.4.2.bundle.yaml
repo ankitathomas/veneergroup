@@ -1,0 +1,138 @@
+image: quay.io/openshift-community-operators/cert-manager@sha256:a76e8dbed45d9398fcdaaa0d52dbf2e934ef20eff16f8ade4d63214fdde6abae
+name: cert-manager.v1.4.2
+package: cert-manager
+properties:
+  - type: olm.gvk
+    value:
+      group: acme.cert-manager.io
+      kind: Challenge
+      version: v1
+  - type: olm.gvk
+    value:
+      group: acme.cert-manager.io
+      kind: Challenge
+      version: v1alpha2
+  - type: olm.gvk
+    value:
+      group: acme.cert-manager.io
+      kind: Challenge
+      version: v1alpha3
+  - type: olm.gvk
+    value:
+      group: acme.cert-manager.io
+      kind: Challenge
+      version: v1beta1
+  - type: olm.gvk
+    value:
+      group: acme.cert-manager.io
+      kind: Order
+      version: v1
+  - type: olm.gvk
+    value:
+      group: acme.cert-manager.io
+      kind: Order
+      version: v1alpha2
+  - type: olm.gvk
+    value:
+      group: acme.cert-manager.io
+      kind: Order
+      version: v1alpha3
+  - type: olm.gvk
+    value:
+      group: acme.cert-manager.io
+      kind: Order
+      version: v1beta1
+  - type: olm.gvk
+    value:
+      group: cert-manager.io
+      kind: Certificate
+      version: v1
+  - type: olm.gvk
+    value:
+      group: cert-manager.io
+      kind: Certificate
+      version: v1alpha2
+  - type: olm.gvk
+    value:
+      group: cert-manager.io
+      kind: Certificate
+      version: v1alpha3
+  - type: olm.gvk
+    value:
+      group: cert-manager.io
+      kind: Certificate
+      version: v1beta1
+  - type: olm.gvk
+    value:
+      group: cert-manager.io
+      kind: CertificateRequest
+      version: v1
+  - type: olm.gvk
+    value:
+      group: cert-manager.io
+      kind: CertificateRequest
+      version: v1alpha2
+  - type: olm.gvk
+    value:
+      group: cert-manager.io
+      kind: CertificateRequest
+      version: v1alpha3
+  - type: olm.gvk
+    value:
+      group: cert-manager.io
+      kind: CertificateRequest
+      version: v1beta1
+  - type: olm.gvk
+    value:
+      group: cert-manager.io
+      kind: ClusterIssuer
+      version: v1
+  - type: olm.gvk
+    value:
+      group: cert-manager.io
+      kind: ClusterIssuer
+      version: v1alpha2
+  - type: olm.gvk
+    value:
+      group: cert-manager.io
+      kind: ClusterIssuer
+      version: v1alpha3
+  - type: olm.gvk
+    value:
+      group: cert-manager.io
+      kind: ClusterIssuer
+      version: v1beta1
+  - type: olm.gvk
+    value:
+      group: cert-manager.io
+      kind: Issuer
+      version: v1
+  - type: olm.gvk
+    value:
+      group: cert-manager.io
+      kind: Issuer
+      version: v1alpha2
+  - type: olm.gvk
+    value:
+      group: cert-manager.io
+      kind: Issuer
+      version: v1alpha3
+  - type: olm.gvk
+    value:
+      group: cert-manager.io
+      kind: Issuer
+      version: v1beta1
+  - type: olm.package
+    value:
+      packageName: cert-manager
+      version: 1.4.2
+relatedImages:
+  - image: quay.io/jetstack/cert-manager-cainjector:v1.4.2
+    name: ""
+  - image: quay.io/jetstack/cert-manager-controller:v1.4.2
+    name: ""
+  - image: quay.io/jetstack/cert-manager-webhook:v1.4.2
+    name: ""
+  - image: quay.io/openshift-community-operators/cert-manager@sha256:a76e8dbed45d9398fcdaaa0d52dbf2e934ef20eff16f8ade4d63214fdde6abae
+    name: ""
+schema: olm.bundle

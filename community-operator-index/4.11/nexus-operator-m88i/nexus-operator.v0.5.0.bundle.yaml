@@ -1,0 +1,25 @@
+image: quay.io/openshift-community-operators/nexus-operator-m88i@sha256:884256f4b46d61547287f38b688ee31bc9d069f503c672d8fcfcd65ffc1156e7
+name: nexus-operator.v0.5.0
+package: nexus-operator-m88i
+properties:
+  - type: olm.deprecated
+    value: {}
+  - type: olm.gvk
+    value:
+      group: apps.m88i.io
+      kind: Nexus
+      version: v1alpha1
+  - type: olm.maxOpenShiftVersion
+    value: "4.8"
+  - type: olm.package
+    value:
+      packageName: nexus-operator-m88i
+      version: 0.5.0
+relatedImages:
+  - image: gcr.io/kubebuilder/kube-rbac-proxy:v0.5.0
+    name: ""
+  - image: quay.io/m88i/nexus-operator:0.5.0
+    name: ""
+  - image: quay.io/openshift-community-operators/nexus-operator-m88i@sha256:884256f4b46d61547287f38b688ee31bc9d069f503c672d8fcfcd65ffc1156e7
+    name: ""
+schema: olm.bundle

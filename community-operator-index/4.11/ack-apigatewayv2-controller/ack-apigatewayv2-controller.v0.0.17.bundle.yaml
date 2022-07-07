@@ -1,0 +1,49 @@
+image: quay.io/openshift-community-operators/ack-apigatewayv2-controller@sha256:a7f523ae16184228ecfbaa90f1f4c9ff6e1bebdb05a200d5f4c0f7ca12f2e2a3
+name: ack-apigatewayv2-controller.v0.0.17
+package: ack-apigatewayv2-controller
+properties:
+  - type: olm.gvk
+    value:
+      group: apigatewayv2.services.k8s.aws
+      kind: API
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: apigatewayv2.services.k8s.aws
+      kind: Authorizer
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: apigatewayv2.services.k8s.aws
+      kind: Deployment
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: apigatewayv2.services.k8s.aws
+      kind: Integration
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: apigatewayv2.services.k8s.aws
+      kind: Route
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: apigatewayv2.services.k8s.aws
+      kind: Stage
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: apigatewayv2.services.k8s.aws
+      kind: VPCLink
+      version: v1alpha1
+  - type: olm.package
+    value:
+      packageName: ack-apigatewayv2-controller
+      version: 0.0.17
+relatedImages:
+  - image: public.ecr.aws/aws-controllers-k8s/apigatewayv2-controller:v0.0.17
+    name: ""
+  - image: quay.io/openshift-community-operators/ack-apigatewayv2-controller@sha256:a7f523ae16184228ecfbaa90f1f4c9ff6e1bebdb05a200d5f4c0f7ca12f2e2a3
+    name: ""
+schema: olm.bundle

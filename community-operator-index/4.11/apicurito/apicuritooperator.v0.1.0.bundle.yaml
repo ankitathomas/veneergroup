@@ -1,0 +1,23 @@
+image: quay.io/openshift-community-operators/apicurito@sha256:636a6cfdae51aa8b58b4bb822f8178d419fa98ee8f13dcda17273940ff53d889
+name: apicuritooperator.v0.1.0
+package: apicurito
+properties:
+  - type: olm.deprecated
+    value: {}
+  - type: olm.gvk
+    value:
+      group: apicur.io
+      kind: Apicurito
+      version: v1alpha1
+  - type: olm.maxOpenShiftVersion
+    value: "4.8"
+  - type: olm.package
+    value:
+      packageName: apicurito
+      version: 0.1.0
+relatedImages:
+  - image: apicurio/apicurito-operator:v0.1
+    name: ""
+  - image: quay.io/openshift-community-operators/apicurito@sha256:636a6cfdae51aa8b58b4bb822f8178d419fa98ee8f13dcda17273940ff53d889
+    name: ""
+schema: olm.bundle

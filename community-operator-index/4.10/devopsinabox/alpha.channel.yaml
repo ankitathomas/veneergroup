@@ -1,0 +1,5 @@
+entries:
+  - name: devopsinabox.v0.0.45
+name: alpha
+package: devopsinabox
+schema: olm.channel

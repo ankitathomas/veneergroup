@@ -1,0 +1,19 @@
+image: quay.io/openshift-community-operators/ack-opensearchservice-controller@sha256:a3518270e1f7d579802c7c07811e096178aae9edacbc02f8e8e6e0068ae037d5
+name: ack-opensearchservice-controller.v0.0.7
+package: ack-opensearchservice-controller
+properties:
+  - type: olm.gvk
+    value:
+      group: opensearchservice.services.k8s.aws
+      kind: Domain
+      version: v1alpha1
+  - type: olm.package
+    value:
+      packageName: ack-opensearchservice-controller
+      version: 0.0.7
+relatedImages:
+  - image: public.ecr.aws/aws-controllers-k8s/opensearchservice-controller:v0.0.7
+    name: ""
+  - image: quay.io/openshift-community-operators/ack-opensearchservice-controller@sha256:a3518270e1f7d579802c7c07811e096178aae9edacbc02f8e8e6e0068ae037d5
+    name: ""
+schema: olm.bundle

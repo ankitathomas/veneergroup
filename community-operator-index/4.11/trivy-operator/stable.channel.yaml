@@ -1,0 +1,9 @@
+entries:
+  - name: trivy-operator.v2.1.1
+  - name: trivy-operator.v2.2.0
+    replaces: trivy-operator.v2.1.1
+  - name: trivy-operator.v2.3.0
+    replaces: trivy-operator.v2.2.0
+name: stable
+package: trivy-operator
+schema: olm.channel

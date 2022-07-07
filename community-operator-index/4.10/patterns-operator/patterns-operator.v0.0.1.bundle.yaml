@@ -1,0 +1,21 @@
+image: quay.io/openshift-community-operators/patterns-operator@sha256:def19721ea0994547689c3eaa4500799fc4df75b754cd2ca56a12ff3ff7e521a
+name: patterns-operator.v0.0.1
+package: patterns-operator
+properties:
+  - type: olm.gvk
+    value:
+      group: gitops.hybrid-cloud-patterns.io
+      kind: Pattern
+      version: v1alpha1
+  - type: olm.package
+    value:
+      packageName: patterns-operator
+      version: 0.0.1
+relatedImages:
+  - image: gcr.io/kubebuilder/kube-rbac-proxy:v0.8.0
+    name: ""
+  - image: quay.io/hybridcloudpatterns/patterns-operator:0.0.1
+    name: ""
+  - image: quay.io/openshift-community-operators/patterns-operator@sha256:def19721ea0994547689c3eaa4500799fc4df75b754cd2ca56a12ff3ff7e521a
+    name: ""
+schema: olm.bundle

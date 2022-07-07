@@ -1,0 +1,13 @@
+entries:
+  - name: microcks-operator.v1.3.0
+  - name: microcks-operator.v1.4.1
+    replaces: microcks-operator.v1.3.0
+  - name: microcks-operator.v1.5.0
+    replaces: microcks-operator.v1.4.1
+  - name: microcks-operator.v1.5.1
+    replaces: microcks-operator.v1.5.0
+  - name: microcks-operator.v1.5.2
+    replaces: microcks-operator.v1.5.1
+name: stable
+package: microcks
+schema: olm.channel

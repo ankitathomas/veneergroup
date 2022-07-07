@@ -1,0 +1,23 @@
+image: quay.io/openshift-community-operators/aws-efs-operator@sha256:71e3bb6c69cf7f3b9dd1f0ff3881f52131ec82439436aa37833faf86886fc11a
+name: aws-efs-operator.v0.0.7
+package: aws-efs-operator
+properties:
+  - type: olm.deprecated
+    value: {}
+  - type: olm.gvk
+    value:
+      group: aws-efs.managed.openshift.io
+      kind: SharedVolume
+      version: v1alpha1
+  - type: olm.maxOpenShiftVersion
+    value: "4.8"
+  - type: olm.package
+    value:
+      packageName: aws-efs-operator
+      version: 0.0.7
+relatedImages:
+  - image: quay.io/app-sre/aws-efs-operator:f4bff3f
+    name: ""
+  - image: quay.io/openshift-community-operators/aws-efs-operator@sha256:71e3bb6c69cf7f3b9dd1f0ff3881f52131ec82439436aa37833faf86886fc11a
+    name: ""
+schema: olm.bundle

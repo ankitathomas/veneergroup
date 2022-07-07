@@ -1,0 +1,84 @@
+image: quay.io/openshift-community-operators/percona-xtradb-cluster-operator@sha256:7e54833cf9a93aac59cc37afe28b36c664fb5f6d1ea5b61abdff987a20ca0314
+name: percona-xtradb-cluster-operator.v1.9.0
+package: percona-xtradb-cluster-operator
+properties:
+  - type: olm.gvk
+    value:
+      group: pxc.percona.com
+      kind: PerconaXtraDBBackup
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: pxc.percona.com
+      kind: PerconaXtraDBCluster
+      version: v1
+  - type: olm.gvk
+    value:
+      group: pxc.percona.com
+      kind: PerconaXtraDBCluster
+      version: v1-1-0
+  - type: olm.gvk
+    value:
+      group: pxc.percona.com
+      kind: PerconaXtraDBCluster
+      version: v1-2-0
+  - type: olm.gvk
+    value:
+      group: pxc.percona.com
+      kind: PerconaXtraDBCluster
+      version: v1-3-0
+  - type: olm.gvk
+    value:
+      group: pxc.percona.com
+      kind: PerconaXtraDBCluster
+      version: v1-4-0
+  - type: olm.gvk
+    value:
+      group: pxc.percona.com
+      kind: PerconaXtraDBCluster
+      version: v1-5-0
+  - type: olm.gvk
+    value:
+      group: pxc.percona.com
+      kind: PerconaXtraDBCluster
+      version: v1-6-0
+  - type: olm.gvk
+    value:
+      group: pxc.percona.com
+      kind: PerconaXtraDBCluster
+      version: v1-7-0
+  - type: olm.gvk
+    value:
+      group: pxc.percona.com
+      kind: PerconaXtraDBCluster
+      version: v1-8-0
+  - type: olm.gvk
+    value:
+      group: pxc.percona.com
+      kind: PerconaXtraDBCluster
+      version: v1-9-0
+  - type: olm.gvk
+    value:
+      group: pxc.percona.com
+      kind: PerconaXtraDBCluster
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: pxc.percona.com
+      kind: PerconaXtraDBClusterBackup
+      version: v1
+  - type: olm.gvk
+    value:
+      group: pxc.percona.com
+      kind: PerconaXtraDBClusterRestore
+      version: v1
+  - type: olm.package
+    value:
+      packageName: percona-xtradb-cluster-operator
+      version: 1.9.0
+relatedImages:
+  - image: percona/percona-xtradb-cluster-operator:1.9.0
+    name: ""
+  - image: quay.io/openshift-community-operators/percona-xtradb-cluster-operator@sha256:7e54833cf9a93aac59cc37afe28b36c664fb5f6d1ea5b61abdff987a20ca0314
+    name: ""
+schema: olm.bundle

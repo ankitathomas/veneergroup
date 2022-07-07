@@ -1,0 +1,21 @@
+image: quay.io/openshift-community-operators/must-gather-operator@sha256:81c90833c2b8bae844d137ff587b892d7f5e4dbe5bb75e1b938a8fa37e49fbf2
+name: must-gather-operator.v1.0.6
+package: must-gather-operator
+properties:
+  - type: olm.gvk
+    value:
+      group: redhatcop.redhat.io
+      kind: MustGather
+      version: v1alpha1
+  - type: olm.package
+    value:
+      packageName: must-gather-operator
+      version: 1.0.6
+relatedImages:
+  - image: quay.io/coreos/kube-rbac-proxy@sha256:e10d1d982dd653db74ca87a1d1ad017bc5ef1aeb651bdea089debf16485b080b
+    name: ""
+  - image: quay.io/openshift-community-operators/must-gather-operator@sha256:81c90833c2b8bae844d137ff587b892d7f5e4dbe5bb75e1b938a8fa37e49fbf2
+    name: ""
+  - image: quay.io/redhat-cop/must-gather-operator@sha256:12145134359a30dfcfa48e5a007b7c40e770d3eb65bd0ecd9a799f4a635c1038
+    name: ""
+schema: olm.bundle

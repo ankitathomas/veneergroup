@@ -1,0 +1,7 @@
+entries:
+  - name: bookkeeper-operator.v0.10.3
+  - name: bookkeeper-operator.v0.11.0
+    replaces: bookkeeper-operator.v0.10.3
+name: alpha
+package: bookkeeper-operator
+schema: olm.channel

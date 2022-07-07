@@ -1,0 +1,28 @@
+image: quay.io/openshift-community-operators/yaks@sha256:d8d3e8a1e528662583ec47c7ccf2df3a2948dd47f1e4e6f92f1edfd509668a7e
+name: yaks-operator.v0.3.0
+package: yaks
+properties:
+  - type: olm.deprecated
+    value: {}
+  - type: olm.gvk
+    value:
+      group: yaks.citrusframework.org
+      kind: Instance
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: yaks.citrusframework.org
+      kind: Test
+      version: v1alpha1
+  - type: olm.maxOpenShiftVersion
+    value: "4.8"
+  - type: olm.package
+    value:
+      packageName: yaks
+      version: 0.3.0
+relatedImages:
+  - image: docker.io/citrusframework/yaks:0.3.0
+    name: ""
+  - image: quay.io/openshift-community-operators/yaks@sha256:d8d3e8a1e528662583ec47c7ccf2df3a2948dd47f1e4e6f92f1edfd509668a7e
+    name: ""
+schema: olm.bundle

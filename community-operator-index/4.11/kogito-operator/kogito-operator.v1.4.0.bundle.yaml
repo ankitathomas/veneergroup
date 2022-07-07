@@ -1,0 +1,36 @@
+image: quay.io/openshift-community-operators/kogito-operator@sha256:a5335e2bb34de80e723ff3736fd1c151d5c6311556821885ba19b84f62287ba5
+name: kogito-operator.v1.4.0
+package: kogito-operator
+properties:
+  - type: olm.gvk
+    value:
+      group: app.kiegroup.org
+      kind: KogitoBuild
+      version: v1beta1
+  - type: olm.gvk
+    value:
+      group: app.kiegroup.org
+      kind: KogitoInfra
+      version: v1beta1
+  - type: olm.gvk
+    value:
+      group: app.kiegroup.org
+      kind: KogitoRuntime
+      version: v1beta1
+  - type: olm.gvk
+    value:
+      group: app.kiegroup.org
+      kind: KogitoSupportingService
+      version: v1beta1
+  - type: olm.package
+    value:
+      packageName: kogito-operator
+      version: 1.4.0
+relatedImages:
+  - image: gcr.io/kubebuilder/kube-rbac-proxy:v0.5.0
+    name: ""
+  - image: quay.io/kiegroup/kogito-cloud-operator:1.4.0
+    name: ""
+  - image: quay.io/openshift-community-operators/kogito-operator@sha256:a5335e2bb34de80e723ff3736fd1c151d5c6311556821885ba19b84f62287ba5
+    name: ""
+schema: olm.bundle

@@ -1,0 +1,114 @@
+image: quay.io/openshift-community-operators/ack-sagemaker-controller@sha256:bbda79ca3abb646f159b7011ba811d366d2453ad9468d7a66a6bd71616c85918
+name: ack-sagemaker-controller.v0.3.1
+package: ack-sagemaker-controller
+properties:
+  - type: olm.gvk
+    value:
+      group: sagemaker.services.k8s.aws
+      kind: App
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: sagemaker.services.k8s.aws
+      kind: DataQualityJobDefinition
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: sagemaker.services.k8s.aws
+      kind: Domain
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: sagemaker.services.k8s.aws
+      kind: Endpoint
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: sagemaker.services.k8s.aws
+      kind: EndpointConfig
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: sagemaker.services.k8s.aws
+      kind: FeatureGroup
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: sagemaker.services.k8s.aws
+      kind: HyperParameterTuningJob
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: sagemaker.services.k8s.aws
+      kind: Model
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: sagemaker.services.k8s.aws
+      kind: ModelBiasJobDefinition
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: sagemaker.services.k8s.aws
+      kind: ModelExplainabilityJobDefinition
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: sagemaker.services.k8s.aws
+      kind: ModelPackage
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: sagemaker.services.k8s.aws
+      kind: ModelPackageGroup
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: sagemaker.services.k8s.aws
+      kind: ModelQualityJobDefinition
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: sagemaker.services.k8s.aws
+      kind: MonitoringSchedule
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: sagemaker.services.k8s.aws
+      kind: NotebookInstance
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: sagemaker.services.k8s.aws
+      kind: NotebookInstanceLifecycleConfig
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: sagemaker.services.k8s.aws
+      kind: ProcessingJob
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: sagemaker.services.k8s.aws
+      kind: TrainingJob
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: sagemaker.services.k8s.aws
+      kind: TransformJob
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: sagemaker.services.k8s.aws
+      kind: UserProfile
+      version: v1alpha1
+  - type: olm.package
+    value:
+      packageName: ack-sagemaker-controller
+      version: 0.3.1
+relatedImages:
+  - image: public.ecr.aws/aws-controllers-k8s/sagemaker-controller:v0.3.1
+    name: ""
+  - image: quay.io/openshift-community-operators/ack-sagemaker-controller@sha256:bbda79ca3abb646f159b7011ba811d366d2453ad9468d7a66a6bd71616c85918
+    name: ""
+schema: olm.bundle

@@ -1,0 +1,11 @@
+entries:
+  - name: opendatahub-operator.v1.1.0
+  - name: opendatahub-operator.v1.1.1
+    replaces: opendatahub-operator.v1.1.0
+  - name: opendatahub-operator.v1.1.2
+    replaces: opendatahub-operator.v1.1.1
+  - name: opendatahub-operator.v1.2.0
+    replaces: opendatahub-operator.v1.1.2
+name: stable
+package: opendatahub-operator
+schema: olm.channel

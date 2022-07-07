@@ -1,0 +1,157 @@
+image: quay.io/openshift-community-operators/community-kubevirt-hyperconverged@sha256:4eed2af26d221d7116362987450b135381ed2bf5d52d4c6e993902c5e389c494
+name: kubevirt-hyperconverged-operator.v1.5.2
+package: community-kubevirt-hyperconverged
+properties:
+  - type: olm.gvk
+    value:
+      group: cdi.kubevirt.io
+      kind: CDI
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: cdi.kubevirt.io
+      kind: CDI
+      version: v1beta1
+  - type: olm.gvk
+    value:
+      group: hco.kubevirt.io
+      kind: HyperConverged
+      version: v1beta1
+  - type: olm.gvk
+    value:
+      group: hostpathprovisioner.kubevirt.io
+      kind: HostPathProvisioner
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: hostpathprovisioner.kubevirt.io
+      kind: HostPathProvisioner
+      version: v1beta1
+  - type: olm.gvk
+    value:
+      group: kubevirt.io
+      kind: KubeVirt
+      version: v1
+  - type: olm.gvk
+    value:
+      group: kubevirt.io
+      kind: KubeVirt
+      version: v1alpha3
+  - type: olm.gvk
+    value:
+      group: networkaddonsoperator.network.kubevirt.io
+      kind: NetworkAddonsConfig
+      version: v1
+  - type: olm.gvk
+    value:
+      group: networkaddonsoperator.network.kubevirt.io
+      kind: NetworkAddonsConfig
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: nodemaintenance.kubevirt.io
+      kind: NodeMaintenance
+      version: v1beta1
+  - type: olm.gvk
+    value:
+      group: ssp.kubevirt.io
+      kind: SSP
+      version: v1beta1
+  - type: olm.gvk
+    value:
+      group: v2v.kubevirt.io
+      kind: OVirtProvider
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: v2v.kubevirt.io
+      kind: V2VVmware
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: v2v.kubevirt.io
+      kind: VMImportConfig
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: v2v.kubevirt.io
+      kind: VMImportConfig
+      version: v1beta1
+  - type: olm.package
+    value:
+      packageName: community-kubevirt-hyperconverged
+      version: 1.5.2
+relatedImages:
+  - image: quay.io/kubevirt/bridge-marker@sha256:9d90a5bd051d71429b6d9fc34112081fe64c6d3fb02221e18ebe72d428d58092
+    name: ""
+  - image: quay.io/kubevirt/cdi-apiserver@sha256:acd7f0eb1da3ac27ccc67311a36240a0b619aa72140f9ff7b25a58b3260d8bca
+    name: ""
+  - image: quay.io/kubevirt/cdi-cloner@sha256:53eafab2cd666a7be1455422fb811b55d3772ae87480b29b832f23da979f4e1f
+    name: ""
+  - image: quay.io/kubevirt/cdi-controller@sha256:dcfa0f188149934ebb32b5191ede7374a50c3872fc936c5ec1b23fd4724e9ad7
+    name: ""
+  - image: quay.io/kubevirt/cdi-importer@sha256:22337a3fedfd7b935fe2eadb49962d32329dced6440d53647c2458559c47342c
+    name: ""
+  - image: quay.io/kubevirt/cdi-operator@sha256:11135dd417b0993dd5e053bade1a6a58c6c85199e9909bd5f472fcdfca1f83a2
+    name: ""
+  - image: quay.io/kubevirt/cdi-uploadproxy@sha256:1eb2a7449bfb5859638e0ff889a2d5a6602ef134b32b4c294065e79602cd3210
+    name: ""
+  - image: quay.io/kubevirt/cdi-uploadserver@sha256:cda043c09b22c38c1800be3d18b4af867e8c61ba439d32dc347575d1a6241862
+    name: ""
+  - image: quay.io/kubevirt/cluster-network-addon-multus@sha256:32867c73cda4d605651b898dc85fea67d93191c47f27e1ad9e9f2b9041c518de
+    name: ""
+  - image: quay.io/kubevirt/cluster-network-addons-operator@sha256:045de8739f2e017d2be5f237c4fa22809a71069f4c0c71ac96b0b2a52a852365
+    name: ""
+  - image: quay.io/kubevirt/cni-default-plugins@sha256:b6906c6b4d783d0418db5ad7dad601129b7d99917edc7533999c960e6df828ec
+    name: ""
+  - image: quay.io/kubevirt/hostpath-provisioner-operator@sha256:14e92a179bd52e5f1edbdb400410828c3259605468781b3a0e169523d8006f05
+    name: ""
+  - image: quay.io/kubevirt/hostpath-provisioner@sha256:32f7585b61644c5860bbf415af7fab3c51e65d031ec151a284459af931676c99
+    name: ""
+  - image: quay.io/kubevirt/hyperconverged-cluster-operator@sha256:1a51ec9658e8afc23484681fb469ec967739c14b8c2078e1a5ff2d7a9c059fde
+    name: ""
+  - image: quay.io/kubevirt/hyperconverged-cluster-webhook@sha256:b2df0be2a6f93ba7e1a130ae97858b53a624681a376d161f2490709d8d781389
+    name: ""
+  - image: quay.io/kubevirt/kubemacpool@sha256:c575932475301d330a50162ca61808b5b55649556a892719687404506e901f79
+    name: ""
+  - image: quay.io/kubevirt/kubevirt-v2v-conversion@sha256:c620233c71b805004c2cd38927c421b69d99b27cb40af521967e655882b2f815
+    name: ""
+  - image: quay.io/kubevirt/kubevirt-vmware@sha256:ae5ccd98a49ab9e154ce482d2fa73f044b00211f273210a9cd371b40746d3c92
+    name: ""
+  - image: quay.io/kubevirt/libguestfs-tools@sha256:183df7d4fbf4f3c9ba13c99f7c5bd1a180a79a8c658b5a4bb4f908c790c66560
+    name: ""
+  - image: quay.io/kubevirt/macvtap-cni@sha256:e34cc796dee2e300f866d6f5b563361253ce89226eaf9eb0c3bc792f5481b8df
+    name: ""
+  - image: quay.io/kubevirt/node-maintenance-operator@sha256:c4636d17a446b0491362d4c5ef9d91c5059f5c5f6305fc7750afc1780c384c0c
+    name: ""
+  - image: quay.io/kubevirt/ovs-cni-marker@sha256:15ac8805b8955e206f167b360aec32bd7a60ef13c85c48e9617e2a45566ead10
+    name: ""
+  - image: quay.io/kubevirt/ovs-cni-plugin@sha256:4b6b34f6271c66278b9e32295f3b221effc26e4ca94b6f51e0be720bed4dbc8b
+    name: ""
+  - image: quay.io/kubevirt/ssp-operator@sha256:05926bddbe2c568899ad88a53d4aa7542eed46ce9a508ca6e1d3ae31e8e5706f
+    name: ""
+  - image: quay.io/kubevirt/virt-api@sha256:c2d3759d6074f5b4e741f9eee8698f44b8317bb1296cc07d1b5236baa160189a
+    name: ""
+  - image: quay.io/kubevirt/virt-artifacts-server:1.5.0-unstable
+    name: ""
+  - image: quay.io/kubevirt/virt-controller@sha256:a7c5dfb8ad70e8ae7a1b40e41ee12fddd28f898a96b609048072764571e7aaa8
+    name: ""
+  - image: quay.io/kubevirt/virt-handler@sha256:c627052e98c2466afd049d7c36937eeee3a952ef9811c71028b5fa886cc9a6d9
+    name: ""
+  - image: quay.io/kubevirt/virt-launcher@sha256:44eff59240f0af7c1cbbab97ba0a47ca436e55aadc71c177b1943ffefb634f99
+    name: ""
+  - image: quay.io/kubevirt/virt-operator@sha256:1c12d7350a0768c7ab4b42720a525d375c0d3d5cb3d67dff9d5a7f2d908ece7f
+    name: ""
+  - image: quay.io/kubevirt/virtio-container-disk@sha256:77c448875247bf4dbeaa0b9b1b720c0f30bb8177628061c592ce7a68863a96c2
+    name: ""
+  - image: quay.io/kubevirt/vm-import-controller@sha256:349098d0dcc30c01135ea761abd2dad1367b737d8523c8d01508cb7797d48e93
+    name: ""
+  - image: quay.io/kubevirt/vm-import-operator@sha256:2bd7063e6c6a4cb88412738b5257bad3615d9a18359ce472fb75e0fd70dafed2
+    name: ""
+  - image: quay.io/kubevirt/vm-import-virtv2v@sha256:595793a0178d13553ad5f43268988de5fa98bfd764a4fb5f40922a2a372010b8
+    name: ""
+  - image: quay.io/nmstate/kubernetes-nmstate-handler@sha256:5194722354d82dbe306323590a887fbf94beb678dcc3392cfd0c57a56f442ad6
+    name: ""
+  - image: quay.io/openshift-community-operators/community-kubevirt-hyperconverged@sha256:4eed2af26d221d7116362987450b135381ed2bf5d52d4c6e993902c5e389c494
+    name: ""
+schema: olm.bundle

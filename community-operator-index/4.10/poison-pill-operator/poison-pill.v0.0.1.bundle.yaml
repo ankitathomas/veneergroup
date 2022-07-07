@@ -1,0 +1,31 @@
+image: quay.io/openshift-community-operators/poison-pill-operator@sha256:9c4c02e4df28f579add6b80fa1c1f048f2de6f8cd1ae4777b5a0ee34df8059b5
+name: poison-pill.v0.0.1
+package: poison-pill-operator
+properties:
+  - type: olm.gvk
+    value:
+      group: poison-pill.medik8s.io
+      kind: PoisonPillConfig
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: poison-pill.medik8s.io
+      kind: PoisonPillRemediation
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: poison-pill.medik8s.io
+      kind: PoisonPillRemediationTemplate
+      version: v1alpha1
+  - type: olm.package
+    value:
+      packageName: poison-pill-operator
+      version: 0.0.1
+relatedImages:
+  - image: gcr.io/kubebuilder/kube-rbac-proxy:v0.8.0
+    name: ""
+  - image: quay.io/medik8s/poison-pill-operator:0.0.1
+    name: ""
+  - image: quay.io/openshift-community-operators/poison-pill-operator@sha256:9c4c02e4df28f579add6b80fa1c1f048f2de6f8cd1ae4777b5a0ee34df8059b5
+    name: ""
+schema: olm.bundle

@@ -1,0 +1,19 @@
+image: quay.io/openshift-community-operators/ack-s3-controller@sha256:f888a401f4b1e7dd6a8084cd5c9d0f5df912faabbd159d6995db7aaa731b52fc
+name: ack-s3-controller.v0.0.8
+package: ack-s3-controller
+properties:
+  - type: olm.gvk
+    value:
+      group: s3.services.k8s.aws
+      kind: Bucket
+      version: v1alpha1
+  - type: olm.package
+    value:
+      packageName: ack-s3-controller
+      version: 0.0.8
+relatedImages:
+  - image: public.ecr.aws/aws-controllers-k8s/s3-controller:v0.0.8
+    name: ""
+  - image: quay.io/openshift-community-operators/ack-s3-controller@sha256:f888a401f4b1e7dd6a8084cd5c9d0f5df912faabbd159d6995db7aaa731b52fc
+    name: ""
+schema: olm.bundle

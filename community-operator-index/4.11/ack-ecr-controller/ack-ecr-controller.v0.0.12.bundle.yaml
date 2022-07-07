@@ -1,0 +1,19 @@
+image: quay.io/openshift-community-operators/ack-ecr-controller@sha256:978abe4830123fc147c264320a92ce38ce816c4728e8d56065f87fd80ee580f4
+name: ack-ecr-controller.v0.0.12
+package: ack-ecr-controller
+properties:
+  - type: olm.gvk
+    value:
+      group: ecr.services.k8s.aws
+      kind: Repository
+      version: v1alpha1
+  - type: olm.package
+    value:
+      packageName: ack-ecr-controller
+      version: 0.0.12
+relatedImages:
+  - image: public.ecr.aws/aws-controllers-k8s/ecr-controller:v0.0.12
+    name: ""
+  - image: quay.io/openshift-community-operators/ack-ecr-controller@sha256:978abe4830123fc147c264320a92ce38ce816c4728e8d56065f87fd80ee580f4
+    name: ""
+schema: olm.bundle

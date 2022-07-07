@@ -1,0 +1,23 @@
+entries:
+  - name: keda.v1.5.0
+  - name: keda.v2.0.0
+    replaces: keda.v1.5.0
+  - name: keda.v2.1.0
+    replaces: keda.v2.0.0
+  - name: keda.v2.2.0
+    replaces: keda.v2.1.0
+  - name: keda.v2.3.0
+    replaces: keda.v2.2.0
+  - name: keda.v2.4.0
+    replaces: keda.v2.3.0
+  - name: keda.v2.5.0
+    replaces: keda.v2.4.0
+  - name: keda.v2.6.0
+    replaces: keda.v2.5.0
+  - name: keda.v2.6.1
+    replaces: keda.v2.6.0
+  - name: keda.v2.7.1
+    replaces: keda.v2.6.1
+name: alpha
+package: keda
+schema: olm.channel

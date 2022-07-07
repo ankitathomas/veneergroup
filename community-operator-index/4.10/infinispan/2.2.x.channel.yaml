@@ -1,0 +1,20 @@
+entries:
+  - name: infinispan-operator.v2.1.5
+    skipRange: '>=2.1.0 <2.1.5'
+  - name: infinispan-operator.v2.2.0
+    replaces: infinispan-operator.v2.1.5
+  - name: infinispan-operator.v2.2.1
+    replaces: infinispan-operator.v2.2.0
+    skipRange: '>=2.1.x <2.2.1'
+  - name: infinispan-operator.v2.2.2
+    replaces: infinispan-operator.v2.2.1
+    skipRange: '>=2.1.x <2.2.1'
+  - name: infinispan-operator.v2.2.3
+    replaces: infinispan-operator.v2.2.2
+    skipRange: '>=2.1.x <2.2.1'
+  - name: infinispan-operator.v2.2.4
+    replaces: infinispan-operator.v2.2.3
+    skipRange: '>=2.1.x <2.2.1'
+name: 2.2.x
+package: infinispan
+schema: olm.channel

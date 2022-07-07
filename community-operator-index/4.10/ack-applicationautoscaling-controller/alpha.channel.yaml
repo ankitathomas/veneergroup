@@ -1,0 +1,23 @@
+entries:
+  - name: ack-applicationautoscaling-controller.v0.2.1
+  - name: ack-applicationautoscaling-controller.v0.2.10
+    replaces: ack-applicationautoscaling-controller.v0.2.9
+  - name: ack-applicationautoscaling-controller.v0.2.2
+    replaces: ack-applicationautoscaling-controller.v0.2.1
+  - name: ack-applicationautoscaling-controller.v0.2.3
+    replaces: ack-applicationautoscaling-controller.v0.2.2
+  - name: ack-applicationautoscaling-controller.v0.2.4
+    replaces: ack-applicationautoscaling-controller.v0.2.3
+  - name: ack-applicationautoscaling-controller.v0.2.5
+    replaces: ack-applicationautoscaling-controller.v0.2.4
+  - name: ack-applicationautoscaling-controller.v0.2.6
+    replaces: ack-applicationautoscaling-controller.v0.2.5
+  - name: ack-applicationautoscaling-controller.v0.2.7
+    replaces: ack-applicationautoscaling-controller.v0.2.6
+  - name: ack-applicationautoscaling-controller.v0.2.8
+    replaces: ack-applicationautoscaling-controller.v0.2.7
+  - name: ack-applicationautoscaling-controller.v0.2.9
+    replaces: ack-applicationautoscaling-controller.v0.2.8
+name: alpha
+package: ack-applicationautoscaling-controller
+schema: olm.channel

@@ -1,0 +1,47 @@
+entries:
+  - name: ack-ecr-controller.v0.0.11
+  - name: ack-ecr-controller.v0.0.12
+    replaces: ack-ecr-controller.v0.0.11
+  - name: ack-ecr-controller.v0.0.13
+    replaces: ack-ecr-controller.v0.0.12
+  - name: ack-ecr-controller.v0.0.14
+    replaces: ack-ecr-controller.v0.0.13
+  - name: ack-ecr-controller.v0.0.15
+    replaces: ack-ecr-controller.v0.0.14
+  - name: ack-ecr-controller.v0.0.16
+    replaces: ack-ecr-controller.v0.0.15
+  - name: ack-ecr-controller.v0.0.17
+    replaces: ack-ecr-controller.v0.0.16
+  - name: ack-ecr-controller.v0.0.18
+    replaces: ack-ecr-controller.v0.0.17
+  - name: ack-ecr-controller.v0.0.19
+    replaces: ack-ecr-controller.v0.0.18
+  - name: ack-ecr-controller.v0.0.20
+    replaces: ack-ecr-controller.v0.0.19
+  - name: ack-ecr-controller.v0.0.21
+    replaces: ack-ecr-controller.v0.0.20
+  - name: ack-ecr-controller.v0.0.22
+    replaces: ack-ecr-controller.v0.0.21
+  - name: ack-ecr-controller.v0.0.23
+    replaces: ack-ecr-controller.v0.0.22
+  - name: ack-ecr-controller.v0.0.24
+    replaces: ack-ecr-controller.v0.0.23
+  - name: ack-ecr-controller.v0.0.25
+    replaces: ack-ecr-controller.v0.0.24
+  - name: ack-ecr-controller.v0.0.26
+    replaces: ack-ecr-controller.v0.0.25
+  - name: ack-ecr-controller.v0.0.27
+    replaces: ack-ecr-controller.v0.0.26
+  - name: ack-ecr-controller.v0.1.0
+    replaces: ack-ecr-controller.v0.0.27
+  - name: ack-ecr-controller.v0.1.1
+    replaces: ack-ecr-controller.v0.1.0
+  - name: ack-ecr-controller.v0.1.2
+    replaces: ack-ecr-controller.v0.1.1
+  - name: ack-ecr-controller.v0.1.3
+    replaces: ack-ecr-controller.v0.1.2
+  - name: ack-ecr-controller.v0.1.4
+    replaces: ack-ecr-controller.v0.1.3
+name: alpha
+package: ack-ecr-controller
+schema: olm.channel

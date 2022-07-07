@@ -1,0 +1,21 @@
+image: quay.io/openshift-community-operators/verticadb-operator@sha256:ff3a7b6460698e8371611304d04a987b7f7e515de3edee7bf8f66e6c31b71c48
+name: verticadb-operator.v1.2.0
+package: verticadb-operator
+properties:
+  - type: olm.gvk
+    value:
+      group: vertica.com
+      kind: VerticaDB
+      version: v1beta1
+  - type: olm.package
+    value:
+      packageName: verticadb-operator
+      version: 1.2.0
+relatedImages:
+  - image: gcr.io/kubebuilder/kube-rbac-proxy:v0.8.0
+    name: ""
+  - image: quay.io/openshift-community-operators/verticadb-operator@sha256:ff3a7b6460698e8371611304d04a987b7f7e515de3edee7bf8f66e6c31b71c48
+    name: ""
+  - image: vertica/verticadb-operator:1.2.0
+    name: ""
+schema: olm.bundle

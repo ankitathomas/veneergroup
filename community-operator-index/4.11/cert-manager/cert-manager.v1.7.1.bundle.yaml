@@ -1,0 +1,48 @@
+image: quay.io/openshift-community-operators/cert-manager@sha256:14c46cc50d24c851b10c85ed323da7cf4aab57d7146cc714e275d2d243ffa93d
+name: cert-manager.v1.7.1
+package: cert-manager
+properties:
+  - type: olm.gvk
+    value:
+      group: acme.cert-manager.io
+      kind: Challenge
+      version: v1
+  - type: olm.gvk
+    value:
+      group: acme.cert-manager.io
+      kind: Order
+      version: v1
+  - type: olm.gvk
+    value:
+      group: cert-manager.io
+      kind: Certificate
+      version: v1
+  - type: olm.gvk
+    value:
+      group: cert-manager.io
+      kind: CertificateRequest
+      version: v1
+  - type: olm.gvk
+    value:
+      group: cert-manager.io
+      kind: ClusterIssuer
+      version: v1
+  - type: olm.gvk
+    value:
+      group: cert-manager.io
+      kind: Issuer
+      version: v1
+  - type: olm.package
+    value:
+      packageName: cert-manager
+      version: 1.7.1
+relatedImages:
+  - image: quay.io/jetstack/cert-manager-cainjector:v1.7.1
+    name: ""
+  - image: quay.io/jetstack/cert-manager-controller:v1.7.1
+    name: ""
+  - image: quay.io/jetstack/cert-manager-webhook:v1.7.1
+    name: ""
+  - image: quay.io/openshift-community-operators/cert-manager@sha256:14c46cc50d24c851b10c85ed323da7cf4aab57d7146cc714e275d2d243ffa93d
+    name: ""
+schema: olm.bundle

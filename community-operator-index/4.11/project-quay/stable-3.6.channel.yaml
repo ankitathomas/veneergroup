@@ -1,0 +1,6 @@
+entries:
+  - name: quay-operator.v3.6.2
+    skipRange: '>=3.5.x <3.6.2'
+name: stable-3.6
+package: project-quay
+schema: olm.channel

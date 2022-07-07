@@ -1,0 +1,25 @@
+image: quay.io/openshift-community-operators/nfs-provisioner-operator@sha256:e3568f9567eca54105350e9e0699941fcd90f757622d8f2a2fe0a04242ed9677
+name: nfs-provisioner-operator.v0.0.3
+package: nfs-provisioner-operator
+properties:
+  - type: olm.deprecated
+    value: {}
+  - type: olm.gvk
+    value:
+      group: cache.jhouse.com
+      kind: NFSProvisioner
+      version: v1alpha1
+  - type: olm.maxOpenShiftVersion
+    value: "4.9"
+  - type: olm.package
+    value:
+      packageName: nfs-provisioner-operator
+      version: 0.0.3
+relatedImages:
+  - image: gcr.io/kubebuilder/kube-rbac-proxy:v0.5.0
+    name: ""
+  - image: quay.io/jooholee/nfs-provisioner-operator:0.0.3
+    name: ""
+  - image: quay.io/openshift-community-operators/nfs-provisioner-operator@sha256:e3568f9567eca54105350e9e0699941fcd90f757622d8f2a2fe0a04242ed9677
+    name: ""
+schema: olm.bundle

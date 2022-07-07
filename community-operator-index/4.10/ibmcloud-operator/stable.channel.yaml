@@ -1,0 +1,7 @@
+entries:
+  - name: ibmcloud-operator.v1.0.12
+  - name: ibmcloud-operator.v1.1.0
+    replaces: ibmcloud-operator.v1.0.12
+name: stable
+package: ibmcloud-operator
+schema: olm.channel

@@ -1,0 +1,24 @@
+image: quay.io/openshift-community-operators/hazelcast-platform-operator@sha256:ff5348bd49c8001b1fb468e17b878de951de0bbe3938afbf4a86d67313d57949
+name: hazelcast-platform-operator.v5.1.0
+package: hazelcast-platform-operator
+properties:
+  - type: olm.gvk
+    value:
+      group: hazelcast.com
+      kind: Hazelcast
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: hazelcast.com
+      kind: ManagementCenter
+      version: v1alpha1
+  - type: olm.package
+    value:
+      packageName: hazelcast-platform-operator
+      version: 5.1.0
+relatedImages:
+  - image: hazelcast/hazelcast-platform-operator:5.1
+    name: ""
+  - image: quay.io/openshift-community-operators/hazelcast-platform-operator@sha256:ff5348bd49c8001b1fb468e17b878de951de0bbe3938afbf4a86d67313d57949
+    name: ""
+schema: olm.bundle

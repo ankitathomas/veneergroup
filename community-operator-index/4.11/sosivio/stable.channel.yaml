@@ -1,0 +1,11 @@
+entries:
+  - name: sosivio-operator.v1.2.0-1
+  - name: sosivio-operator.v1.2.1-1
+    replaces: sosivio-operator.v1.2.0-1
+  - name: sosivio-operator.v1.3.0-75
+    replaces: sosivio-operator.v1.2.1-1
+  - name: sosivio-operator.v1.3.1-76
+    replaces: sosivio-operator.v1.3.0-75
+name: stable
+package: sosivio
+schema: olm.channel

@@ -1,0 +1,23 @@
+image: quay.io/openshift-community-operators/jaeger@sha256:77b0ab7f629b57f9d8d99ffe781a8c2fd55b595fabbfacef4c3b78d7c964286b
+name: jaeger-operator.v1.21.3
+package: jaeger
+properties:
+  - type: olm.deprecated
+    value: {}
+  - type: olm.gvk
+    value:
+      group: jaegertracing.io
+      kind: Jaeger
+      version: v1
+  - type: olm.maxOpenShiftVersion
+    value: "4.8"
+  - type: olm.package
+    value:
+      packageName: jaeger
+      version: 1.21.3
+relatedImages:
+  - image: jaegertracing/jaeger-operator:1.21.3
+    name: ""
+  - image: quay.io/openshift-community-operators/jaeger@sha256:77b0ab7f629b57f9d8d99ffe781a8c2fd55b595fabbfacef4c3b78d7c964286b
+    name: ""
+schema: olm.bundle

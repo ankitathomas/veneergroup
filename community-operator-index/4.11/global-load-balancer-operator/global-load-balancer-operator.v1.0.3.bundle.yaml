@@ -1,0 +1,29 @@
+image: quay.io/openshift-community-operators/global-load-balancer-operator@sha256:c192f410b1d65abfa7219b6fb1f575e6764e1c0f594b003cb86bdb7cca6f7e5b
+name: global-load-balancer-operator.v1.0.3
+package: global-load-balancer-operator
+properties:
+  - type: olm.gvk
+    value:
+      group: redhatcop.redhat.io
+      kind: GlobalDNSRecord
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: redhatcop.redhat.io
+      kind: GlobalDNSZone
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: redhatcop.redhat.io
+      kind: GlobalRouteDiscovery
+      version: v1alpha1
+  - type: olm.package
+    value:
+      packageName: global-load-balancer-operator
+      version: 1.0.3
+relatedImages:
+  - image: quay.io/openshift-community-operators/global-load-balancer-operator@sha256:c192f410b1d65abfa7219b6fb1f575e6764e1c0f594b003cb86bdb7cca6f7e5b
+    name: ""
+  - image: quay.io/redhat-cop/global-load-balancer-operator:v1.0.3
+    name: ""
+schema: olm.bundle

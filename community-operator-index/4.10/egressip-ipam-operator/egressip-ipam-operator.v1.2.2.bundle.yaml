@@ -1,0 +1,21 @@
+image: quay.io/openshift-community-operators/egressip-ipam-operator@sha256:d030d25233848bf9bd3cc26a1b43bf7c37fc01feb4be7770a5d02604a8a29b0a
+name: egressip-ipam-operator.v1.2.2
+package: egressip-ipam-operator
+properties:
+  - type: olm.gvk
+    value:
+      group: redhatcop.redhat.io
+      kind: EgressIPAM
+      version: v1alpha1
+  - type: olm.package
+    value:
+      packageName: egressip-ipam-operator
+      version: 1.2.2
+relatedImages:
+  - image: quay.io/openshift-community-operators/egressip-ipam-operator@sha256:d030d25233848bf9bd3cc26a1b43bf7c37fc01feb4be7770a5d02604a8a29b0a
+    name: ""
+  - image: quay.io/redhat-cop/egressip-ipam-operator@sha256:d5cd6ce37719764e3f8a8acce831812ad5ceadc4f5af8dedaf452a26c6015bca
+    name: ""
+  - image: quay.io/redhat-cop/kube-rbac-proxy@sha256:c68135620167c41e3d9f6c1d2ca1eb8fa24312b86186d09b8010656b9d25fb47
+    name: ""
+schema: olm.bundle

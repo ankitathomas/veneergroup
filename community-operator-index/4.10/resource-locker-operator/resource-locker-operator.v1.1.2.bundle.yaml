@@ -1,0 +1,21 @@
+image: quay.io/openshift-community-operators/resource-locker-operator@sha256:9120bc649f7c5a45a54b9d69e3ff5d18570e4c7fa7a9143b9b12ed4c10e4ef6e
+name: resource-locker-operator.v1.1.2
+package: resource-locker-operator
+properties:
+  - type: olm.gvk
+    value:
+      group: redhatcop.redhat.io
+      kind: ResourceLocker
+      version: v1alpha1
+  - type: olm.package
+    value:
+      packageName: resource-locker-operator
+      version: 1.1.2
+relatedImages:
+  - image: quay.io/openshift-community-operators/resource-locker-operator@sha256:9120bc649f7c5a45a54b9d69e3ff5d18570e4c7fa7a9143b9b12ed4c10e4ef6e
+    name: ""
+  - image: quay.io/redhat-cop/kube-rbac-proxy@sha256:c68135620167c41e3d9f6c1d2ca1eb8fa24312b86186d09b8010656b9d25fb47
+    name: ""
+  - image: quay.io/redhat-cop/resource-locker-operator@sha256:9e813df38cf6a1102d799c85fbc0d61b98ae15f112b351c7cddd0fd7ea337c08
+    name: ""
+schema: olm.bundle

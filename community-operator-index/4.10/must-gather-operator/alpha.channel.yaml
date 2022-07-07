@@ -1,0 +1,23 @@
+entries:
+  - name: must-gather-operator.v1.0.0
+  - name: must-gather-operator.v1.0.1
+    replaces: must-gather-operator.v1.0.0
+  - name: must-gather-operator.v1.0.2
+    replaces: must-gather-operator.v1.0.1
+  - name: must-gather-operator.v1.0.3
+    replaces: must-gather-operator.v1.0.2
+  - name: must-gather-operator.v1.0.4
+    replaces: must-gather-operator.v1.0.3
+  - name: must-gather-operator.v1.0.5
+    replaces: must-gather-operator.v1.0.4
+  - name: must-gather-operator.v1.0.6
+    replaces: must-gather-operator.v1.0.5
+  - name: must-gather-operator.v1.1.0
+    replaces: must-gather-operator.v1.0.6
+  - name: must-gather-operator.v1.1.1
+    replaces: must-gather-operator.v1.1.0
+  - name: must-gather-operator.v1.1.2
+    replaces: must-gather-operator.v1.1.1
+name: alpha
+package: must-gather-operator
+schema: olm.channel

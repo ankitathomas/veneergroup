@@ -1,0 +1,281 @@
+image: quay.io/openshift-community-operators/azure-service-operator@sha256:4aafe8522901dfc735dae21124b40d27d5bfc9d06cfcea8a88900c71088bf347
+name: azure-service-operator.v1.0.27207
+package: azure-service-operator
+properties:
+  - type: olm.gvk
+    value:
+      group: azure.microsoft.com
+      kind: APIMgmtAPI
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: azure.microsoft.com
+      kind: ApimService
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: azure.microsoft.com
+      kind: AppInsights
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: azure.microsoft.com
+      kind: AppInsightsApiKey
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: azure.microsoft.com
+      kind: AzureLoadBalancer
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: azure.microsoft.com
+      kind: AzureNetworkInterface
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: azure.microsoft.com
+      kind: AzurePublicIPAddress
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: azure.microsoft.com
+      kind: AzureSQLManagedUser
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: azure.microsoft.com
+      kind: AzureSQLUser
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: azure.microsoft.com
+      kind: AzureSQLVNetRule
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: azure.microsoft.com
+      kind: AzureSqlAction
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: azure.microsoft.com
+      kind: AzureSqlDatabase
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: azure.microsoft.com
+      kind: AzureSqlDatabase
+      version: v1beta1
+  - type: olm.gvk
+    value:
+      group: azure.microsoft.com
+      kind: AzureSqlFailoverGroup
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: azure.microsoft.com
+      kind: AzureSqlFailoverGroup
+      version: v1beta1
+  - type: olm.gvk
+    value:
+      group: azure.microsoft.com
+      kind: AzureSqlFirewallRule
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: azure.microsoft.com
+      kind: AzureSqlFirewallRule
+      version: v1beta1
+  - type: olm.gvk
+    value:
+      group: azure.microsoft.com
+      kind: AzureSqlServer
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: azure.microsoft.com
+      kind: AzureSqlServer
+      version: v1beta1
+  - type: olm.gvk
+    value:
+      group: azure.microsoft.com
+      kind: AzureVMScaleSet
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: azure.microsoft.com
+      kind: AzureVirtualMachine
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: azure.microsoft.com
+      kind: AzureVirtualMachineExtension
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: azure.microsoft.com
+      kind: BlobContainer
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: azure.microsoft.com
+      kind: BlobContainer
+      version: v1alpha2
+  - type: olm.gvk
+    value:
+      group: azure.microsoft.com
+      kind: ConsumerGroup
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: azure.microsoft.com
+      kind: CosmosDB
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: azure.microsoft.com
+      kind: CosmosDBSQLDatabase
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: azure.microsoft.com
+      kind: Eventhub
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: azure.microsoft.com
+      kind: EventhubNamespace
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: azure.microsoft.com
+      kind: KeyVault
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: azure.microsoft.com
+      kind: KeyVaultKey
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: azure.microsoft.com
+      kind: MySQLAADUser
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: azure.microsoft.com
+      kind: MySQLAADUser
+      version: v1alpha2
+  - type: olm.gvk
+    value:
+      group: azure.microsoft.com
+      kind: MySQLDatabase
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: azure.microsoft.com
+      kind: MySQLFirewallRule
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: azure.microsoft.com
+      kind: MySQLServer
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: azure.microsoft.com
+      kind: MySQLServer
+      version: v1alpha2
+  - type: olm.gvk
+    value:
+      group: azure.microsoft.com
+      kind: MySQLServerAdministrator
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: azure.microsoft.com
+      kind: MySQLUser
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: azure.microsoft.com
+      kind: MySQLUser
+      version: v1alpha2
+  - type: olm.gvk
+    value:
+      group: azure.microsoft.com
+      kind: MySQLVNetRule
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: azure.microsoft.com
+      kind: PostgreSQLDatabase
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: azure.microsoft.com
+      kind: PostgreSQLFirewallRule
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: azure.microsoft.com
+      kind: PostgreSQLServer
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: azure.microsoft.com
+      kind: PostgreSQLServer
+      version: v1alpha2
+  - type: olm.gvk
+    value:
+      group: azure.microsoft.com
+      kind: PostgreSQLUser
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: azure.microsoft.com
+      kind: PostgreSQLVNetRule
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: azure.microsoft.com
+      kind: RedisCache
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: azure.microsoft.com
+      kind: RedisCacheAction
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: azure.microsoft.com
+      kind: RedisCacheFirewallRule
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: azure.microsoft.com
+      kind: ResourceGroup
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: azure.microsoft.com
+      kind: StorageAccount
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: azure.microsoft.com
+      kind: VirtualNetwork
+      version: v1alpha1
+  - type: olm.package
+    value:
+      packageName: azure-service-operator
+      version: 1.0.27207
+relatedImages:
+  - image: gcr.io/kubebuilder/kube-rbac-proxy:v0.5.0
+    name: ""
+  - image: mcr.microsoft.com/k8s/azureserviceoperator:1.0.27207
+    name: ""
+  - image: quay.io/openshift-community-operators/azure-service-operator@sha256:4aafe8522901dfc735dae21124b40d27d5bfc9d06cfcea8a88900c71088bf347
+    name: ""
+schema: olm.bundle

@@ -1,0 +1,49 @@
+image: quay.io/openshift-community-operators/assisted-service-operator@sha256:5a41a1cf2be684901a99032d51c8b46971503d725c85e9b5026de980e0a0d1e6
+name: assisted-service-operator.v0.2.15
+package: assisted-service-operator
+properties:
+  - type: olm.gvk
+    value:
+      group: agent-install.openshift.io
+      kind: Agent
+      version: v1beta1
+  - type: olm.gvk
+    value:
+      group: agent-install.openshift.io
+      kind: AgentServiceConfig
+      version: v1beta1
+  - type: olm.gvk
+    value:
+      group: agent-install.openshift.io
+      kind: InfraEnv
+      version: v1beta1
+  - type: olm.gvk
+    value:
+      group: agent-install.openshift.io
+      kind: NMStateConfig
+      version: v1beta1
+  - type: olm.gvk
+    value:
+      group: extensions.hive.openshift.io
+      kind: AgentClusterInstall
+      version: v1beta1
+  - type: olm.package
+    value:
+      packageName: assisted-service-operator
+      version: 0.2.15
+relatedImages:
+  - image: quay.io/edge-infrastructure/assisted-image-service@sha256:ca8e482db8fea47b5a7356940c3888ee54ec2c59ab07b0931fbc545ea7bf4293
+    name: ""
+  - image: quay.io/edge-infrastructure/assisted-installer-agent@sha256:c1dabb433624523e4a935494643444873ff7b5ef270416f0b64c2b8bcdf6066c
+    name: ""
+  - image: quay.io/edge-infrastructure/assisted-installer-controller@sha256:b9a91d2b77e3251442bc72491bdaf82e3a265233558b2fb8a895bd65c7ba2607
+    name: ""
+  - image: quay.io/edge-infrastructure/assisted-installer@sha256:d8cf18793b1b79844de630a86dd78e8f56626057c4ea6ddf4c56d441da9010b4
+    name: ""
+  - image: quay.io/edge-infrastructure/assisted-service@sha256:521bb591e93d2870570d430a5206cf657167919930b3cd7958104a8f474cd16f
+    name: ""
+  - image: quay.io/edge-infrastructure/postgresql-12-centos7@sha256:94727d70e0afbf4e167e078744f3a10ac9d82edc553d57b0ecbb5443264f07e1
+    name: ""
+  - image: quay.io/openshift-community-operators/assisted-service-operator@sha256:5a41a1cf2be684901a99032d51c8b46971503d725c85e9b5026de980e0a0d1e6
+    name: ""
+schema: olm.bundle

@@ -1,0 +1,19 @@
+image: quay.io/openshift-community-operators/jaeger@sha256:a6edfaf72317fbb6579255ef3e524ef1cd95061f65a39280119d97df6e509a9e
+name: jaeger-operator.v1.25.0
+package: jaeger
+properties:
+  - type: olm.gvk
+    value:
+      group: jaegertracing.io
+      kind: Jaeger
+      version: v1
+  - type: olm.package
+    value:
+      packageName: jaeger
+      version: 1.25.0
+relatedImages:
+  - image: quay.io/jaegertracing/jaeger-operator:1.25.0
+    name: ""
+  - image: quay.io/openshift-community-operators/jaeger@sha256:a6edfaf72317fbb6579255ef3e524ef1cd95061f65a39280119d97df6e509a9e
+    name: ""
+schema: olm.bundle

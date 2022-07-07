@@ -1,0 +1,37 @@
+entries:
+  - name: ack-apigatewayv2-controller.v0.0.10
+    replaces: ack-apigatewayv2-controller.v0.0.9
+  - name: ack-apigatewayv2-controller.v0.0.11
+    replaces: ack-apigatewayv2-controller.v0.0.10
+  - name: ack-apigatewayv2-controller.v0.0.12
+    replaces: ack-apigatewayv2-controller.v0.0.11
+  - name: ack-apigatewayv2-controller.v0.0.13
+    replaces: ack-apigatewayv2-controller.v0.0.12
+  - name: ack-apigatewayv2-controller.v0.0.14
+    replaces: ack-apigatewayv2-controller.v0.0.13
+  - name: ack-apigatewayv2-controller.v0.0.15
+    replaces: ack-apigatewayv2-controller.v0.0.14
+  - name: ack-apigatewayv2-controller.v0.0.16
+    replaces: ack-apigatewayv2-controller.v0.0.15
+  - name: ack-apigatewayv2-controller.v0.0.17
+    replaces: ack-apigatewayv2-controller.v0.0.16
+  - name: ack-apigatewayv2-controller.v0.0.18
+    replaces: ack-apigatewayv2-controller.v0.0.17
+  - name: ack-apigatewayv2-controller.v0.0.19
+    replaces: ack-apigatewayv2-controller.v0.0.18
+  - name: ack-apigatewayv2-controller.v0.0.20
+    replaces: ack-apigatewayv2-controller.v0.0.19
+  - name: ack-apigatewayv2-controller.v0.0.21
+    replaces: ack-apigatewayv2-controller.v0.0.20
+  - name: ack-apigatewayv2-controller.v0.0.22
+    replaces: ack-apigatewayv2-controller.v0.0.21
+  - name: ack-apigatewayv2-controller.v0.0.9
+  - name: ack-apigatewayv2-controller.v0.1.0
+    replaces: ack-apigatewayv2-controller.v0.0.22
+  - name: ack-apigatewayv2-controller.v0.1.1
+    replaces: ack-apigatewayv2-controller.v0.1.0
+  - name: ack-apigatewayv2-controller.v0.1.2
+    replaces: ack-apigatewayv2-controller.v0.1.1
+name: alpha
+package: ack-apigatewayv2-controller
+schema: olm.channel

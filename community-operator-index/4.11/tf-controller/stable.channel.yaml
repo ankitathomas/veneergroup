@@ -1,0 +1,7 @@
+entries:
+  - name: tf-controller.v0.9.0-rc.3
+  - name: tf-controller.v0.9.0-rc.8
+    replaces: tf-controller.v0.9.0-rc.3
+name: stable
+package: tf-controller
+schema: olm.channel

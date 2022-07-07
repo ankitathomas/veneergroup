@@ -1,0 +1,29 @@
+entries:
+  - name: keycloak-operator.v13.0.1
+  - name: keycloak-operator.v14.0.0
+    replaces: keycloak-operator.v13.0.1
+  - name: keycloak-operator.v15.0.0
+    replaces: keycloak-operator.v14.0.0
+  - name: keycloak-operator.v15.0.1
+    replaces: keycloak-operator.v15.0.0
+  - name: keycloak-operator.v15.0.2
+    replaces: keycloak-operator.v15.0.1
+  - name: keycloak-operator.v15.1.0
+    replaces: keycloak-operator.v15.0.2
+  - name: keycloak-operator.v15.1.1
+    replaces: keycloak-operator.v15.1.0
+  - name: keycloak-operator.v16.0.0
+    replaces: keycloak-operator.v15.1.1
+  - name: keycloak-operator.v16.1.0
+    replaces: keycloak-operator.v16.0.0
+  - name: keycloak-operator.v17.0.0
+    replaces: keycloak-operator.v16.1.0
+  - name: keycloak-operator.v17.0.1
+    replaces: keycloak-operator.v17.0.0
+  - name: keycloak-operator.v18.0.0
+    replaces: keycloak-operator.v17.0.1
+  - name: keycloak-operator.v18.0.1
+    replaces: keycloak-operator.v18.0.0
+name: alpha
+package: keycloak-operator
+schema: olm.channel

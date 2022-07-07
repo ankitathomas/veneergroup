@@ -1,0 +1,25 @@
+entries:
+  - name: camel-k-operator.v1.3.2
+  - name: camel-k-operator.v1.4.0
+    replaces: camel-k-operator.v1.3.2
+  - name: camel-k-operator.v1.4.1
+    replaces: camel-k-operator.v1.4.0
+  - name: camel-k-operator.v1.5.0
+    replaces: camel-k-operator.v1.4.1
+  - name: camel-k-operator.v1.5.1
+    replaces: camel-k-operator.v1.5.0
+  - name: camel-k-operator.v1.6.0
+    replaces: camel-k-operator.v1.5.1
+  - name: camel-k-operator.v1.6.1
+    replaces: camel-k-operator.v1.6.0
+  - name: camel-k-operator.v1.7.0
+    replaces: camel-k-operator.v1.6.1
+  - name: camel-k-operator.v1.8.0
+    replaces: camel-k-operator.v1.7.0
+  - name: camel-k-operator.v1.8.1
+    replaces: camel-k-operator.v1.8.0
+  - name: camel-k-operator.v1.8.2
+    replaces: camel-k-operator.v1.8.1
+name: stable-1.8
+package: camel-k
+schema: olm.channel

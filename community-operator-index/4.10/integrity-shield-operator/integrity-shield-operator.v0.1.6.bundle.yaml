@@ -1,0 +1,23 @@
+image: quay.io/openshift-community-operators/integrity-shield-operator@sha256:e5fd9038399007dd4c75f3cc0b336a83fe7793db50d4d717768de7cc9da80631
+name: integrity-shield-operator.v0.1.6
+package: integrity-shield-operator
+properties:
+  - type: olm.deprecated
+    value: {}
+  - type: olm.gvk
+    value:
+      group: apis.integrityshield.io
+      kind: IntegrityShield
+      version: v1alpha1
+  - type: olm.maxOpenShiftVersion
+    value: "4.8"
+  - type: olm.package
+    value:
+      packageName: integrity-shield-operator
+      version: 0.1.6
+relatedImages:
+  - image: quay.io/open-cluster-management/integrity-shield-operator:0.1.6
+    name: ""
+  - image: quay.io/openshift-community-operators/integrity-shield-operator@sha256:e5fd9038399007dd4c75f3cc0b336a83fe7793db50d4d717768de7cc9da80631
+    name: ""
+schema: olm.bundle

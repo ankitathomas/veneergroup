@@ -1,0 +1,7 @@
+entries:
+  - name: application-services-metering-operator.v0.6.0
+  - name: application-services-metering-operator.v0.6.1
+    replaces: application-services-metering-operator.v0.6.0
+name: alpha
+package: application-services-metering-operator
+schema: olm.channel

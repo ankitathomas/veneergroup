@@ -1,0 +1,5 @@
+entries:
+  - name: sosreport-operator.v0.0.2
+name: alpha
+package: sosreport-operator
+schema: olm.channel

@@ -1,0 +1,34 @@
+image: quay.io/openshift-community-operators/ack-lambda-controller@sha256:bdd54a5b9cf42e0f3a69ae47a7fb650e87100e2807b07ef4d96df142e0a1cad7
+name: ack-lambda-controller.v0.0.6
+package: ack-lambda-controller
+properties:
+  - type: olm.gvk
+    value:
+      group: lambda.services.k8s.aws
+      kind: Alias
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: lambda.services.k8s.aws
+      kind: CodeSigningConfig
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: lambda.services.k8s.aws
+      kind: EventSourceMapping
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: lambda.services.k8s.aws
+      kind: Function
+      version: v1alpha1
+  - type: olm.package
+    value:
+      packageName: ack-lambda-controller
+      version: 0.0.6
+relatedImages:
+  - image: public.ecr.aws/aws-controllers-k8s/lambda-controller:v0.0.6
+    name: ""
+  - image: quay.io/openshift-community-operators/ack-lambda-controller@sha256:bdd54a5b9cf42e0f3a69ae47a7fb650e87100e2807b07ef4d96df142e0a1cad7
+    name: ""
+schema: olm.bundle

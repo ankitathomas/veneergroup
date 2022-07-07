@@ -1,0 +1,33 @@
+entries:
+  - name: proactive-node-scaling-operator.v0.1.0
+  - name: proactive-node-scaling-operator.v0.2.0
+    replaces: proactive-node-scaling-operator.v0.1.0
+  - name: proactive-node-scaling-operator.v0.3.0
+    replaces: proactive-node-scaling-operator.v0.2.0
+  - name: proactive-node-scaling-operator.v0.3.1
+    replaces: proactive-node-scaling-operator.v0.3.0
+  - name: proactive-node-scaling-operator.v0.3.10
+    replaces: proactive-node-scaling-operator.v0.3.9
+  - name: proactive-node-scaling-operator.v0.3.2
+    replaces: proactive-node-scaling-operator.v0.3.1
+  - name: proactive-node-scaling-operator.v0.3.3
+    replaces: proactive-node-scaling-operator.v0.3.2
+  - name: proactive-node-scaling-operator.v0.3.4
+    replaces: proactive-node-scaling-operator.v0.3.3
+  - name: proactive-node-scaling-operator.v0.3.5
+    replaces: proactive-node-scaling-operator.v0.3.4
+  - name: proactive-node-scaling-operator.v0.3.6
+    replaces: proactive-node-scaling-operator.v0.3.5
+  - name: proactive-node-scaling-operator.v0.3.7
+    replaces: proactive-node-scaling-operator.v0.3.6
+  - name: proactive-node-scaling-operator.v0.3.8
+    replaces: proactive-node-scaling-operator.v0.3.7
+  - name: proactive-node-scaling-operator.v0.3.9
+    replaces: proactive-node-scaling-operator.v0.3.8
+  - name: proactive-node-scaling-operator.v0.4.0
+    replaces: proactive-node-scaling-operator.v0.3.10
+  - name: proactive-node-scaling-operator.v0.4.2
+    replaces: proactive-node-scaling-operator.v0.4.0
+name: alpha
+package: proactive-node-scaling-operator
+schema: olm.channel

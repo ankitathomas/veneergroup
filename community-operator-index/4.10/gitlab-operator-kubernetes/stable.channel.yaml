@@ -1,0 +1,5 @@
+entries:
+  - name: gitlab-operator-kubernetes.v0.6.1
+name: stable
+package: gitlab-operator-kubernetes
+schema: olm.channel

@@ -1,0 +1,9 @@
+entries:
+  - name: falcon-operator.v0.5.1
+  - name: falcon-operator.v0.5.2
+    replaces: falcon-operator.v0.5.1
+  - name: falcon-operator.v0.5.3
+    replaces: falcon-operator.v0.5.2
+name: alpha
+package: falcon-operator
+schema: olm.channel

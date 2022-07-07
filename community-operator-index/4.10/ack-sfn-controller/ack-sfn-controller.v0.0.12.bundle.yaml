@@ -1,0 +1,24 @@
+image: quay.io/openshift-community-operators/ack-sfn-controller@sha256:b8bbbf34a3e006677c936bbc9bd67f3cd27f09fa06a5bea98dac4a46562d6b0f
+name: ack-sfn-controller.v0.0.12
+package: ack-sfn-controller
+properties:
+  - type: olm.gvk
+    value:
+      group: sfn.services.k8s.aws
+      kind: Activity
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: sfn.services.k8s.aws
+      kind: StateMachine
+      version: v1alpha1
+  - type: olm.package
+    value:
+      packageName: ack-sfn-controller
+      version: 0.0.12
+relatedImages:
+  - image: public.ecr.aws/aws-controllers-k8s/sfn-controller:v0.0.12
+    name: ""
+  - image: quay.io/openshift-community-operators/ack-sfn-controller@sha256:b8bbbf34a3e006677c936bbc9bd67f3cd27f09fa06a5bea98dac4a46562d6b0f
+    name: ""
+schema: olm.bundle

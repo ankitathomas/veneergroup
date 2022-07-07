@@ -1,0 +1,9 @@
+entries:
+  - name: openshift-qiskit-operator.v0.1.0
+  - name: openshift-qiskit-operator.v0.2.0
+    replaces: openshift-qiskit-operator.v0.1.0
+  - name: openshift-qiskit-operator.v0.2.1
+    replaces: openshift-qiskit-operator.v0.2.0
+name: alpha
+package: openshift-qiskit-operator
+schema: olm.channel

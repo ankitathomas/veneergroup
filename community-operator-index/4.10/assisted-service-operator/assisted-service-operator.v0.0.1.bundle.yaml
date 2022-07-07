@@ -1,0 +1,35 @@
+image: quay.io/openshift-community-operators/assisted-service-operator@sha256:fb8c799212726bd96ced4c859993ab460750b860868760bc8c4d1e1978bddcf2
+name: assisted-service-operator.v0.0.1
+package: assisted-service-operator
+properties:
+  - type: olm.gvk
+    value:
+      group: adi.io.my.domain
+      kind: Agent
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: adi.io.my.domain
+      kind: InstallEnv
+      version: v1alpha1
+  - type: olm.gvk.required
+    value:
+      group: hive.openshift.io
+      kind: ClusterDeployment
+      version: v1
+  - type: olm.package
+    value:
+      packageName: assisted-service-operator
+      version: 0.0.1
+relatedImages:
+  - image: quay.io/ocpmetal/assisted-service@sha256:b1754c35708d9ae8ea9fae4760cb6cf9d24f3a937f536f7421261fefbffe9a08
+    name: ""
+  - image: quay.io/ocpmetal/postgresql-12-centos7@sha256:94727d70e0afbf4e167e078744f3a10ac9d82edc553d57b0ecbb5443264f07e1
+    name: ""
+  - image: quay.io/openshift-community-operators/assisted-service-operator@sha256:fb8c799212726bd96ced4c859993ab460750b860868760bc8c4d1e1978bddcf2
+    name: ""
+  - image: quay.io/openshift/origin-cli@sha256:3a931dd86a2cbbec8c96740bfe3d5b8da78f50d66597579a1d6d2e4916adecad
+    name: ""
+  - image: registry.access.redhat.com/ubi8/ubi-minimal:latest
+    name: ""
+schema: olm.bundle

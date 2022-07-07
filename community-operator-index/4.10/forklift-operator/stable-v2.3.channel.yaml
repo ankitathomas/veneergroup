@@ -1,0 +1,9 @@
+entries:
+  - name: forklift-operator.v2.3.0
+    skipRange: '>=0.0.0 <2.3.0'
+  - name: forklift-operator.v2.3.1
+    replaces: forklift-operator.v2.3.0
+    skipRange: '>=0.0.0 <2.3.1'
+name: stable-v2.3
+package: forklift-operator
+schema: olm.channel

@@ -1,0 +1,26 @@
+image: quay.io/openshift-community-operators/sap-commerce-operator@sha256:d8d83203a7ee176077c5e6b8b36a59d890e48cda3ec7941948f3740b4030fee3
+name: sap-commerce-operator.v0.0.2
+package: sap-commerce-operator
+properties:
+  - type: olm.gvk
+    value:
+      group: hybris.hybris.org
+      kind: HybrisApp
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: hybris.hybris.org
+      kind: HybrisBase
+      version: v1alpha1
+  - type: olm.package
+    value:
+      packageName: sap-commerce-operator
+      version: 0.0.2
+relatedImages:
+  - image: gcr.io/kubebuilder/kube-rbac-proxy:v0.5.0
+    name: ""
+  - image: quay.io/openshift-community-operators/sap-commerce-operator@sha256:d8d83203a7ee176077c5e6b8b36a59d890e48cda3ec7941948f3740b4030fee3
+    name: ""
+  - image: quay.io/redhat-sap-cop/hybris-operator:0.0.2
+    name: ""
+schema: olm.bundle

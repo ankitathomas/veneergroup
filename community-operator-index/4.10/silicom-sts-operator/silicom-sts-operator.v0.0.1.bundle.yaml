@@ -1,0 +1,45 @@
+image: quay.io/openshift-community-operators/silicom-sts-operator@sha256:6754b524fb933d4bcc522c37ef039f6539f5d43f39da5d74b067df9b1cbd8b9f
+name: silicom-sts-operator.v0.0.1
+package: silicom-sts-operator
+properties:
+  - type: olm.gvk
+    value:
+      group: sts.silicom.com
+      kind: StsConfig
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: sts.silicom.com
+      kind: StsNode
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: sts.silicom.com
+      kind: StsOperatorConfig
+      version: v1alpha1
+  - type: olm.gvk.required
+    value:
+      group: nfd.openshift.io
+      kind: NodeFeatureDiscovery
+      version: v1
+  - type: olm.gvk.required
+    value:
+      group: sro.openshift.io
+      kind: SpecialResource
+      version: v1beta1
+  - type: olm.package
+    value:
+      packageName: silicom-sts-operator
+      version: 0.0.1
+  - type: olm.package.required
+    value:
+      packageName: special-resource-operator
+      versionRange: <=4.9.0
+relatedImages:
+  - image: gcr.io/kubebuilder/kube-rbac-proxy:v0.8.0
+    name: ""
+  - image: quay.io/openshift-community-operators/silicom-sts-operator@sha256:6754b524fb933d4bcc522c37ef039f6539f5d43f39da5d74b067df9b1cbd8b9f
+    name: ""
+  - image: quay.io/silicom/sts-operator:0.0.1
+    name: ""
+schema: olm.bundle

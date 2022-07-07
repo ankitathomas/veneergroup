@@ -1,0 +1,16 @@
+image: quay.io/openshift-community-operators/volume-expander-operator@sha256:57eaa267c101606a4fa1b6c639da385e5929ce8371b811752c413c1d79975a20
+name: volume-expander-operator.v0.2.0
+package: volume-expander-operator
+properties:
+  - type: olm.package
+    value:
+      packageName: volume-expander-operator
+      version: 0.2.0
+relatedImages:
+  - image: quay.io/coreos/kube-rbac-proxy@sha256:e10d1d982dd653db74ca87a1d1ad017bc5ef1aeb651bdea089debf16485b080b
+    name: ""
+  - image: quay.io/openshift-community-operators/volume-expander-operator@sha256:57eaa267c101606a4fa1b6c639da385e5929ce8371b811752c413c1d79975a20
+    name: ""
+  - image: quay.io/redhat-cop/volume-expander-operator@sha256:4b73030be975e1b4ec91960583876409c54ee846a5d0a6836e77c291a621766a
+    name: ""
+schema: olm.bundle

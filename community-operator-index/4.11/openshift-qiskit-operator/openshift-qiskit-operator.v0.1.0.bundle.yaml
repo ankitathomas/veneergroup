@@ -1,0 +1,23 @@
+image: quay.io/openshift-community-operators/openshift-qiskit-operator@sha256:c107863dc35246a3f483e1420b142af1536ea171e97e0b36e199bee3c586e576
+name: openshift-qiskit-operator.v0.1.0
+package: openshift-qiskit-operator
+properties:
+  - type: olm.deprecated
+    value: {}
+  - type: olm.gvk
+    value:
+      group: singhp11.io
+      kind: QiskitPlayground
+      version: v1
+  - type: olm.maxOpenShiftVersion
+    value: "4.8"
+  - type: olm.package
+    value:
+      packageName: openshift-qiskit-operator
+      version: 0.1.0
+relatedImages:
+  - image: docker.io/singhp11/openshift-qiskit-operator:v0.1.0
+    name: ""
+  - image: quay.io/openshift-community-operators/openshift-qiskit-operator@sha256:c107863dc35246a3f483e1420b142af1536ea171e97e0b36e199bee3c586e576
+    name: ""
+schema: olm.bundle

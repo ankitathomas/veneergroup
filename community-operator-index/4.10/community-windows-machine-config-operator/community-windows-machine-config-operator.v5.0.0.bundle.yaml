@@ -1,0 +1,14 @@
+image: quay.io/openshift-community-operators/community-windows-machine-config-operator@sha256:e0a62699ec5b941160babb05e4912ec4716004962ff06fa3094543a4f9ca402a
+name: community-windows-machine-config-operator.v5.0.0
+package: community-windows-machine-config-operator
+properties:
+  - type: olm.package
+    value:
+      packageName: community-windows-machine-config-operator
+      version: 5.0.0
+relatedImages:
+  - image: quay.io/openshift-community-operators/community-windows-machine-config-operator@sha256:e0a62699ec5b941160babb05e4912ec4716004962ff06fa3094543a4f9ca402a
+    name: ""
+  - image: quay.io/openshift-windows/community-windows-machine-config-operator:community-4.10-aeb2604
+    name: ""
+schema: olm.bundle

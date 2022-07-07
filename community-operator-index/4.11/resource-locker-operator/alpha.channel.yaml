@@ -1,0 +1,13 @@
+entries:
+  - name: resource-locker-operator.v1.0.9
+  - name: resource-locker-operator.v1.1.0
+    replaces: resource-locker-operator.v1.0.9
+  - name: resource-locker-operator.v1.1.1
+    replaces: resource-locker-operator.v1.1.0
+  - name: resource-locker-operator.v1.1.2
+    replaces: resource-locker-operator.v1.1.1
+  - name: resource-locker-operator.v1.1.3
+    replaces: resource-locker-operator.v1.1.2
+name: alpha
+package: resource-locker-operator
+schema: olm.channel

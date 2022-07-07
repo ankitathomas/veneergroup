@@ -1,0 +1,5 @@
+entries:
+  - name: marin3r.v0.10.0
+name: stable
+package: marin3r
+schema: olm.channel

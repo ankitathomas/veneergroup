@@ -1,0 +1,17 @@
+entries:
+  - name: neuvector-operator.v1.2.8
+  - name: neuvector-operator.v1.2.9
+    replaces: neuvector-operator.v1.2.8
+  - name: neuvector-operator.v1.3.0
+    replaces: neuvector-operator.v1.2.9
+  - name: neuvector-operator.v1.3.1
+    replaces: neuvector-operator.v1.3.0
+  - name: neuvector-operator.v1.3.2
+    replaces: neuvector-operator.v1.3.1
+  - name: neuvector-operator.v1.3.3
+    replaces: neuvector-operator.v1.3.2
+  - name: neuvector-operator.v1.3.4
+    replaces: neuvector-operator.v1.3.3
+name: beta
+package: neuvector-community-operator
+schema: olm.channel

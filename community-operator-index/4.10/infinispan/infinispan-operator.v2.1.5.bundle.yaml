@@ -1,0 +1,45 @@
+image: quay.io/openshift-community-operators/infinispan@sha256:a15722c43bd3fba59a56b9ad207a9acbaf4a777840ecc6edf3c55f2ba5dd68fc
+name: infinispan-operator.v2.1.5
+package: infinispan
+properties:
+  - type: olm.deprecated
+    value: {}
+  - type: olm.gvk
+    value:
+      group: infinispan.org
+      kind: Backup
+      version: v2alpha1
+  - type: olm.gvk
+    value:
+      group: infinispan.org
+      kind: Batch
+      version: v2alpha1
+  - type: olm.gvk
+    value:
+      group: infinispan.org
+      kind: Cache
+      version: v2alpha1
+  - type: olm.gvk
+    value:
+      group: infinispan.org
+      kind: Infinispan
+      version: v1
+  - type: olm.gvk
+    value:
+      group: infinispan.org
+      kind: Restore
+      version: v2alpha1
+  - type: olm.maxOpenShiftVersion
+    value: "4.8"
+  - type: olm.package
+    value:
+      packageName: infinispan
+      version: 2.1.5
+relatedImages:
+  - image: quay.io/infinispan/operator:2.1.4.Final
+    name: ""
+  - image: quay.io/infinispan/server:12.1.7.Final
+    name: ""
+  - image: quay.io/openshift-community-operators/infinispan@sha256:a15722c43bd3fba59a56b9ad207a9acbaf4a777840ecc6edf3c55f2ba5dd68fc
+    name: ""
+schema: olm.bundle

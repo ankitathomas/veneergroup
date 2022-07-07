@@ -1,0 +1,70 @@
+image: quay.io/openshift-community-operators/multicluster-operators-subscription@sha256:2a9907d9532d21339e771a441da393b71b15e2b49a50e9d767f8ba1a108981d9
+name: multicluster-operators-subscription.v0.3.9
+package: multicluster-operators-subscription
+properties:
+  - type: olm.gvk
+    value:
+      group: app.k8s.io
+      kind: Application
+      version: v1beta1
+  - type: olm.gvk
+    value:
+      group: apps.open-cluster-management.io
+      kind: Channel
+      version: v1
+  - type: olm.gvk
+    value:
+      group: apps.open-cluster-management.io
+      kind: Deployable
+      version: v1
+  - type: olm.gvk
+    value:
+      group: apps.open-cluster-management.io
+      kind: GitOpsCluster
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: apps.open-cluster-management.io
+      kind: GitOpsCluster
+      version: v1beta1
+  - type: olm.gvk
+    value:
+      group: apps.open-cluster-management.io
+      kind: HelmRelease
+      version: v1
+  - type: olm.gvk
+    value:
+      group: apps.open-cluster-management.io
+      kind: PlacementRule
+      version: v1
+  - type: olm.gvk
+    value:
+      group: apps.open-cluster-management.io
+      kind: Subscription
+      version: v1
+  - type: olm.gvk
+    value:
+      group: apps.open-cluster-management.io
+      kind: SubscriptionReport
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: apps.open-cluster-management.io
+      kind: SubscriptionStatus
+      version: v1alpha1
+  - type: olm.package
+    value:
+      packageName: multicluster-operators-subscription
+      version: 0.3.9
+relatedImages:
+  - image: quay.io/open-cluster-management/multicloud-integrations:2.5.0
+    name: ""
+  - image: quay.io/open-cluster-management/multicluster-operators-application:2.5.0
+    name: ""
+  - image: quay.io/open-cluster-management/multicluster-operators-channel:2.5.0
+    name: ""
+  - image: quay.io/open-cluster-management/multicluster-operators-subscription:2.5.0
+    name: ""
+  - image: quay.io/openshift-community-operators/multicluster-operators-subscription@sha256:2a9907d9532d21339e771a441da393b71b15e2b49a50e9d767f8ba1a108981d9
+    name: ""
+schema: olm.bundle

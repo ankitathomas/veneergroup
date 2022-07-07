@@ -1,0 +1,11 @@
+entries:
+  - name: cluster-impairment-operator.v1.0.1
+  - name: cluster-impairment-operator.v1.0.2
+    replaces: cluster-impairment-operator.v1.0.1
+  - name: cluster-impairment-operator.v1.0.3
+    replaces: cluster-impairment-operator.v1.0.2
+  - name: cluster-impairment-operator.v1.0.4
+    replaces: cluster-impairment-operator.v1.0.3
+name: beta
+package: cluster-impairment-operator
+schema: olm.channel

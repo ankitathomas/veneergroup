@@ -1,0 +1,29 @@
+image: quay.io/openshift-community-operators/rhoas-operator@sha256:122fd9403aeb93a368660ed41d50108f9491385eeec093cd3a7ce674a7586dc1
+name: rhoas-operator.0.7.1
+package: rhoas-operator
+properties:
+  - type: olm.gvk
+    value:
+      group: rhoas.redhat.com
+      kind: CloudServiceAccountRequest
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: rhoas.redhat.com
+      kind: CloudServicesRequest
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: rhoas.redhat.com
+      kind: KafkaConnection
+      version: v1alpha1
+  - type: olm.package
+    value:
+      packageName: rhoas-operator
+      version: 0.7.1
+relatedImages:
+  - image: quay.io/openshift-community-operators/rhoas-operator@sha256:122fd9403aeb93a368660ed41d50108f9491385eeec093cd3a7ce674a7586dc1
+    name: ""
+  - image: quay.io/rhoas/service-operator:0.7.1
+    name: ""
+schema: olm.bundle

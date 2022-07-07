@@ -1,0 +1,7 @@
+entries:
+  - name: eventing-kogito.v1.1.0
+  - name: eventing-kogito.v1.2.0
+    replaces: eventing-kogito.v1.1.0
+name: alpha
+package: eventing-kogito
+schema: olm.channel

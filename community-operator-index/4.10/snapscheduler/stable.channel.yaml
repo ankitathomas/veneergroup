@@ -1,0 +1,9 @@
+entries:
+  - name: snapscheduler.v2.0.0
+  - name: snapscheduler.v2.1.0
+    replaces: snapscheduler.v2.0.0
+  - name: snapscheduler.v3.0.0
+    replaces: snapscheduler.v2.1.0
+name: stable
+package: snapscheduler
+schema: olm.channel

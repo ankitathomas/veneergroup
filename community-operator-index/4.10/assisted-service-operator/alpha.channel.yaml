@@ -1,0 +1,1148 @@
+entries:
+  - name: assisted-service-operator.v0.0.1
+  - name: assisted-service-operator.v0.0.2
+    skipRange: <0.0.2
+  - name: assisted-service-operator.v0.0.3
+    skipRange: <0.0.3
+  - name: assisted-service-operator.v0.0.4
+    skipRange: '>=0.0.0 <0.0.4'
+  - name: assisted-service-operator.v0.0.5
+    skipRange: '>=0.0.0 <0.0.5'
+  - name: assisted-service-operator.v0.0.5-rc.1
+    skipRange: '>=0.0.0 <0.0.5'
+  - name: assisted-service-operator.v0.0.6
+    skipRange: '>=0.0.0 <0.0.5'
+  - name: assisted-service-operator.v0.0.7
+    skipRange: '>=0.0.1 <0.0.7'
+  - name: assisted-service-operator.v0.0.8
+    skipRange: '>=0.0.0 <0.0.8'
+  - name: assisted-service-operator.v0.1.0
+    skipRange: '>=0.0.1 <0.1.0'
+    skips:
+      - assisted-service-operator.v0.0.1
+      - assisted-service-operator.v0.0.2
+      - assisted-service-operator.v0.0.3
+      - assisted-service-operator.v0.0.4
+      - assisted-service-operator.v0.0.5-rc.1
+      - assisted-service-operator.v0.0.5
+      - assisted-service-operator.v0.0.6
+      - assisted-service-operator.v0.0.7
+      - assisted-service-operator.v0.0.8
+  - name: assisted-service-operator.v0.1.1
+    skipRange: '>=0.0.1 <0.1.1'
+  - name: assisted-service-operator.v0.1.2
+    skipRange: '>=0.0.1 <0.1.2'
+  - name: assisted-service-operator.v0.1.3
+    skipRange: '>=0.0.1 <0.1.3'
+  - name: assisted-service-operator.v0.2.0
+    replaces: assisted-service-operator.v0.1.0
+    skipRange: '>=0.0.1 <0.2.0'
+    skips:
+      - assisted-service-operator.v0.0.1
+      - assisted-service-operator.v0.0.2
+      - assisted-service-operator.v0.0.3
+      - assisted-service-operator.v0.0.4
+      - assisted-service-operator.v0.0.5
+      - assisted-service-operator.v0.0.5-rc.1
+      - assisted-service-operator.v0.0.6
+      - assisted-service-operator.v0.0.7
+      - assisted-service-operator.v0.0.8
+      - assisted-service-operator.v0.1.0
+      - assisted-service-operator.v0.1.1
+  - name: assisted-service-operator.v0.2.1
+    replaces: assisted-service-operator.v0.2.0
+    skipRange: '>=0.0.1 <0.2.1'
+    skips:
+      - assisted-service-operator.v0.0.1
+      - assisted-service-operator.v0.0.2
+      - assisted-service-operator.v0.0.3
+      - assisted-service-operator.v0.0.4
+      - assisted-service-operator.v0.0.5
+      - assisted-service-operator.v0.0.5-rc.1
+      - assisted-service-operator.v0.0.6
+      - assisted-service-operator.v0.0.7
+      - assisted-service-operator.v0.0.8
+      - assisted-service-operator.v0.1.0
+      - assisted-service-operator.v0.1.1
+      - assisted-service-operator.v0.2.0
+  - name: assisted-service-operator.v0.2.10
+    replaces: assisted-service-operator.v0.2.9
+    skipRange: '>=0.0.1 <0.2.10'
+    skips:
+      - assisted-service-operator.v0.0.1
+      - assisted-service-operator.v0.0.2
+      - assisted-service-operator.v0.0.3
+      - assisted-service-operator.v0.0.4
+      - assisted-service-operator.v0.0.5
+      - assisted-service-operator.v0.0.5-rc.1
+      - assisted-service-operator.v0.0.6
+      - assisted-service-operator.v0.0.7
+      - assisted-service-operator.v0.0.8
+      - assisted-service-operator.v0.1.0
+      - assisted-service-operator.v0.1.1
+      - assisted-service-operator.v0.1.2
+      - assisted-service-operator.v0.2.0
+      - assisted-service-operator.v0.2.1
+      - assisted-service-operator.v0.2.2
+      - assisted-service-operator.v0.2.3
+      - assisted-service-operator.v0.2.4
+      - assisted-service-operator.v0.2.5
+      - assisted-service-operator.v0.2.6
+      - assisted-service-operator.v0.2.7
+      - assisted-service-operator.v0.2.8
+      - assisted-service-operator.v0.2.9
+  - name: assisted-service-operator.v0.2.11
+    replaces: assisted-service-operator.v0.2.10
+    skipRange: '>=0.0.1 <0.2.11'
+    skips:
+      - assisted-service-operator.v0.0.1
+      - assisted-service-operator.v0.0.2
+      - assisted-service-operator.v0.0.3
+      - assisted-service-operator.v0.0.4
+      - assisted-service-operator.v0.0.5
+      - assisted-service-operator.v0.0.5-rc.1
+      - assisted-service-operator.v0.0.6
+      - assisted-service-operator.v0.0.7
+      - assisted-service-operator.v0.0.8
+      - assisted-service-operator.v0.1.0
+      - assisted-service-operator.v0.1.1
+      - assisted-service-operator.v0.1.2
+      - assisted-service-operator.v0.2.0
+      - assisted-service-operator.v0.2.1
+      - assisted-service-operator.v0.2.10
+      - assisted-service-operator.v0.2.2
+      - assisted-service-operator.v0.2.3
+      - assisted-service-operator.v0.2.4
+      - assisted-service-operator.v0.2.5
+      - assisted-service-operator.v0.2.6
+      - assisted-service-operator.v0.2.7
+      - assisted-service-operator.v0.2.8
+      - assisted-service-operator.v0.2.9
+  - name: assisted-service-operator.v0.2.12
+    replaces: assisted-service-operator.v0.2.11
+    skipRange: '>=0.0.1 <0.2.12'
+    skips:
+      - assisted-service-operator.v0.0.1
+      - assisted-service-operator.v0.0.2
+      - assisted-service-operator.v0.0.3
+      - assisted-service-operator.v0.0.4
+      - assisted-service-operator.v0.0.5
+      - assisted-service-operator.v0.0.5-rc.1
+      - assisted-service-operator.v0.0.6
+      - assisted-service-operator.v0.0.7
+      - assisted-service-operator.v0.0.8
+      - assisted-service-operator.v0.1.0
+      - assisted-service-operator.v0.1.1
+      - assisted-service-operator.v0.1.2
+      - assisted-service-operator.v0.2.0
+      - assisted-service-operator.v0.2.1
+      - assisted-service-operator.v0.2.10
+      - assisted-service-operator.v0.2.11
+      - assisted-service-operator.v0.2.2
+      - assisted-service-operator.v0.2.3
+      - assisted-service-operator.v0.2.4
+      - assisted-service-operator.v0.2.5
+      - assisted-service-operator.v0.2.6
+      - assisted-service-operator.v0.2.7
+      - assisted-service-operator.v0.2.8
+      - assisted-service-operator.v0.2.9
+  - name: assisted-service-operator.v0.2.13
+    replaces: assisted-service-operator.v0.2.12
+    skipRange: '>=0.0.1 <0.2.13'
+    skips:
+      - assisted-service-operator.v0.0.1
+      - assisted-service-operator.v0.0.2
+      - assisted-service-operator.v0.0.3
+      - assisted-service-operator.v0.0.4
+      - assisted-service-operator.v0.0.5
+      - assisted-service-operator.v0.0.5-rc.1
+      - assisted-service-operator.v0.0.6
+      - assisted-service-operator.v0.0.7
+      - assisted-service-operator.v0.0.8
+      - assisted-service-operator.v0.1.0
+      - assisted-service-operator.v0.1.1
+      - assisted-service-operator.v0.1.2
+      - assisted-service-operator.v0.2.0
+      - assisted-service-operator.v0.2.1
+      - assisted-service-operator.v0.2.10
+      - assisted-service-operator.v0.2.11
+      - assisted-service-operator.v0.2.12
+      - assisted-service-operator.v0.2.2
+      - assisted-service-operator.v0.2.3
+      - assisted-service-operator.v0.2.4
+      - assisted-service-operator.v0.2.5
+      - assisted-service-operator.v0.2.6
+      - assisted-service-operator.v0.2.7
+      - assisted-service-operator.v0.2.8
+      - assisted-service-operator.v0.2.9
+  - name: assisted-service-operator.v0.2.14
+    replaces: assisted-service-operator.v0.2.13
+    skipRange: '>=0.0.1 <0.2.14'
+    skips:
+      - assisted-service-operator.v0.0.1
+      - assisted-service-operator.v0.0.2
+      - assisted-service-operator.v0.0.3
+      - assisted-service-operator.v0.0.4
+      - assisted-service-operator.v0.0.5
+      - assisted-service-operator.v0.0.5-rc.1
+      - assisted-service-operator.v0.0.6
+      - assisted-service-operator.v0.0.7
+      - assisted-service-operator.v0.0.8
+      - assisted-service-operator.v0.1.0
+      - assisted-service-operator.v0.1.1
+      - assisted-service-operator.v0.1.2
+      - assisted-service-operator.v0.2.0
+      - assisted-service-operator.v0.2.1
+      - assisted-service-operator.v0.2.10
+      - assisted-service-operator.v0.2.11
+      - assisted-service-operator.v0.2.12
+      - assisted-service-operator.v0.2.13
+      - assisted-service-operator.v0.2.2
+      - assisted-service-operator.v0.2.3
+      - assisted-service-operator.v0.2.4
+      - assisted-service-operator.v0.2.5
+      - assisted-service-operator.v0.2.6
+      - assisted-service-operator.v0.2.7
+      - assisted-service-operator.v0.2.8
+      - assisted-service-operator.v0.2.9
+  - name: assisted-service-operator.v0.2.15
+    replaces: assisted-service-operator.v0.2.14
+    skipRange: '>=0.0.1 <0.2.15'
+    skips:
+      - assisted-service-operator.v0.0.1
+      - assisted-service-operator.v0.0.2
+      - assisted-service-operator.v0.0.3
+      - assisted-service-operator.v0.0.4
+      - assisted-service-operator.v0.0.5
+      - assisted-service-operator.v0.0.5-rc.1
+      - assisted-service-operator.v0.0.6
+      - assisted-service-operator.v0.0.7
+      - assisted-service-operator.v0.0.8
+      - assisted-service-operator.v0.1.0
+      - assisted-service-operator.v0.1.1
+      - assisted-service-operator.v0.1.2
+      - assisted-service-operator.v0.2.0
+      - assisted-service-operator.v0.2.1
+      - assisted-service-operator.v0.2.10
+      - assisted-service-operator.v0.2.11
+      - assisted-service-operator.v0.2.12
+      - assisted-service-operator.v0.2.13
+      - assisted-service-operator.v0.2.14
+      - assisted-service-operator.v0.2.2
+      - assisted-service-operator.v0.2.3
+      - assisted-service-operator.v0.2.4
+      - assisted-service-operator.v0.2.5
+      - assisted-service-operator.v0.2.6
+      - assisted-service-operator.v0.2.7
+      - assisted-service-operator.v0.2.8
+      - assisted-service-operator.v0.2.9
+  - name: assisted-service-operator.v0.2.16
+    replaces: assisted-service-operator.v0.2.15
+    skipRange: '>=0.0.1 <0.2.16'
+    skips:
+      - assisted-service-operator.v0.0.1
+      - assisted-service-operator.v0.0.2
+      - assisted-service-operator.v0.0.3
+      - assisted-service-operator.v0.0.4
+      - assisted-service-operator.v0.0.5
+      - assisted-service-operator.v0.0.5-rc.1
+      - assisted-service-operator.v0.0.6
+      - assisted-service-operator.v0.0.7
+      - assisted-service-operator.v0.0.8
+      - assisted-service-operator.v0.1.0
+      - assisted-service-operator.v0.1.1
+      - assisted-service-operator.v0.1.2
+      - assisted-service-operator.v0.2.0
+      - assisted-service-operator.v0.2.1
+      - assisted-service-operator.v0.2.10
+      - assisted-service-operator.v0.2.11
+      - assisted-service-operator.v0.2.12
+      - assisted-service-operator.v0.2.13
+      - assisted-service-operator.v0.2.14
+      - assisted-service-operator.v0.2.15
+      - assisted-service-operator.v0.2.2
+      - assisted-service-operator.v0.2.3
+      - assisted-service-operator.v0.2.4
+      - assisted-service-operator.v0.2.5
+      - assisted-service-operator.v0.2.6
+      - assisted-service-operator.v0.2.7
+      - assisted-service-operator.v0.2.8
+      - assisted-service-operator.v0.2.9
+  - name: assisted-service-operator.v0.2.17
+    replaces: assisted-service-operator.v0.2.16
+    skipRange: '>=0.0.1 <0.2.17'
+    skips:
+      - assisted-service-operator.v0.0.1
+      - assisted-service-operator.v0.0.2
+      - assisted-service-operator.v0.0.3
+      - assisted-service-operator.v0.0.4
+      - assisted-service-operator.v0.0.5
+      - assisted-service-operator.v0.0.5-rc.1
+      - assisted-service-operator.v0.0.6
+      - assisted-service-operator.v0.0.7
+      - assisted-service-operator.v0.0.8
+      - assisted-service-operator.v0.1.0
+      - assisted-service-operator.v0.1.1
+      - assisted-service-operator.v0.1.2
+      - assisted-service-operator.v0.2.0
+      - assisted-service-operator.v0.2.1
+      - assisted-service-operator.v0.2.10
+      - assisted-service-operator.v0.2.11
+      - assisted-service-operator.v0.2.12
+      - assisted-service-operator.v0.2.13
+      - assisted-service-operator.v0.2.14
+      - assisted-service-operator.v0.2.15
+      - assisted-service-operator.v0.2.16
+      - assisted-service-operator.v0.2.2
+      - assisted-service-operator.v0.2.3
+      - assisted-service-operator.v0.2.4
+      - assisted-service-operator.v0.2.5
+      - assisted-service-operator.v0.2.6
+      - assisted-service-operator.v0.2.7
+      - assisted-service-operator.v0.2.8
+      - assisted-service-operator.v0.2.9
+  - name: assisted-service-operator.v0.2.18
+    replaces: assisted-service-operator.v0.2.17
+    skipRange: '>=0.0.1 <0.2.18'
+    skips:
+      - assisted-service-operator.v0.0.1
+      - assisted-service-operator.v0.0.2
+      - assisted-service-operator.v0.0.3
+      - assisted-service-operator.v0.0.4
+      - assisted-service-operator.v0.0.5
+      - assisted-service-operator.v0.0.5-rc.1
+      - assisted-service-operator.v0.0.6
+      - assisted-service-operator.v0.0.7
+      - assisted-service-operator.v0.0.8
+      - assisted-service-operator.v0.1.0
+      - assisted-service-operator.v0.1.1
+      - assisted-service-operator.v0.1.2
+      - assisted-service-operator.v0.2.0
+      - assisted-service-operator.v0.2.1
+      - assisted-service-operator.v0.2.10
+      - assisted-service-operator.v0.2.11
+      - assisted-service-operator.v0.2.12
+      - assisted-service-operator.v0.2.13
+      - assisted-service-operator.v0.2.14
+      - assisted-service-operator.v0.2.15
+      - assisted-service-operator.v0.2.16
+      - assisted-service-operator.v0.2.17
+      - assisted-service-operator.v0.2.2
+      - assisted-service-operator.v0.2.3
+      - assisted-service-operator.v0.2.4
+      - assisted-service-operator.v0.2.5
+      - assisted-service-operator.v0.2.6
+      - assisted-service-operator.v0.2.7
+      - assisted-service-operator.v0.2.8
+      - assisted-service-operator.v0.2.9
+  - name: assisted-service-operator.v0.2.19
+    replaces: assisted-service-operator.v0.2.18
+    skipRange: '>=0.0.1 <0.2.19'
+    skips:
+      - assisted-service-operator.v0.0.1
+      - assisted-service-operator.v0.0.2
+      - assisted-service-operator.v0.0.3
+      - assisted-service-operator.v0.0.4
+      - assisted-service-operator.v0.0.5
+      - assisted-service-operator.v0.0.5-rc.1
+      - assisted-service-operator.v0.0.6
+      - assisted-service-operator.v0.0.7
+      - assisted-service-operator.v0.0.8
+      - assisted-service-operator.v0.1.0
+      - assisted-service-operator.v0.1.1
+      - assisted-service-operator.v0.1.2
+      - assisted-service-operator.v0.2.0
+      - assisted-service-operator.v0.2.1
+      - assisted-service-operator.v0.2.10
+      - assisted-service-operator.v0.2.11
+      - assisted-service-operator.v0.2.12
+      - assisted-service-operator.v0.2.13
+      - assisted-service-operator.v0.2.14
+      - assisted-service-operator.v0.2.15
+      - assisted-service-operator.v0.2.16
+      - assisted-service-operator.v0.2.17
+      - assisted-service-operator.v0.2.18
+      - assisted-service-operator.v0.2.2
+      - assisted-service-operator.v0.2.3
+      - assisted-service-operator.v0.2.4
+      - assisted-service-operator.v0.2.5
+      - assisted-service-operator.v0.2.6
+      - assisted-service-operator.v0.2.7
+      - assisted-service-operator.v0.2.8
+      - assisted-service-operator.v0.2.9
+  - name: assisted-service-operator.v0.2.2
+    replaces: assisted-service-operator.v0.2.1
+    skipRange: '>=0.0.1 <0.2.2'
+    skips:
+      - assisted-service-operator.v0.0.1
+      - assisted-service-operator.v0.0.2
+      - assisted-service-operator.v0.0.3
+      - assisted-service-operator.v0.0.4
+      - assisted-service-operator.v0.0.5
+      - assisted-service-operator.v0.0.5-rc.1
+      - assisted-service-operator.v0.0.6
+      - assisted-service-operator.v0.0.7
+      - assisted-service-operator.v0.0.8
+      - assisted-service-operator.v0.1.0
+      - assisted-service-operator.v0.1.1
+      - assisted-service-operator.v0.2.0
+      - assisted-service-operator.v0.2.1
+  - name: assisted-service-operator.v0.2.20
+    replaces: assisted-service-operator.v0.2.19
+    skipRange: '>=0.0.1 <0.2.20'
+    skips:
+      - assisted-service-operator.v0.0.1
+      - assisted-service-operator.v0.0.2
+      - assisted-service-operator.v0.0.3
+      - assisted-service-operator.v0.0.4
+      - assisted-service-operator.v0.0.5
+      - assisted-service-operator.v0.0.5-rc.1
+      - assisted-service-operator.v0.0.6
+      - assisted-service-operator.v0.0.7
+      - assisted-service-operator.v0.0.8
+      - assisted-service-operator.v0.1.0
+      - assisted-service-operator.v0.1.1
+      - assisted-service-operator.v0.1.2
+      - assisted-service-operator.v0.1.3
+      - assisted-service-operator.v0.2.0
+      - assisted-service-operator.v0.2.1
+      - assisted-service-operator.v0.2.10
+      - assisted-service-operator.v0.2.11
+      - assisted-service-operator.v0.2.12
+      - assisted-service-operator.v0.2.13
+      - assisted-service-operator.v0.2.14
+      - assisted-service-operator.v0.2.15
+      - assisted-service-operator.v0.2.16
+      - assisted-service-operator.v0.2.17
+      - assisted-service-operator.v0.2.18
+      - assisted-service-operator.v0.2.19
+      - assisted-service-operator.v0.2.2
+      - assisted-service-operator.v0.2.3
+      - assisted-service-operator.v0.2.4
+      - assisted-service-operator.v0.2.5
+      - assisted-service-operator.v0.2.6
+      - assisted-service-operator.v0.2.7
+      - assisted-service-operator.v0.2.8
+      - assisted-service-operator.v0.2.9
+  - name: assisted-service-operator.v0.2.21
+    replaces: assisted-service-operator.v0.2.20
+    skipRange: '>=0.0.1 <0.2.21'
+    skips:
+      - assisted-service-operator.v0.0.1
+      - assisted-service-operator.v0.0.2
+      - assisted-service-operator.v0.0.3
+      - assisted-service-operator.v0.0.4
+      - assisted-service-operator.v0.0.5
+      - assisted-service-operator.v0.0.5-rc.1
+      - assisted-service-operator.v0.0.6
+      - assisted-service-operator.v0.0.7
+      - assisted-service-operator.v0.0.8
+      - assisted-service-operator.v0.1.0
+      - assisted-service-operator.v0.1.1
+      - assisted-service-operator.v0.1.2
+      - assisted-service-operator.v0.1.3
+      - assisted-service-operator.v0.2.0
+      - assisted-service-operator.v0.2.1
+      - assisted-service-operator.v0.2.10
+      - assisted-service-operator.v0.2.11
+      - assisted-service-operator.v0.2.12
+      - assisted-service-operator.v0.2.13
+      - assisted-service-operator.v0.2.14
+      - assisted-service-operator.v0.2.15
+      - assisted-service-operator.v0.2.16
+      - assisted-service-operator.v0.2.17
+      - assisted-service-operator.v0.2.18
+      - assisted-service-operator.v0.2.19
+      - assisted-service-operator.v0.2.2
+      - assisted-service-operator.v0.2.20
+      - assisted-service-operator.v0.2.3
+      - assisted-service-operator.v0.2.4
+      - assisted-service-operator.v0.2.5
+      - assisted-service-operator.v0.2.6
+      - assisted-service-operator.v0.2.7
+      - assisted-service-operator.v0.2.8
+      - assisted-service-operator.v0.2.9
+  - name: assisted-service-operator.v0.2.22
+    replaces: assisted-service-operator.v0.2.21
+    skipRange: '>=0.0.1 <0.2.22'
+    skips:
+      - assisted-service-operator.v0.0.1
+      - assisted-service-operator.v0.0.2
+      - assisted-service-operator.v0.0.3
+      - assisted-service-operator.v0.0.4
+      - assisted-service-operator.v0.0.5
+      - assisted-service-operator.v0.0.5-rc.1
+      - assisted-service-operator.v0.0.6
+      - assisted-service-operator.v0.0.7
+      - assisted-service-operator.v0.0.8
+      - assisted-service-operator.v0.1.0
+      - assisted-service-operator.v0.1.1
+      - assisted-service-operator.v0.1.2
+      - assisted-service-operator.v0.1.3
+      - assisted-service-operator.v0.2.0
+      - assisted-service-operator.v0.2.1
+      - assisted-service-operator.v0.2.10
+      - assisted-service-operator.v0.2.11
+      - assisted-service-operator.v0.2.12
+      - assisted-service-operator.v0.2.13
+      - assisted-service-operator.v0.2.14
+      - assisted-service-operator.v0.2.15
+      - assisted-service-operator.v0.2.16
+      - assisted-service-operator.v0.2.17
+      - assisted-service-operator.v0.2.18
+      - assisted-service-operator.v0.2.19
+      - assisted-service-operator.v0.2.2
+      - assisted-service-operator.v0.2.20
+      - assisted-service-operator.v0.2.21
+      - assisted-service-operator.v0.2.3
+      - assisted-service-operator.v0.2.4
+      - assisted-service-operator.v0.2.5
+      - assisted-service-operator.v0.2.6
+      - assisted-service-operator.v0.2.7
+      - assisted-service-operator.v0.2.8
+      - assisted-service-operator.v0.2.9
+  - name: assisted-service-operator.v0.2.23
+    replaces: assisted-service-operator.v0.2.22
+    skipRange: '>=0.0.1 <0.2.23'
+    skips:
+      - assisted-service-operator.v0.0.1
+      - assisted-service-operator.v0.0.2
+      - assisted-service-operator.v0.0.3
+      - assisted-service-operator.v0.0.4
+      - assisted-service-operator.v0.0.5
+      - assisted-service-operator.v0.0.5-rc.1
+      - assisted-service-operator.v0.0.6
+      - assisted-service-operator.v0.0.7
+      - assisted-service-operator.v0.0.8
+      - assisted-service-operator.v0.1.0
+      - assisted-service-operator.v0.1.1
+      - assisted-service-operator.v0.1.2
+      - assisted-service-operator.v0.1.3
+      - assisted-service-operator.v0.2.0
+      - assisted-service-operator.v0.2.1
+      - assisted-service-operator.v0.2.10
+      - assisted-service-operator.v0.2.11
+      - assisted-service-operator.v0.2.12
+      - assisted-service-operator.v0.2.13
+      - assisted-service-operator.v0.2.14
+      - assisted-service-operator.v0.2.15
+      - assisted-service-operator.v0.2.16
+      - assisted-service-operator.v0.2.17
+      - assisted-service-operator.v0.2.18
+      - assisted-service-operator.v0.2.19
+      - assisted-service-operator.v0.2.2
+      - assisted-service-operator.v0.2.20
+      - assisted-service-operator.v0.2.21
+      - assisted-service-operator.v0.2.22
+      - assisted-service-operator.v0.2.3
+      - assisted-service-operator.v0.2.4
+      - assisted-service-operator.v0.2.5
+      - assisted-service-operator.v0.2.6
+      - assisted-service-operator.v0.2.7
+      - assisted-service-operator.v0.2.8
+      - assisted-service-operator.v0.2.9
+  - name: assisted-service-operator.v0.2.24
+    replaces: assisted-service-operator.v0.2.23
+    skipRange: '>=0.0.1 <0.2.24'
+    skips:
+      - assisted-service-operator.v0.0.1
+      - assisted-service-operator.v0.0.2
+      - assisted-service-operator.v0.0.3
+      - assisted-service-operator.v0.0.4
+      - assisted-service-operator.v0.0.5
+      - assisted-service-operator.v0.0.5-rc.1
+      - assisted-service-operator.v0.0.6
+      - assisted-service-operator.v0.0.7
+      - assisted-service-operator.v0.0.8
+      - assisted-service-operator.v0.1.0
+      - assisted-service-operator.v0.1.1
+      - assisted-service-operator.v0.1.2
+      - assisted-service-operator.v0.1.3
+      - assisted-service-operator.v0.2.0
+      - assisted-service-operator.v0.2.1
+      - assisted-service-operator.v0.2.10
+      - assisted-service-operator.v0.2.11
+      - assisted-service-operator.v0.2.12
+      - assisted-service-operator.v0.2.13
+      - assisted-service-operator.v0.2.14
+      - assisted-service-operator.v0.2.15
+      - assisted-service-operator.v0.2.16
+      - assisted-service-operator.v0.2.17
+      - assisted-service-operator.v0.2.18
+      - assisted-service-operator.v0.2.19
+      - assisted-service-operator.v0.2.2
+      - assisted-service-operator.v0.2.20
+      - assisted-service-operator.v0.2.21
+      - assisted-service-operator.v0.2.22
+      - assisted-service-operator.v0.2.23
+      - assisted-service-operator.v0.2.3
+      - assisted-service-operator.v0.2.4
+      - assisted-service-operator.v0.2.5
+      - assisted-service-operator.v0.2.6
+      - assisted-service-operator.v0.2.7
+      - assisted-service-operator.v0.2.8
+      - assisted-service-operator.v0.2.9
+  - name: assisted-service-operator.v0.2.25
+    replaces: assisted-service-operator.v0.2.24
+    skipRange: '>=0.0.1 <0.2.25'
+    skips:
+      - assisted-service-operator.v0.0.1
+      - assisted-service-operator.v0.0.2
+      - assisted-service-operator.v0.0.3
+      - assisted-service-operator.v0.0.4
+      - assisted-service-operator.v0.0.5
+      - assisted-service-operator.v0.0.5-rc.1
+      - assisted-service-operator.v0.0.6
+      - assisted-service-operator.v0.0.7
+      - assisted-service-operator.v0.0.8
+      - assisted-service-operator.v0.1.0
+      - assisted-service-operator.v0.1.1
+      - assisted-service-operator.v0.1.2
+      - assisted-service-operator.v0.1.3
+      - assisted-service-operator.v0.2.0
+      - assisted-service-operator.v0.2.1
+      - assisted-service-operator.v0.2.10
+      - assisted-service-operator.v0.2.11
+      - assisted-service-operator.v0.2.12
+      - assisted-service-operator.v0.2.13
+      - assisted-service-operator.v0.2.14
+      - assisted-service-operator.v0.2.15
+      - assisted-service-operator.v0.2.16
+      - assisted-service-operator.v0.2.17
+      - assisted-service-operator.v0.2.18
+      - assisted-service-operator.v0.2.19
+      - assisted-service-operator.v0.2.2
+      - assisted-service-operator.v0.2.20
+      - assisted-service-operator.v0.2.21
+      - assisted-service-operator.v0.2.22
+      - assisted-service-operator.v0.2.23
+      - assisted-service-operator.v0.2.24
+      - assisted-service-operator.v0.2.3
+      - assisted-service-operator.v0.2.4
+      - assisted-service-operator.v0.2.5
+      - assisted-service-operator.v0.2.6
+      - assisted-service-operator.v0.2.7
+      - assisted-service-operator.v0.2.8
+      - assisted-service-operator.v0.2.9
+  - name: assisted-service-operator.v0.2.3
+    replaces: assisted-service-operator.v0.2.2
+    skipRange: '>=0.0.1 <0.2.3'
+    skips:
+      - assisted-service-operator.v0.0.1
+      - assisted-service-operator.v0.0.2
+      - assisted-service-operator.v0.0.3
+      - assisted-service-operator.v0.0.4
+      - assisted-service-operator.v0.0.5
+      - assisted-service-operator.v0.0.5-rc.1
+      - assisted-service-operator.v0.0.6
+      - assisted-service-operator.v0.0.7
+      - assisted-service-operator.v0.0.8
+      - assisted-service-operator.v0.1.0
+      - assisted-service-operator.v0.1.1
+      - assisted-service-operator.v0.2.0
+      - assisted-service-operator.v0.2.1
+      - assisted-service-operator.v0.2.2
+  - name: assisted-service-operator.v0.2.4
+    replaces: assisted-service-operator.v0.2.3
+    skipRange: '>=0.0.1 <0.2.4'
+    skips:
+      - assisted-service-operator.v0.0.1
+      - assisted-service-operator.v0.0.2
+      - assisted-service-operator.v0.0.3
+      - assisted-service-operator.v0.0.4
+      - assisted-service-operator.v0.0.5
+      - assisted-service-operator.v0.0.5-rc.1
+      - assisted-service-operator.v0.0.6
+      - assisted-service-operator.v0.0.7
+      - assisted-service-operator.v0.0.8
+      - assisted-service-operator.v0.1.0
+      - assisted-service-operator.v0.1.1
+      - assisted-service-operator.v0.2.0
+      - assisted-service-operator.v0.2.1
+      - assisted-service-operator.v0.2.2
+      - assisted-service-operator.v0.2.3
+  - name: assisted-service-operator.v0.2.5
+    replaces: assisted-service-operator.v0.2.4
+    skipRange: '>=0.0.1 <0.2.5'
+    skips:
+      - assisted-service-operator.v0.0.1
+      - assisted-service-operator.v0.0.2
+      - assisted-service-operator.v0.0.3
+      - assisted-service-operator.v0.0.4
+      - assisted-service-operator.v0.0.5
+      - assisted-service-operator.v0.0.5-rc.1
+      - assisted-service-operator.v0.0.6
+      - assisted-service-operator.v0.0.7
+      - assisted-service-operator.v0.0.8
+      - assisted-service-operator.v0.1.0
+      - assisted-service-operator.v0.1.1
+      - assisted-service-operator.v0.2.0
+      - assisted-service-operator.v0.2.1
+      - assisted-service-operator.v0.2.2
+      - assisted-service-operator.v0.2.3
+      - assisted-service-operator.v0.2.4
+  - name: assisted-service-operator.v0.2.6
+    replaces: assisted-service-operator.v0.2.5
+    skipRange: '>=0.0.1 <0.2.6'
+    skips:
+      - assisted-service-operator.v0.0.1
+      - assisted-service-operator.v0.0.2
+      - assisted-service-operator.v0.0.3
+      - assisted-service-operator.v0.0.4
+      - assisted-service-operator.v0.0.5
+      - assisted-service-operator.v0.0.5-rc.1
+      - assisted-service-operator.v0.0.6
+      - assisted-service-operator.v0.0.7
+      - assisted-service-operator.v0.0.8
+      - assisted-service-operator.v0.1.0
+      - assisted-service-operator.v0.1.1
+      - assisted-service-operator.v0.2.0
+      - assisted-service-operator.v0.2.1
+      - assisted-service-operator.v0.2.2
+      - assisted-service-operator.v0.2.3
+      - assisted-service-operator.v0.2.4
+      - assisted-service-operator.v0.2.5
+  - name: assisted-service-operator.v0.2.7
+    replaces: assisted-service-operator.v0.2.6
+    skipRange: '>=0.0.1 <0.2.7'
+    skips:
+      - assisted-service-operator.v0.0.1
+      - assisted-service-operator.v0.0.2
+      - assisted-service-operator.v0.0.3
+      - assisted-service-operator.v0.0.4
+      - assisted-service-operator.v0.0.5
+      - assisted-service-operator.v0.0.5-rc.1
+      - assisted-service-operator.v0.0.6
+      - assisted-service-operator.v0.0.7
+      - assisted-service-operator.v0.0.8
+      - assisted-service-operator.v0.1.0
+      - assisted-service-operator.v0.1.1
+      - assisted-service-operator.v0.2.0
+      - assisted-service-operator.v0.2.1
+      - assisted-service-operator.v0.2.2
+      - assisted-service-operator.v0.2.3
+      - assisted-service-operator.v0.2.4
+      - assisted-service-operator.v0.2.5
+      - assisted-service-operator.v0.2.6
+  - name: assisted-service-operator.v0.2.8
+    replaces: assisted-service-operator.v0.2.7
+    skipRange: '>=0.0.1 <0.2.8'
+    skips:
+      - assisted-service-operator.v0.0.1
+      - assisted-service-operator.v0.0.2
+      - assisted-service-operator.v0.0.3
+      - assisted-service-operator.v0.0.4
+      - assisted-service-operator.v0.0.5
+      - assisted-service-operator.v0.0.5-rc.1
+      - assisted-service-operator.v0.0.6
+      - assisted-service-operator.v0.0.7
+      - assisted-service-operator.v0.0.8
+      - assisted-service-operator.v0.1.0
+      - assisted-service-operator.v0.1.1
+      - assisted-service-operator.v0.2.0
+      - assisted-service-operator.v0.2.1
+      - assisted-service-operator.v0.2.2
+      - assisted-service-operator.v0.2.3
+      - assisted-service-operator.v0.2.4
+      - assisted-service-operator.v0.2.5
+      - assisted-service-operator.v0.2.6
+      - assisted-service-operator.v0.2.7
+  - name: assisted-service-operator.v0.2.9
+    replaces: assisted-service-operator.v0.2.8
+    skipRange: '>=0.0.1 <0.2.9'
+    skips:
+      - assisted-service-operator.v0.0.1
+      - assisted-service-operator.v0.0.2
+      - assisted-service-operator.v0.0.3
+      - assisted-service-operator.v0.0.4
+      - assisted-service-operator.v0.0.5
+      - assisted-service-operator.v0.0.5-rc.1
+      - assisted-service-operator.v0.0.6
+      - assisted-service-operator.v0.0.7
+      - assisted-service-operator.v0.0.8
+      - assisted-service-operator.v0.1.0
+      - assisted-service-operator.v0.1.1
+      - assisted-service-operator.v0.2.0
+      - assisted-service-operator.v0.2.1
+      - assisted-service-operator.v0.2.2
+      - assisted-service-operator.v0.2.3
+      - assisted-service-operator.v0.2.4
+      - assisted-service-operator.v0.2.5
+      - assisted-service-operator.v0.2.6
+      - assisted-service-operator.v0.2.7
+      - assisted-service-operator.v0.2.8
+  - name: assisted-service-operator.v0.3.25
+    replaces: assisted-service-operator.v0.2.25
+    skipRange: '>=0.0.1 <0.3.25'
+    skips:
+      - assisted-service-operator.v0.0.1
+      - assisted-service-operator.v0.0.2
+      - assisted-service-operator.v0.0.3
+      - assisted-service-operator.v0.0.4
+      - assisted-service-operator.v0.0.5
+      - assisted-service-operator.v0.0.5-rc.1
+      - assisted-service-operator.v0.0.6
+      - assisted-service-operator.v0.0.7
+      - assisted-service-operator.v0.0.8
+      - assisted-service-operator.v0.1.0
+      - assisted-service-operator.v0.1.1
+      - assisted-service-operator.v0.1.2
+      - assisted-service-operator.v0.1.3
+      - assisted-service-operator.v0.2.0
+      - assisted-service-operator.v0.2.1
+      - assisted-service-operator.v0.2.10
+      - assisted-service-operator.v0.2.11
+      - assisted-service-operator.v0.2.12
+      - assisted-service-operator.v0.2.13
+      - assisted-service-operator.v0.2.14
+      - assisted-service-operator.v0.2.15
+      - assisted-service-operator.v0.2.16
+      - assisted-service-operator.v0.2.17
+      - assisted-service-operator.v0.2.18
+      - assisted-service-operator.v0.2.19
+      - assisted-service-operator.v0.2.2
+      - assisted-service-operator.v0.2.20
+      - assisted-service-operator.v0.2.21
+      - assisted-service-operator.v0.2.22
+      - assisted-service-operator.v0.2.23
+      - assisted-service-operator.v0.2.24
+      - assisted-service-operator.v0.2.25
+      - assisted-service-operator.v0.2.3
+      - assisted-service-operator.v0.2.4
+      - assisted-service-operator.v0.2.5
+      - assisted-service-operator.v0.2.6
+      - assisted-service-operator.v0.2.7
+      - assisted-service-operator.v0.2.8
+      - assisted-service-operator.v0.2.9
+  - name: assisted-service-operator.v0.3.26
+    replaces: assisted-service-operator.v0.3.25
+    skipRange: '>=0.0.1 <0.3.26'
+    skips:
+      - assisted-service-operator.v0.0.1
+      - assisted-service-operator.v0.0.2
+      - assisted-service-operator.v0.0.3
+      - assisted-service-operator.v0.0.4
+      - assisted-service-operator.v0.0.5
+      - assisted-service-operator.v0.0.5-rc.1
+      - assisted-service-operator.v0.0.6
+      - assisted-service-operator.v0.0.7
+      - assisted-service-operator.v0.0.8
+      - assisted-service-operator.v0.1.0
+      - assisted-service-operator.v0.1.1
+      - assisted-service-operator.v0.1.2
+      - assisted-service-operator.v0.1.3
+      - assisted-service-operator.v0.2.0
+      - assisted-service-operator.v0.2.1
+      - assisted-service-operator.v0.2.10
+      - assisted-service-operator.v0.2.11
+      - assisted-service-operator.v0.2.12
+      - assisted-service-operator.v0.2.13
+      - assisted-service-operator.v0.2.14
+      - assisted-service-operator.v0.2.15
+      - assisted-service-operator.v0.2.16
+      - assisted-service-operator.v0.2.17
+      - assisted-service-operator.v0.2.18
+      - assisted-service-operator.v0.2.19
+      - assisted-service-operator.v0.2.2
+      - assisted-service-operator.v0.2.20
+      - assisted-service-operator.v0.2.21
+      - assisted-service-operator.v0.2.22
+      - assisted-service-operator.v0.2.23
+      - assisted-service-operator.v0.2.24
+      - assisted-service-operator.v0.2.25
+      - assisted-service-operator.v0.2.3
+      - assisted-service-operator.v0.2.4
+      - assisted-service-operator.v0.2.5
+      - assisted-service-operator.v0.2.6
+      - assisted-service-operator.v0.2.7
+      - assisted-service-operator.v0.2.8
+      - assisted-service-operator.v0.2.9
+      - assisted-service-operator.v0.3.25
+  - name: assisted-service-operator.v0.3.27
+    replaces: assisted-service-operator.v0.3.26
+    skipRange: '>=0.0.1 <0.3.27'
+    skips:
+      - assisted-service-operator.v0.0.1
+      - assisted-service-operator.v0.0.2
+      - assisted-service-operator.v0.0.3
+      - assisted-service-operator.v0.0.4
+      - assisted-service-operator.v0.0.5
+      - assisted-service-operator.v0.0.5-rc.1
+      - assisted-service-operator.v0.0.6
+      - assisted-service-operator.v0.0.7
+      - assisted-service-operator.v0.0.8
+      - assisted-service-operator.v0.1.0
+      - assisted-service-operator.v0.1.1
+      - assisted-service-operator.v0.1.2
+      - assisted-service-operator.v0.1.3
+      - assisted-service-operator.v0.2.0
+      - assisted-service-operator.v0.2.1
+      - assisted-service-operator.v0.2.10
+      - assisted-service-operator.v0.2.11
+      - assisted-service-operator.v0.2.12
+      - assisted-service-operator.v0.2.13
+      - assisted-service-operator.v0.2.14
+      - assisted-service-operator.v0.2.15
+      - assisted-service-operator.v0.2.16
+      - assisted-service-operator.v0.2.17
+      - assisted-service-operator.v0.2.18
+      - assisted-service-operator.v0.2.19
+      - assisted-service-operator.v0.2.2
+      - assisted-service-operator.v0.2.20
+      - assisted-service-operator.v0.2.21
+      - assisted-service-operator.v0.2.22
+      - assisted-service-operator.v0.2.23
+      - assisted-service-operator.v0.2.24
+      - assisted-service-operator.v0.2.25
+      - assisted-service-operator.v0.2.3
+      - assisted-service-operator.v0.2.4
+      - assisted-service-operator.v0.2.5
+      - assisted-service-operator.v0.2.6
+      - assisted-service-operator.v0.2.7
+      - assisted-service-operator.v0.2.8
+      - assisted-service-operator.v0.2.9
+      - assisted-service-operator.v0.3.25
+      - assisted-service-operator.v0.3.26
+  - name: assisted-service-operator.v0.3.28
+    replaces: assisted-service-operator.v0.3.27
+    skipRange: '>=0.0.1 <0.3.28'
+    skips:
+      - assisted-service-operator.v0.0.1
+      - assisted-service-operator.v0.0.2
+      - assisted-service-operator.v0.0.3
+      - assisted-service-operator.v0.0.4
+      - assisted-service-operator.v0.0.5
+      - assisted-service-operator.v0.0.5-rc.1
+      - assisted-service-operator.v0.0.6
+      - assisted-service-operator.v0.0.7
+      - assisted-service-operator.v0.0.8
+      - assisted-service-operator.v0.1.0
+      - assisted-service-operator.v0.1.1
+      - assisted-service-operator.v0.1.2
+      - assisted-service-operator.v0.1.3
+      - assisted-service-operator.v0.2.0
+      - assisted-service-operator.v0.2.1
+      - assisted-service-operator.v0.2.10
+      - assisted-service-operator.v0.2.11
+      - assisted-service-operator.v0.2.12
+      - assisted-service-operator.v0.2.13
+      - assisted-service-operator.v0.2.14
+      - assisted-service-operator.v0.2.15
+      - assisted-service-operator.v0.2.16
+      - assisted-service-operator.v0.2.17
+      - assisted-service-operator.v0.2.18
+      - assisted-service-operator.v0.2.19
+      - assisted-service-operator.v0.2.2
+      - assisted-service-operator.v0.2.20
+      - assisted-service-operator.v0.2.21
+      - assisted-service-operator.v0.2.22
+      - assisted-service-operator.v0.2.23
+      - assisted-service-operator.v0.2.24
+      - assisted-service-operator.v0.2.25
+      - assisted-service-operator.v0.2.3
+      - assisted-service-operator.v0.2.4
+      - assisted-service-operator.v0.2.5
+      - assisted-service-operator.v0.2.6
+      - assisted-service-operator.v0.2.7
+      - assisted-service-operator.v0.2.8
+      - assisted-service-operator.v0.2.9
+      - assisted-service-operator.v0.3.25
+      - assisted-service-operator.v0.3.26
+      - assisted-service-operator.v0.3.27
+  - name: assisted-service-operator.v0.3.29
+    replaces: assisted-service-operator.v0.3.28
+    skipRange: '>=0.0.1 <0.3.29'
+    skips:
+      - assisted-service-operator.v0.0.1
+      - assisted-service-operator.v0.0.2
+      - assisted-service-operator.v0.0.3
+      - assisted-service-operator.v0.0.4
+      - assisted-service-operator.v0.0.5
+      - assisted-service-operator.v0.0.5-rc.1
+      - assisted-service-operator.v0.0.6
+      - assisted-service-operator.v0.0.7
+      - assisted-service-operator.v0.0.8
+      - assisted-service-operator.v0.1.0
+      - assisted-service-operator.v0.1.1
+      - assisted-service-operator.v0.1.2
+      - assisted-service-operator.v0.1.3
+      - assisted-service-operator.v0.2.0
+      - assisted-service-operator.v0.2.1
+      - assisted-service-operator.v0.2.10
+      - assisted-service-operator.v0.2.11
+      - assisted-service-operator.v0.2.12
+      - assisted-service-operator.v0.2.13
+      - assisted-service-operator.v0.2.14
+      - assisted-service-operator.v0.2.15
+      - assisted-service-operator.v0.2.16
+      - assisted-service-operator.v0.2.17
+      - assisted-service-operator.v0.2.18
+      - assisted-service-operator.v0.2.19
+      - assisted-service-operator.v0.2.2
+      - assisted-service-operator.v0.2.20
+      - assisted-service-operator.v0.2.21
+      - assisted-service-operator.v0.2.22
+      - assisted-service-operator.v0.2.23
+      - assisted-service-operator.v0.2.24
+      - assisted-service-operator.v0.2.25
+      - assisted-service-operator.v0.2.3
+      - assisted-service-operator.v0.2.4
+      - assisted-service-operator.v0.2.5
+      - assisted-service-operator.v0.2.6
+      - assisted-service-operator.v0.2.7
+      - assisted-service-operator.v0.2.8
+      - assisted-service-operator.v0.2.9
+      - assisted-service-operator.v0.3.25
+      - assisted-service-operator.v0.3.26
+      - assisted-service-operator.v0.3.27
+      - assisted-service-operator.v0.3.28
+  - name: assisted-service-operator.v0.3.30
+    replaces: assisted-service-operator.v0.3.29
+    skipRange: '>=0.0.1 <0.3.30'
+    skips:
+      - assisted-service-operator.v0.0.1
+      - assisted-service-operator.v0.0.2
+      - assisted-service-operator.v0.0.3
+      - assisted-service-operator.v0.0.4
+      - assisted-service-operator.v0.0.5
+      - assisted-service-operator.v0.0.5-rc.1
+      - assisted-service-operator.v0.0.6
+      - assisted-service-operator.v0.0.7
+      - assisted-service-operator.v0.0.8
+      - assisted-service-operator.v0.1.0
+      - assisted-service-operator.v0.1.1
+      - assisted-service-operator.v0.1.2
+      - assisted-service-operator.v0.1.3
+      - assisted-service-operator.v0.2.0
+      - assisted-service-operator.v0.2.1
+      - assisted-service-operator.v0.2.10
+      - assisted-service-operator.v0.2.11
+      - assisted-service-operator.v0.2.12
+      - assisted-service-operator.v0.2.13
+      - assisted-service-operator.v0.2.14
+      - assisted-service-operator.v0.2.15
+      - assisted-service-operator.v0.2.16
+      - assisted-service-operator.v0.2.17
+      - assisted-service-operator.v0.2.18
+      - assisted-service-operator.v0.2.19
+      - assisted-service-operator.v0.2.2
+      - assisted-service-operator.v0.2.20
+      - assisted-service-operator.v0.2.21
+      - assisted-service-operator.v0.2.22
+      - assisted-service-operator.v0.2.23
+      - assisted-service-operator.v0.2.24
+      - assisted-service-operator.v0.2.25
+      - assisted-service-operator.v0.2.3
+      - assisted-service-operator.v0.2.4
+      - assisted-service-operator.v0.2.5
+      - assisted-service-operator.v0.2.6
+      - assisted-service-operator.v0.2.7
+      - assisted-service-operator.v0.2.8
+      - assisted-service-operator.v0.2.9
+      - assisted-service-operator.v0.3.25
+      - assisted-service-operator.v0.3.26
+      - assisted-service-operator.v0.3.27
+      - assisted-service-operator.v0.3.28
+      - assisted-service-operator.v0.3.29
+  - name: assisted-service-operator.v0.3.31
+    replaces: assisted-service-operator.v0.3.30
+    skipRange: '>=0.0.1 <0.3.31'
+    skips:
+      - assisted-service-operator.v0.0.1
+      - assisted-service-operator.v0.0.2
+      - assisted-service-operator.v0.0.3
+      - assisted-service-operator.v0.0.4
+      - assisted-service-operator.v0.0.5
+      - assisted-service-operator.v0.0.5-rc.1
+      - assisted-service-operator.v0.0.6
+      - assisted-service-operator.v0.0.7
+      - assisted-service-operator.v0.0.8
+      - assisted-service-operator.v0.1.0
+      - assisted-service-operator.v0.1.1
+      - assisted-service-operator.v0.1.2
+      - assisted-service-operator.v0.1.3
+      - assisted-service-operator.v0.2.0
+      - assisted-service-operator.v0.2.1
+      - assisted-service-operator.v0.2.10
+      - assisted-service-operator.v0.2.11
+      - assisted-service-operator.v0.2.12
+      - assisted-service-operator.v0.2.13
+      - assisted-service-operator.v0.2.14
+      - assisted-service-operator.v0.2.15
+      - assisted-service-operator.v0.2.16
+      - assisted-service-operator.v0.2.17
+      - assisted-service-operator.v0.2.18
+      - assisted-service-operator.v0.2.19
+      - assisted-service-operator.v0.2.2
+      - assisted-service-operator.v0.2.20
+      - assisted-service-operator.v0.2.21
+      - assisted-service-operator.v0.2.22
+      - assisted-service-operator.v0.2.23
+      - assisted-service-operator.v0.2.24
+      - assisted-service-operator.v0.2.25
+      - assisted-service-operator.v0.2.3
+      - assisted-service-operator.v0.2.4
+      - assisted-service-operator.v0.2.5
+      - assisted-service-operator.v0.2.6
+      - assisted-service-operator.v0.2.7
+      - assisted-service-operator.v0.2.8
+      - assisted-service-operator.v0.2.9
+      - assisted-service-operator.v0.3.25
+      - assisted-service-operator.v0.3.26
+      - assisted-service-operator.v0.3.27
+      - assisted-service-operator.v0.3.28
+      - assisted-service-operator.v0.3.29
+      - assisted-service-operator.v0.3.30
+  - name: assisted-service-operator.v0.3.32
+    replaces: assisted-service-operator.v0.3.31
+    skipRange: '>=0.0.1 <0.3.32'
+    skips:
+      - assisted-service-operator.v0.0.1
+      - assisted-service-operator.v0.0.2
+      - assisted-service-operator.v0.0.3
+      - assisted-service-operator.v0.0.4
+      - assisted-service-operator.v0.0.5
+      - assisted-service-operator.v0.0.5-rc.1
+      - assisted-service-operator.v0.0.6
+      - assisted-service-operator.v0.0.7
+      - assisted-service-operator.v0.0.8
+      - assisted-service-operator.v0.1.0
+      - assisted-service-operator.v0.1.1
+      - assisted-service-operator.v0.1.2
+      - assisted-service-operator.v0.1.3
+      - assisted-service-operator.v0.2.0
+      - assisted-service-operator.v0.2.1
+      - assisted-service-operator.v0.2.10
+      - assisted-service-operator.v0.2.11
+      - assisted-service-operator.v0.2.12
+      - assisted-service-operator.v0.2.13
+      - assisted-service-operator.v0.2.14
+      - assisted-service-operator.v0.2.15
+      - assisted-service-operator.v0.2.16
+      - assisted-service-operator.v0.2.17
+      - assisted-service-operator.v0.2.18
+      - assisted-service-operator.v0.2.19
+      - assisted-service-operator.v0.2.2
+      - assisted-service-operator.v0.2.20
+      - assisted-service-operator.v0.2.21
+      - assisted-service-operator.v0.2.22
+      - assisted-service-operator.v0.2.23
+      - assisted-service-operator.v0.2.24
+      - assisted-service-operator.v0.2.25
+      - assisted-service-operator.v0.2.3
+      - assisted-service-operator.v0.2.4
+      - assisted-service-operator.v0.2.5
+      - assisted-service-operator.v0.2.6
+      - assisted-service-operator.v0.2.7
+      - assisted-service-operator.v0.2.8
+      - assisted-service-operator.v0.2.9
+      - assisted-service-operator.v0.3.25
+      - assisted-service-operator.v0.3.26
+      - assisted-service-operator.v0.3.27
+      - assisted-service-operator.v0.3.28
+      - assisted-service-operator.v0.3.29
+      - assisted-service-operator.v0.3.30
+      - assisted-service-operator.v0.3.31
+name: alpha
+package: assisted-service-operator
+schema: olm.channel

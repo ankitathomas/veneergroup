@@ -1,0 +1,114 @@
+image: quay.io/openshift-community-operators/hive-operator@sha256:905b6a171b6143cdbfec9cd718b2bfd4c67a1fa113c1819c5cde12db54e8914b
+name: hive-operator.v1.2.3427-e50103a
+package: hive-operator
+properties:
+  - type: olm.gvk
+    value:
+      group: hive.openshift.io
+      kind: Checkpoint
+      version: v1
+  - type: olm.gvk
+    value:
+      group: hive.openshift.io
+      kind: ClusterClaim
+      version: v1
+  - type: olm.gvk
+    value:
+      group: hive.openshift.io
+      kind: ClusterDeployment
+      version: v1
+  - type: olm.gvk
+    value:
+      group: hive.openshift.io
+      kind: ClusterDeprovision
+      version: v1
+  - type: olm.gvk
+    value:
+      group: hive.openshift.io
+      kind: ClusterImageSet
+      version: v1
+  - type: olm.gvk
+    value:
+      group: hive.openshift.io
+      kind: ClusterPool
+      version: v1
+  - type: olm.gvk
+    value:
+      group: hive.openshift.io
+      kind: ClusterProvision
+      version: v1
+  - type: olm.gvk
+    value:
+      group: hive.openshift.io
+      kind: ClusterRelocate
+      version: v1
+  - type: olm.gvk
+    value:
+      group: hive.openshift.io
+      kind: ClusterState
+      version: v1
+  - type: olm.gvk
+    value:
+      group: hive.openshift.io
+      kind: DNSZone
+      version: v1
+  - type: olm.gvk
+    value:
+      group: hive.openshift.io
+      kind: HiveConfig
+      version: v1
+  - type: olm.gvk
+    value:
+      group: hive.openshift.io
+      kind: MachinePool
+      version: v1
+  - type: olm.gvk
+    value:
+      group: hive.openshift.io
+      kind: MachinePoolNameLease
+      version: v1
+  - type: olm.gvk
+    value:
+      group: hive.openshift.io
+      kind: SelectorSyncIdentityProvider
+      version: v1
+  - type: olm.gvk
+    value:
+      group: hive.openshift.io
+      kind: SelectorSyncSet
+      version: v1
+  - type: olm.gvk
+    value:
+      group: hive.openshift.io
+      kind: SyncIdentityProvider
+      version: v1
+  - type: olm.gvk
+    value:
+      group: hive.openshift.io
+      kind: SyncSet
+      version: v1
+  - type: olm.gvk
+    value:
+      group: hiveinternal.openshift.io
+      kind: ClusterSync
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: hiveinternal.openshift.io
+      kind: ClusterSyncLease
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: hiveinternal.openshift.io
+      kind: FakeClusterInstall
+      version: v1alpha1
+  - type: olm.package
+    value:
+      packageName: hive-operator
+      version: 1.2.3427-e50103a
+relatedImages:
+  - image: quay.io/openshift-community-operators/hive-operator@sha256:905b6a171b6143cdbfec9cd718b2bfd4c67a1fa113c1819c5cde12db54e8914b
+    name: ""
+  - image: quay.io/openshift-hive/hive:v1.2.3427-e50103a
+    name: ""
+schema: olm.bundle

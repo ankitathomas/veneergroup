@@ -1,0 +1,23 @@
+image: quay.io/openshift-community-operators/opendatahub-operator@sha256:9825a7df350f4789b8d9afcea6799f346c0537121752a00f4cd8bc53f4954ab0
+name: opendatahub-operator.v1.1.0
+package: opendatahub-operator
+properties:
+  - type: olm.deprecated
+    value: {}
+  - type: olm.gvk
+    value:
+      group: kfdef.apps.kubeflow.org
+      kind: KfDef
+      version: v1
+  - type: olm.maxOpenShiftVersion
+    value: "4.8"
+  - type: olm.package
+    value:
+      packageName: opendatahub-operator
+      version: 1.1.0
+relatedImages:
+  - image: quay.io/opendatahub/opendatahub-operator:v1.1.0
+    name: ""
+  - image: quay.io/openshift-community-operators/opendatahub-operator@sha256:9825a7df350f4789b8d9afcea6799f346c0537121752a00f4cd8bc53f4954ab0
+    name: ""
+schema: olm.bundle

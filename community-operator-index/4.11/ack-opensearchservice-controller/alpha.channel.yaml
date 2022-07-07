@@ -1,0 +1,23 @@
+entries:
+  - name: ack-opensearchservice-controller.v0.0.10
+    replaces: ack-opensearchservice-controller.v0.0.9
+  - name: ack-opensearchservice-controller.v0.0.11
+    replaces: ack-opensearchservice-controller.v0.0.10
+  - name: ack-opensearchservice-controller.v0.0.12
+    replaces: ack-opensearchservice-controller.v0.0.11
+  - name: ack-opensearchservice-controller.v0.0.13
+    replaces: ack-opensearchservice-controller.v0.0.12
+  - name: ack-opensearchservice-controller.v0.0.4
+  - name: ack-opensearchservice-controller.v0.0.5
+    replaces: ack-opensearchservice-controller.v0.0.4
+  - name: ack-opensearchservice-controller.v0.0.6
+    replaces: ack-opensearchservice-controller.v0.0.5
+  - name: ack-opensearchservice-controller.v0.0.7
+    replaces: ack-opensearchservice-controller.v0.0.6
+  - name: ack-opensearchservice-controller.v0.0.8
+    replaces: ack-opensearchservice-controller.v0.0.7
+  - name: ack-opensearchservice-controller.v0.0.9
+    replaces: ack-opensearchservice-controller.v0.0.8
+name: alpha
+package: ack-opensearchservice-controller
+schema: olm.channel

@@ -1,0 +1,84 @@
+image: quay.io/openshift-community-operators/victoriametrics-operator@sha256:b69c618c6251b98d5d94e7524b6c50fe5754ade9beacd70eb79b73a8e64f83a1
+name: victoriametrics-operator.v0.21.0
+package: victoriametrics-operator
+properties:
+  - type: olm.gvk
+    value:
+      group: operator.victoriametrics.com
+      kind: VMAgent
+      version: v1beta1
+  - type: olm.gvk
+    value:
+      group: operator.victoriametrics.com
+      kind: VMAlert
+      version: v1beta1
+  - type: olm.gvk
+    value:
+      group: operator.victoriametrics.com
+      kind: VMAlertmanager
+      version: v1beta1
+  - type: olm.gvk
+    value:
+      group: operator.victoriametrics.com
+      kind: VMAlertmanagerConfig
+      version: v1beta1
+  - type: olm.gvk
+    value:
+      group: operator.victoriametrics.com
+      kind: VMAuth
+      version: v1beta1
+  - type: olm.gvk
+    value:
+      group: operator.victoriametrics.com
+      kind: VMCluster
+      version: v1beta1
+  - type: olm.gvk
+    value:
+      group: operator.victoriametrics.com
+      kind: VMNodeScrape
+      version: v1beta1
+  - type: olm.gvk
+    value:
+      group: operator.victoriametrics.com
+      kind: VMPodScrape
+      version: v1beta1
+  - type: olm.gvk
+    value:
+      group: operator.victoriametrics.com
+      kind: VMProbe
+      version: v1beta1
+  - type: olm.gvk
+    value:
+      group: operator.victoriametrics.com
+      kind: VMRule
+      version: v1beta1
+  - type: olm.gvk
+    value:
+      group: operator.victoriametrics.com
+      kind: VMServiceScrape
+      version: v1beta1
+  - type: olm.gvk
+    value:
+      group: operator.victoriametrics.com
+      kind: VMSingle
+      version: v1beta1
+  - type: olm.gvk
+    value:
+      group: operator.victoriametrics.com
+      kind: VMStaticScrape
+      version: v1beta1
+  - type: olm.gvk
+    value:
+      group: operator.victoriametrics.com
+      kind: VMUser
+      version: v1beta1
+  - type: olm.package
+    value:
+      packageName: victoriametrics-operator
+      version: 0.21.0
+relatedImages:
+  - image: quay.io/openshift-community-operators/victoriametrics-operator@sha256:b69c618c6251b98d5d94e7524b6c50fe5754ade9beacd70eb79b73a8e64f83a1
+    name: ""
+  - image: victoriametrics/operator:v0.21.0
+    name: ""
+schema: olm.bundle

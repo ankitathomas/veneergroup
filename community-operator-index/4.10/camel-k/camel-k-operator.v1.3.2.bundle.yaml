@@ -1,0 +1,55 @@
+image: quay.io/openshift-community-operators/camel-k@sha256:0268e33e03d720f8e62365fd542464b711f622fba6361350c30990741ef32126
+name: camel-k-operator.v1.3.2
+package: camel-k
+properties:
+  - type: olm.deprecated
+    value: {}
+  - type: olm.gvk
+    value:
+      group: camel.apache.org
+      kind: Build
+      version: v1
+  - type: olm.gvk
+    value:
+      group: camel.apache.org
+      kind: CamelCatalog
+      version: v1
+  - type: olm.gvk
+    value:
+      group: camel.apache.org
+      kind: Integration
+      version: v1
+  - type: olm.gvk
+    value:
+      group: camel.apache.org
+      kind: IntegrationKit
+      version: v1
+  - type: olm.gvk
+    value:
+      group: camel.apache.org
+      kind: IntegrationPlatform
+      version: v1
+  - type: olm.gvk
+    value:
+      group: camel.apache.org
+      kind: Kamelet
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: camel.apache.org
+      kind: KameletBinding
+      version: v1alpha1
+  - type: olm.maxOpenShiftVersion
+    value: "4.8"
+  - type: olm.package
+    value:
+      packageName: camel-k
+      version: 1.3.2
+relatedImages:
+  - image: adoptopenjdk/openjdk11:slim
+    name: ""
+  - image: docker.io/apache/camel-k:1.3.2
+    name: ""
+  - image: quay.io/openshift-community-operators/camel-k@sha256:0268e33e03d720f8e62365fd542464b711f622fba6361350c30990741ef32126
+    name: ""
+schema: olm.bundle

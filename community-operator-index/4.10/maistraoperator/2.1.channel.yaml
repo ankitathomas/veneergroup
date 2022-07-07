@@ -1,0 +1,6 @@
+entries:
+  - name: maistraoperator.v2.1.0
+    skipRange: '>=1.0.2 <2.1.0-0'
+name: "2.1"
+package: maistraoperator
+schema: olm.channel

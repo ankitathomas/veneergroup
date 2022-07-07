@@ -1,0 +1,68 @@
+image: quay.io/openshift-community-operators/aqua@sha256:d4082f37fce3d317c2dc8ec7cab31c8ee46fb23354a4a0315561fbc755679e7f
+name: aqua-operator.v6.5.4
+package: aqua
+properties:
+  - type: olm.deprecated
+    value: {}
+  - type: olm.gvk
+    value:
+      group: aquasecurity.github.io
+      kind: AquaStarboard
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: aquasecurity.github.io
+      kind: ClusterConfigAuditReport
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: aquasecurity.github.io
+      kind: ConfigAuditReport
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: operator.aquasec.com
+      kind: AquaCsp
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: operator.aquasec.com
+      kind: AquaDatabase
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: operator.aquasec.com
+      kind: AquaEnforcer
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: operator.aquasec.com
+      kind: AquaGateway
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: operator.aquasec.com
+      kind: AquaKubeEnforcer
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: operator.aquasec.com
+      kind: AquaScanner
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: operator.aquasec.com
+      kind: AquaServer
+      version: v1alpha1
+  - type: olm.maxOpenShiftVersion
+    value: "4.9"
+  - type: olm.package
+    value:
+      packageName: aqua
+      version: 6.5.4
+relatedImages:
+  - image: aquasec/aqua-operator:6.5.4
+    name: ""
+  - image: quay.io/openshift-community-operators/aqua@sha256:d4082f37fce3d317c2dc8ec7cab31c8ee46fb23354a4a0315561fbc755679e7f
+    name: ""
+schema: olm.bundle

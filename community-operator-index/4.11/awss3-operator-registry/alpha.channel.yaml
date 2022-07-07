@@ -1,0 +1,7 @@
+entries:
+  - name: awss3operator.1.0.1
+    skips:
+      - awss3operator.1.0.0
+name: alpha
+package: awss3-operator-registry
+schema: olm.channel

@@ -1,0 +1,111 @@
+image: quay.io/openshift-community-operators/vault-config-operator@sha256:ced0a24898b01c604d3540aa94364eaf990c28f53367d9af262b3a714209b08f
+name: vault-config-operator.v0.4.1
+package: vault-config-operator
+properties:
+  - type: olm.gvk
+    value:
+      group: redhatcop.redhat.io
+      kind: AuthEngineMount
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: redhatcop.redhat.io
+      kind: DatabaseSecretEngineConfig
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: redhatcop.redhat.io
+      kind: DatabaseSecretEngineRole
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: redhatcop.redhat.io
+      kind: GitHubSecretEngineConfig
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: redhatcop.redhat.io
+      kind: GitHubSecretEngineRole
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: redhatcop.redhat.io
+      kind: KubernetesAuthEngineConfig
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: redhatcop.redhat.io
+      kind: KubernetesAuthEngineRole
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: redhatcop.redhat.io
+      kind: PKISecretEngineConfig
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: redhatcop.redhat.io
+      kind: PKISecretEngineRole
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: redhatcop.redhat.io
+      kind: PasswordPolicy
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: redhatcop.redhat.io
+      kind: Policy
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: redhatcop.redhat.io
+      kind: QuaySecretEngineConfig
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: redhatcop.redhat.io
+      kind: QuaySecretEngineRole
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: redhatcop.redhat.io
+      kind: QuaySecretEngineStaticRole
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: redhatcop.redhat.io
+      kind: RabbitMQSecretEngineConfig
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: redhatcop.redhat.io
+      kind: RabbitMQSecretEngineRole
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: redhatcop.redhat.io
+      kind: RandomSecret
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: redhatcop.redhat.io
+      kind: SecretEngineMount
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: redhatcop.redhat.io
+      kind: VaultSecret
+      version: v1alpha1
+  - type: olm.package
+    value:
+      packageName: vault-config-operator
+      version: 0.4.1
+relatedImages:
+  - image: quay.io/openshift-community-operators/vault-config-operator@sha256:ced0a24898b01c604d3540aa94364eaf990c28f53367d9af262b3a714209b08f
+    name: ""
+  - image: quay.io/redhat-cop/kube-rbac-proxy@sha256:c68135620167c41e3d9f6c1d2ca1eb8fa24312b86186d09b8010656b9d25fb47
+    name: ""
+  - image: quay.io/redhat-cop/vault-config-operator@sha256:bffc3f5b87cbcae51ece05e6e54422aded9e0ac2249e85e3fcd1daaef0537ca0
+    name: ""
+schema: olm.bundle

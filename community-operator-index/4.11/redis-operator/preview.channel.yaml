@@ -1,0 +1,9 @@
+entries:
+  - name: redis-operator.v0.2.0
+  - name: redis-operator.v0.3.0
+    replaces: redis-operator.v0.2.0
+  - name: redis-operator.v0.4.0
+    replaces: redis-operator.v0.3.0
+name: preview
+package: redis-operator
+schema: olm.channel

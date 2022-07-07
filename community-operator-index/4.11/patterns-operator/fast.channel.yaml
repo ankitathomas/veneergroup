@@ -1,0 +1,9 @@
+entries:
+  - name: patterns-operator.v0.0.1
+  - name: patterns-operator.v0.0.2
+    replaces: patterns-operator.v0.0.1
+  - name: patterns-operator.v0.0.3
+    replaces: patterns-operator.v0.0.2
+name: fast
+package: patterns-operator
+schema: olm.channel

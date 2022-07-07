@@ -1,0 +1,43 @@
+image: quay.io/openshift-community-operators/keycloak-operator@sha256:5f88932532c7172362e3b0545985b0d1a767fa749aac175396f528eaba6e93f8
+name: keycloak-operator.v13.0.1
+package: keycloak-operator
+properties:
+  - type: olm.deprecated
+    value: {}
+  - type: olm.gvk
+    value:
+      group: keycloak.org
+      kind: Keycloak
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: keycloak.org
+      kind: KeycloakBackup
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: keycloak.org
+      kind: KeycloakClient
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: keycloak.org
+      kind: KeycloakRealm
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: keycloak.org
+      kind: KeycloakUser
+      version: v1alpha1
+  - type: olm.maxOpenShiftVersion
+    value: "4.8"
+  - type: olm.package
+    value:
+      packageName: keycloak-operator
+      version: 13.0.1
+relatedImages:
+  - image: quay.io/keycloak/keycloak-operator:13.0.1
+    name: ""
+  - image: quay.io/openshift-community-operators/keycloak-operator@sha256:5f88932532c7172362e3b0545985b0d1a767fa749aac175396f528eaba6e93f8
+    name: ""
+schema: olm.bundle

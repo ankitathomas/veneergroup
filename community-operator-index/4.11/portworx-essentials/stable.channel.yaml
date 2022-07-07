@@ -1,0 +1,17 @@
+entries:
+  - name: portworx-essentials.v1.6.0
+  - name: portworx-essentials.v1.6.1
+    replaces: portworx-essentials.v1.6.0
+    skipRange: <1.6.1
+  - name: portworx-essentials.v1.7.0
+    replaces: portworx-essentials.v1.6.1
+  - name: portworx-essentials.v1.7.1
+    replaces: portworx-essentials.v1.7.0
+    skipRange: =1.7.0
+  - name: portworx-essentials.v1.8.0
+    replaces: portworx-essentials.v1.7.1
+  - name: portworx-essentials.v1.8.1
+    replaces: portworx-essentials.v1.8.0
+name: stable
+package: portworx-essentials
+schema: olm.channel

@@ -1,0 +1,9 @@
+entries:
+  - name: netobserv-operator.v0.1.0
+  - name: netobserv-operator.v0.1.1
+    replaces: netobserv-operator.v0.1.0
+  - name: netobserv-operator.v0.1.2
+    replaces: netobserv-operator.v0.1.1
+name: alpha
+package: netobserv-operator
+schema: olm.channel

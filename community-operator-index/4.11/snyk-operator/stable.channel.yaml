@@ -1,0 +1,41 @@
+entries:
+  - name: snyk-operator.v1.68.1
+  - name: snyk-operator.v1.70.1
+    replaces: snyk-operator.v1.68.1
+    skipRange: <1.68.2
+  - name: snyk-operator.v1.70.4
+    replaces: snyk-operator.v1.70.1
+    skipRange: <1.68.2
+  - name: snyk-operator.v1.72.0
+    replaces: snyk-operator.v1.70.4
+    skipRange: <1.68.2
+  - name: snyk-operator.v1.73.0
+    replaces: snyk-operator.v1.72.0
+    skipRange: <1.68.2
+  - name: snyk-operator.v1.80.0
+    replaces: snyk-operator.v1.73.0
+    skipRange: <1.68.2
+  - name: snyk-operator.v1.81.1
+    replaces: snyk-operator.v1.80.0
+    skipRange: <1.68.2
+  - name: snyk-operator.v1.82.1
+    replaces: snyk-operator.v1.81.1
+    skipRange: <1.68.2
+  - name: snyk-operator.v1.85.2
+    replaces: snyk-operator.v1.82.1
+    skipRange: <1.68.2
+  - name: snyk-operator.v1.88.4
+    replaces: snyk-operator.v1.85.2
+    skipRange: <1.68.2
+  - name: snyk-operator.v1.90.1
+    replaces: snyk-operator.v1.88.4
+    skipRange: <1.68.2
+  - name: snyk-operator.v1.90.2
+    replaces: snyk-operator.v1.90.1
+    skipRange: <1.68.2
+  - name: snyk-operator.v1.92.0
+    replaces: snyk-operator.v1.90.2
+    skipRange: <1.68.2
+name: stable
+package: snyk-operator
+schema: olm.channel

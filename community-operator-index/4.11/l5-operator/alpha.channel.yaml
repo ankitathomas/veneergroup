@@ -1,0 +1,5 @@
+entries:
+  - name: l5-operator.v0.0.2
+name: alpha
+package: l5-operator
+schema: olm.channel

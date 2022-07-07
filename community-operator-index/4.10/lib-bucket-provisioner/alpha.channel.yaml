@@ -1,0 +1,7 @@
+entries:
+  - name: lib-bucket-provisioner.v1.0.0
+  - name: lib-bucket-provisioner.v2.0.0
+    replaces: lib-bucket-provisioner.v1.0.0
+name: alpha
+package: lib-bucket-provisioner
+schema: olm.channel

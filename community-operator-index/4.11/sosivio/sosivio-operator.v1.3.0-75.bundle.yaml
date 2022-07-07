@@ -1,0 +1,63 @@
+image: quay.io/openshift-community-operators/sosivio@sha256:5b769977ec95665b00831cbcb00ec25d139553193bc79c3eebef4006773a0125
+name: sosivio-operator.v1.3.0-75
+package: sosivio
+properties:
+  - type: olm.gvk
+    value:
+      group: sosivio.sosiv.io
+      kind: Sosivio
+      version: v1alpha1
+  - type: olm.package
+    value:
+      packageName: sosivio
+      version: 1.3.0
+relatedImages:
+  - image: gcr.io/kubebuilder/kube-rbac-proxy:v0.8.0
+    name: ""
+  - image: quay.io/openshift-community-operators/sosivio@sha256:5b769977ec95665b00831cbcb00ec25d139553193bc79c3eebef4006773a0125
+    name: ""
+  - image: quay.io/sosivio/kube-rbac-proxy@sha256:34e8724e0f47e31eb2ec3279ac398b657db5f60f167426ee73138e2e84af6486
+    name: ""
+  - image: quay.io/sosivio/sosivio-operator:v1.3.0-75
+    name: ""
+  - image: quay.io/sosivio/sosivio-operator@sha256:492382ba4c9377d54ccc9b11441318180ab8a137cd76ae082f7c66c9af1a4eb1
+    name: ""
+  - image: release.sosiv.io/actuator@sha256:7e5206fef5f30e0cdf473b4fcadfce561249a96bb10cdd9ea898c135b9f1ebaa
+    name: ""
+  - image: release.sosiv.io/analyzer@sha256:8bb05fd4384f50fd9fc539683290793da4cefb968049bd10481ff469e761dbe1
+    name: ""
+  - image: release.sosiv.io/authentication@sha256:e3361c5c092880b7187f286f0385b472eadf1f9eddb7159699f58293ee966d17
+    name: ""
+  - image: release.sosiv.io/classifier@sha256:d8610cf39a572ef3c8e39a1b9802a6d113200346a697d083890343ce708d19df
+    name: ""
+  - image: release.sosiv.io/communicator@sha256:648716ace52faaea815373d245d78eba3473b66855f208c802af243bf13a611c
+    name: ""
+  - image: release.sosiv.io/contract-testing@sha256:22cd10e52fe3d2c33975b9f7222fc029f20505436184433340183c620cae6618
+    name: ""
+  - image: release.sosiv.io/correlation-entities@sha256:a4b9e78e123e388c7e09d9a528747ed8ce2013c08e3413d89fb53bdfc7ec89c5
+    name: ""
+  - image: release.sosiv.io/crud-manager@sha256:afcc5c757927e6be0f263be83832b42e597b86aa36548e26657473b39c9d0395
+    name: ""
+  - image: release.sosiv.io/discovery-engine@sha256:7aee271b3073bfca7c9580b0360f29f9712797443d2717f8b7ee41dd40aa0471
+    name: ""
+  - image: release.sosiv.io/draingo@sha256:ece90b8c674bb1792712d8d02ba8b45eb92fb1c9992e06f826deda416cba36ef
+    name: ""
+  - image: release.sosiv.io/notifier@sha256:0bf0e80f68b9cd00bc4595fdbd6f2d535a01be5377fa20891a96530bb1331ad9
+    name: ""
+  - image: release.sosiv.io/nsqadmin@sha256:14328eed02625cd0b2f63c50493c93e3f27d15e0289e5ff2b639ca484136d7f5
+    name: ""
+  - image: release.sosiv.io/nsqd@sha256:857a47b3eb60a311a2d6794984c3bad85b6e99ab1af52de0f600e02a1bcbb359
+    name: ""
+  - image: release.sosiv.io/nsqlookupd@sha256:b9a46aad888bfc8118f61a33f21e6f6c5a26de603b6209db34bcd254a5b42c15
+    name: ""
+  - image: release.sosiv.io/sequence-recognition@sha256:fd95939cf28d199e228b6d4feea67b4469429548b31f97794671f517242f6512
+    name: ""
+  - image: release.sosiv.io/sosivio-dashboard@sha256:1c793b4eb583801f15ff18b73de8d003c3e59d8555531f4efc4dca818d8e87de
+    name: ""
+  - image: release.sosiv.io/sosivio-node-collector@sha256:280d513585f371cb29cfcfc74979ae8c5e6189bbb68428dee65e545464937b92
+    name: ""
+  - image: release.sosiv.io/sosivio-node-pinger@sha256:7dba96bcecd3fd730f5950f1dbf6e5d1cf6a7bf349cfac78aac708456cc09507
+    name: ""
+  - image: release.sosiv.io/sosiviodb@sha256:4e8d3a2570299a409d40d18bb002cc7e79ed4ca8f8e7f91d983d63bf0b188931
+    name: ""
+schema: olm.bundle

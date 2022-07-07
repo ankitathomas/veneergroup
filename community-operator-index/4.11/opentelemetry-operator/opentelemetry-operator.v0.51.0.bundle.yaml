@@ -1,0 +1,26 @@
+image: quay.io/openshift-community-operators/opentelemetry-operator@sha256:5ef1da3266d48147b4a32ea99d9606d61b4af3890e4d075129f71bf2b24abc73
+name: opentelemetry-operator.v0.51.0
+package: opentelemetry-operator
+properties:
+  - type: olm.gvk
+    value:
+      group: opentelemetry.io
+      kind: Instrumentation
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: opentelemetry.io
+      kind: OpenTelemetryCollector
+      version: v1alpha1
+  - type: olm.package
+    value:
+      packageName: opentelemetry-operator
+      version: 0.51.0
+relatedImages:
+  - image: gcr.io/kubebuilder/kube-rbac-proxy:v0.11.0
+    name: ""
+  - image: ghcr.io/open-telemetry/opentelemetry-operator/opentelemetry-operator:0.51.0
+    name: ""
+  - image: quay.io/openshift-community-operators/opentelemetry-operator@sha256:5ef1da3266d48147b4a32ea99d9606d61b4af3890e4d075129f71bf2b24abc73
+    name: ""
+schema: olm.bundle

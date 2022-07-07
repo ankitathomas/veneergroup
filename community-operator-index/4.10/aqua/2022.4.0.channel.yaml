@@ -1,0 +1,12 @@
+entries:
+  - name: aqua-operator.v2022.4.0
+    skipRange: '>=1.0.2 <2022.4.0'
+  - name: aqua-operator.v2022.4.1
+    replaces: aqua-operator.v2022.4.0
+    skipRange: '>=1.0.2 <2022.4.1'
+  - name: aqua-operator.v2022.4.2
+    replaces: aqua-operator.v2022.4.1
+    skipRange: '>=1.0.2 <2022.4.2'
+name: 2022.4.0
+package: aqua
+schema: olm.channel

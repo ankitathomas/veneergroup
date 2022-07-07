@@ -1,0 +1,5 @@
+entries:
+  - name: pcc-operator.v0.2.0
+name: stable
+package: pcc-operator
+schema: olm.channel

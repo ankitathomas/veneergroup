@@ -1,0 +1,21 @@
+image: quay.io/openshift-community-operators/beegfs-csi-driver-operator@sha256:395ed1d248314327482c3980e19f18aa6e93890294bb74fd1403edf582f2ad07
+name: beegfs-csi-driver-operator.v1.2.0
+package: beegfs-csi-driver-operator
+properties:
+  - type: olm.gvk
+    value:
+      group: beegfs.csi.netapp.com
+      kind: BeegfsDriver
+      version: v1
+  - type: olm.package
+    value:
+      packageName: beegfs-csi-driver-operator
+      version: 1.2.0
+relatedImages:
+  - image: gcr.io/kubebuilder/kube-rbac-proxy:v0.8.0
+    name: ""
+  - image: netapp/beegfs-csi-driver-operator:v1.2.0
+    name: ""
+  - image: quay.io/openshift-community-operators/beegfs-csi-driver-operator@sha256:395ed1d248314327482c3980e19f18aa6e93890294bb74fd1403edf582f2ad07
+    name: ""
+schema: olm.bundle

@@ -1,0 +1,5 @@
+entries:
+  - name: deployment-validation-operator.v0.2.2
+name: alpha
+package: deployment-validation-operator
+schema: olm.channel

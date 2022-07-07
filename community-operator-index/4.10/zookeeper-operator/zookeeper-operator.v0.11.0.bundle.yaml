@@ -1,0 +1,21 @@
+image: quay.io/openshift-community-operators/zookeeper-operator@sha256:7ae04d594da7aeb9483f30f0880d361e0d7fcb94cf923007c1ab58a07813e084
+name: zookeeper-operator.v0.11.0
+package: zookeeper-operator
+properties:
+  - type: olm.gvk
+    value:
+      group: zookeeper.streamnative.io
+      kind: ZooKeeperCluster
+      version: v1alpha1
+  - type: olm.package
+    value:
+      packageName: zookeeper-operator
+      version: 0.11.0
+relatedImages:
+  - image: quay.io/openshift-community-operators/zookeeper-operator@sha256:7ae04d594da7aeb9483f30f0880d361e0d7fcb94cf923007c1ab58a07813e084
+    name: ""
+  - image: quay.io/streamnativeio/kube-rbac-proxy:v0.8.0
+    name: ""
+  - image: quay.io/streamnativeio/zookeeper-operator:v0.11.0
+    name: ""
+schema: olm.bundle

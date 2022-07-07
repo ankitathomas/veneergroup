@@ -1,0 +1,7 @@
+entries:
+  - name: tidb-operator.v1.1.7
+  - name: tidb-operator.v1.3.1
+    replaces: tidb-operator.v1.1.7
+name: stable
+package: tidb-operator
+schema: olm.channel

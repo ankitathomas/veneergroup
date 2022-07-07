@@ -1,0 +1,57 @@
+entries:
+  - name: kiali-operator.v1.29.0
+  - name: kiali-operator.v1.30.0
+    replaces: kiali-operator.v1.29.0
+  - name: kiali-operator.v1.31.0
+    replaces: kiali-operator.v1.30.0
+  - name: kiali-operator.v1.32.0
+    replaces: kiali-operator.v1.31.0
+  - name: kiali-operator.v1.33.0
+    replaces: kiali-operator.v1.32.0
+  - name: kiali-operator.v1.34.0
+    replaces: kiali-operator.v1.33.0
+  - name: kiali-operator.v1.35.0
+    replaces: kiali-operator.v1.34.0
+  - name: kiali-operator.v1.36.0
+    replaces: kiali-operator.v1.35.0
+  - name: kiali-operator.v1.37.0
+    replaces: kiali-operator.v1.36.0
+  - name: kiali-operator.v1.38.1
+    replaces: kiali-operator.v1.37.0
+  - name: kiali-operator.v1.39.0
+    replaces: kiali-operator.v1.38.1
+  - name: kiali-operator.v1.40.1
+    replaces: kiali-operator.v1.39.0
+  - name: kiali-operator.v1.41.0
+    replaces: kiali-operator.v1.40.1
+  - name: kiali-operator.v1.42.0
+    replaces: kiali-operator.v1.41.0
+  - name: kiali-operator.v1.43.0
+    replaces: kiali-operator.v1.42.0
+  - name: kiali-operator.v1.44.0
+    replaces: kiali-operator.v1.43.0
+  - name: kiali-operator.v1.45.0
+    replaces: kiali-operator.v1.44.0
+  - name: kiali-operator.v1.46.0
+    replaces: kiali-operator.v1.45.0
+  - name: kiali-operator.v1.47.0
+    replaces: kiali-operator.v1.46.0
+    skipRange: '>=1.0.0 <1.47.0'
+  - name: kiali-operator.v1.48.0
+    replaces: kiali-operator.v1.47.0
+    skipRange: '>=1.0.0 <1.48.0'
+  - name: kiali-operator.v1.49.0
+    replaces: kiali-operator.v1.48.0
+    skipRange: '>=1.0.0 <1.49.0'
+  - name: kiali-operator.v1.50.0
+    replaces: kiali-operator.v1.49.0
+    skipRange: '>=1.0.0 <1.50.0'
+  - name: kiali-operator.v1.51.0
+    replaces: kiali-operator.v1.50.0
+    skipRange: '>=1.0.0 <1.51.0'
+  - name: kiali-operator.v1.52.0
+    replaces: kiali-operator.v1.51.0
+    skipRange: '>=1.0.0 <1.52.0'
+name: stable
+package: kiali
+schema: olm.channel

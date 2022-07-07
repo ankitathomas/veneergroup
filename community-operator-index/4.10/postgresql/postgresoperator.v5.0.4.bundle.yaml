@@ -1,0 +1,21 @@
+image: quay.io/openshift-community-operators/postgresql@sha256:7e5eef779e60e0b7d0a84f36dc58198f7c69fb0a6b5adb529e51d0c3c9b150c7
+name: postgresoperator.v5.0.4
+package: postgresql
+properties:
+  - type: olm.deprecated
+    value: {}
+  - type: olm.gvk
+    value:
+      group: postgres-operator.crunchydata.com
+      kind: PostgresCluster
+      version: v1beta1
+  - type: olm.package
+    value:
+      packageName: postgresql
+      version: 5.0.4
+relatedImages:
+  - image: quay.io/openshift-community-operators/postgresql@sha256:7e5eef779e60e0b7d0a84f36dc58198f7c69fb0a6b5adb529e51d0c3c9b150c7
+    name: ""
+  - image: registry.developers.crunchydata.com/crunchydata/postgres-operator:ubi8-5.0.4-0
+    name: ""
+schema: olm.bundle

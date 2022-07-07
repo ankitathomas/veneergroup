@@ -1,0 +1,19 @@
+image: quay.io/openshift-community-operators/hawtio-operator@sha256:c0166713e4862a4d77358c70dde302e4dfc400fe0819491cd7a07ec87b6fbdcd
+name: hawtio-operator.v0.4.0
+package: hawtio-operator
+properties:
+  - type: olm.gvk
+    value:
+      group: hawt.io
+      kind: Hawtio
+      version: v1alpha1
+  - type: olm.package
+    value:
+      packageName: hawtio-operator
+      version: 0.4.0
+relatedImages:
+  - image: docker.io/hawtio/operator:0.4.0
+    name: ""
+  - image: quay.io/openshift-community-operators/hawtio-operator@sha256:c0166713e4862a4d77358c70dde302e4dfc400fe0819491cd7a07ec87b6fbdcd
+    name: ""
+schema: olm.bundle

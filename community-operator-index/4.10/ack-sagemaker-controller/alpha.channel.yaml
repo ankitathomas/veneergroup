@@ -1,0 +1,9 @@
+entries:
+  - name: ack-sagemaker-controller.v0.3.1
+  - name: ack-sagemaker-controller.v0.3.2
+    replaces: ack-sagemaker-controller.v0.3.1
+  - name: ack-sagemaker-controller.v0.3.3
+    replaces: ack-sagemaker-controller.v0.3.2
+name: alpha
+package: ack-sagemaker-controller
+schema: olm.channel

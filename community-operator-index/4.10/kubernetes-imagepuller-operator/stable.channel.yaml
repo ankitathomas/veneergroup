@@ -1,0 +1,7 @@
+entries:
+  - name: kubernetes-imagepuller-operator.v1.0.0
+  - name: kubernetes-imagepuller-operator.v1.0.1
+    replaces: kubernetes-imagepuller-operator.v1.0.0
+name: stable
+package: kubernetes-imagepuller-operator
+schema: olm.channel

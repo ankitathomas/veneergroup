@@ -1,0 +1,44 @@
+image: quay.io/openshift-community-operators/alvearie-imaging-ingestion@sha256:6768446eb0439bc66310c2967439e1e309ce8e560a500a82d811464068b2e5d5
+name: imaging-ingestion-operator.v0.0.1
+package: alvearie-imaging-ingestion
+properties:
+  - type: olm.gvk
+    value:
+      group: imaging-ingestion.alvearie.org
+      kind: DicomEventDrivenIngestion
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: imaging-ingestion.alvearie.org
+      kind: DicomInstanceBinding
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: imaging-ingestion.alvearie.org
+      kind: DicomStudyBinding
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: imaging-ingestion.alvearie.org
+      kind: DicomwebIngestionService
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: imaging-ingestion.alvearie.org
+      kind: DimseIngestionService
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: imaging-ingestion.alvearie.org
+      kind: DimseProxy
+      version: v1alpha1
+  - type: olm.package
+    value:
+      packageName: alvearie-imaging-ingestion
+      version: 0.0.1
+relatedImages:
+  - image: alvearie/imaging-ingestion-operator:0.0.1
+    name: ""
+  - image: quay.io/openshift-community-operators/alvearie-imaging-ingestion@sha256:6768446eb0439bc66310c2967439e1e309ce8e560a500a82d811464068b2e5d5
+    name: ""
+schema: olm.bundle

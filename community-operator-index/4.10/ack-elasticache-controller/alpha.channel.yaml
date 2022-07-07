@@ -1,0 +1,29 @@
+entries:
+  - name: ack-elasticache-controller.v0.0.10
+    replaces: ack-elasticache-controller.v0.0.9
+  - name: ack-elasticache-controller.v0.0.11
+    replaces: ack-elasticache-controller.v0.0.10
+  - name: ack-elasticache-controller.v0.0.12
+    replaces: ack-elasticache-controller.v0.0.11
+  - name: ack-elasticache-controller.v0.0.13
+    replaces: ack-elasticache-controller.v0.0.12
+  - name: ack-elasticache-controller.v0.0.14
+    replaces: ack-elasticache-controller.v0.0.13
+  - name: ack-elasticache-controller.v0.0.15
+    replaces: ack-elasticache-controller.v0.0.14
+  - name: ack-elasticache-controller.v0.0.16
+    replaces: ack-elasticache-controller.v0.0.15
+  - name: ack-elasticache-controller.v0.0.17
+    replaces: ack-elasticache-controller.v0.0.16
+  - name: ack-elasticache-controller.v0.0.18
+    replaces: ack-elasticache-controller.v0.0.17
+  - name: ack-elasticache-controller.v0.0.19
+    replaces: ack-elasticache-controller.v0.0.18
+  - name: ack-elasticache-controller.v0.0.20
+    replaces: ack-elasticache-controller.v0.0.19
+  - name: ack-elasticache-controller.v0.0.8
+  - name: ack-elasticache-controller.v0.0.9
+    replaces: ack-elasticache-controller.v0.0.8
+name: alpha
+package: ack-elasticache-controller
+schema: olm.channel

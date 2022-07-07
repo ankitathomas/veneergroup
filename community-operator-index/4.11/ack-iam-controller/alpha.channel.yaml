@@ -1,0 +1,35 @@
+entries:
+  - name: ack-iam-controller.v0.0.10
+    replaces: ack-iam-controller.v0.0.9
+  - name: ack-iam-controller.v0.0.11
+    replaces: ack-iam-controller.v0.0.10
+  - name: ack-iam-controller.v0.0.12
+    replaces: ack-iam-controller.v0.0.11
+  - name: ack-iam-controller.v0.0.13
+    replaces: ack-iam-controller.v0.0.12
+  - name: ack-iam-controller.v0.0.14
+    replaces: ack-iam-controller.v0.0.13
+  - name: ack-iam-controller.v0.0.15
+    replaces: ack-iam-controller.v0.0.14
+  - name: ack-iam-controller.v0.0.16
+    replaces: ack-iam-controller.v0.0.15
+  - name: ack-iam-controller.v0.0.17
+    replaces: ack-iam-controller.v0.0.16
+  - name: ack-iam-controller.v0.0.18
+    replaces: ack-iam-controller.v0.0.17
+  - name: ack-iam-controller.v0.0.3
+  - name: ack-iam-controller.v0.0.4
+    replaces: ack-iam-controller.v0.0.3
+  - name: ack-iam-controller.v0.0.5
+    replaces: ack-iam-controller.v0.0.4
+  - name: ack-iam-controller.v0.0.6
+    replaces: ack-iam-controller.v0.0.5
+  - name: ack-iam-controller.v0.0.7
+    replaces: ack-iam-controller.v0.0.6
+  - name: ack-iam-controller.v0.0.8
+    replaces: ack-iam-controller.v0.0.7
+  - name: ack-iam-controller.v0.0.9
+    replaces: ack-iam-controller.v0.0.8
+name: alpha
+package: ack-iam-controller
+schema: olm.channel

@@ -1,0 +1,34 @@
+image: quay.io/openshift-community-operators/keda@sha256:2d5d7cbfe4a35ed22e52581118a6664060207f84f9cd18d6171d17310447346c
+name: keda.v2.0.0
+package: keda
+properties:
+  - type: olm.gvk
+    value:
+      group: keda.sh
+      kind: KedaController
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: keda.sh
+      kind: ScaledJob
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: keda.sh
+      kind: ScaledObject
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: keda.sh
+      kind: TriggerAuthentication
+      version: v1alpha1
+  - type: olm.package
+    value:
+      packageName: keda
+      version: 2.0.0
+relatedImages:
+  - image: docker.io/kedacore/keda-olm-operator:2.0.0
+    name: ""
+  - image: quay.io/openshift-community-operators/keda@sha256:2d5d7cbfe4a35ed22e52581118a6664060207f84f9cd18d6171d17310447346c
+    name: ""
+schema: olm.bundle

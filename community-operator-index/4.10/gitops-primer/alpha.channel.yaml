@@ -1,0 +1,17 @@
+entries:
+  - name: gitops-primer.v0.0.1
+  - name: gitops-primer.v0.0.2
+    replaces: gitops-primer.v0.0.1
+  - name: gitops-primer.v0.0.3
+    replaces: gitops-primer.v0.0.2
+  - name: gitops-primer.v0.0.4
+    replaces: gitops-primer.v0.0.3
+  - name: gitops-primer.v0.0.5
+    replaces: gitops-primer.v0.0.4
+  - name: gitops-primer.v0.0.6
+    replaces: gitops-primer.v0.0.5
+  - name: gitops-primer.v0.0.7
+    replaces: gitops-primer.v0.0.6
+name: alpha
+package: gitops-primer
+schema: olm.channel

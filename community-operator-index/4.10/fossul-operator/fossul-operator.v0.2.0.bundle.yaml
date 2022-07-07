@@ -1,0 +1,39 @@
+image: quay.io/openshift-community-operators/fossul-operator@sha256:02f114a77544188ce8f2f7e075829312791fe1e4f4a6c130946ec08839f46d53
+name: fossul-operator.v0.2.0
+package: fossul-operator
+properties:
+  - type: olm.gvk
+    value:
+      group: fossul.io
+      kind: Backup
+      version: v1
+  - type: olm.gvk
+    value:
+      group: fossul.io
+      kind: BackupConfig
+      version: v1
+  - type: olm.gvk
+    value:
+      group: fossul.io
+      kind: BackupSchedule
+      version: v1
+  - type: olm.gvk
+    value:
+      group: fossul.io
+      kind: Fossul
+      version: v1
+  - type: olm.gvk
+    value:
+      group: fossul.io
+      kind: Restore
+      version: v1
+  - type: olm.package
+    value:
+      packageName: fossul-operator
+      version: 0.2.0
+relatedImages:
+  - image: quay.io/fossul/fossul-operator:v0.2.0
+    name: ""
+  - image: quay.io/openshift-community-operators/fossul-operator@sha256:02f114a77544188ce8f2f7e075829312791fe1e4f4a6c130946ec08839f46d53
+    name: ""
+schema: olm.bundle

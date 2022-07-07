@@ -1,0 +1,5 @@
+entries:
+  - name: tagger.v2.1.17
+name: alpha
+package: tagger
+schema: olm.channel

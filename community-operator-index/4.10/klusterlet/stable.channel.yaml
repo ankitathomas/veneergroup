@@ -1,0 +1,13 @@
+entries:
+  - name: klusterlet.v0.3.0
+  - name: klusterlet.v0.4.0
+    replaces: klusterlet.v0.3.0
+  - name: klusterlet.v0.5.0
+    replaces: klusterlet.v0.4.0
+  - name: klusterlet.v0.6.0
+    replaces: klusterlet.v0.5.0
+  - name: klusterlet.v0.7.0
+    replaces: klusterlet.v0.6.0
+name: stable
+package: klusterlet
+schema: olm.channel

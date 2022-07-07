@@ -1,0 +1,19 @@
+image: quay.io/openshift-community-operators/trivy-operator@sha256:38373ea6eaec531faff993348299cbaa45c1061e4e1a81c8e2a01a1cb57c6b40
+name: trivy-operator.v2.1.1
+package: trivy-operator
+properties:
+  - type: olm.gvk
+    value:
+      group: trivy-operator.devopstales.io
+      kind: NamespaceScanner
+      version: v1
+  - type: olm.package
+    value:
+      packageName: trivy-operator
+      version: 2.1.1
+relatedImages:
+  - image: devopstales/trivy-operator:2.1
+    name: ""
+  - image: quay.io/openshift-community-operators/trivy-operator@sha256:38373ea6eaec531faff993348299cbaa45c1061e4e1a81c8e2a01a1cb57c6b40
+    name: ""
+schema: olm.bundle

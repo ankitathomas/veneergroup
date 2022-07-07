@@ -1,0 +1,34 @@
+image: quay.io/openshift-community-operators/ack-eks-controller@sha256:d8851de3b3cffbb77f2ba8f64d0bf3d93d7b01735d01c34e3c686711901830ab
+name: ack-eks-controller.v0.0.9
+package: ack-eks-controller
+properties:
+  - type: olm.gvk
+    value:
+      group: eks.services.k8s.aws
+      kind: Addon
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: eks.services.k8s.aws
+      kind: Cluster
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: eks.services.k8s.aws
+      kind: FargateProfile
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: eks.services.k8s.aws
+      kind: Nodegroup
+      version: v1alpha1
+  - type: olm.package
+    value:
+      packageName: ack-eks-controller
+      version: 0.0.9
+relatedImages:
+  - image: public.ecr.aws/aws-controllers-k8s/eks-controller:v0.0.9
+    name: ""
+  - image: quay.io/openshift-community-operators/ack-eks-controller@sha256:d8851de3b3cffbb77f2ba8f64d0bf3d93d7b01735d01c34e3c686711901830ab
+    name: ""
+schema: olm.bundle

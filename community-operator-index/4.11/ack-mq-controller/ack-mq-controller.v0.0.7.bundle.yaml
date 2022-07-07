@@ -1,0 +1,19 @@
+image: quay.io/openshift-community-operators/ack-mq-controller@sha256:b69a3b4763e2490c2f579e2945a08b515872c804b4317b063b01cca62a28af03
+name: ack-mq-controller.v0.0.7
+package: ack-mq-controller
+properties:
+  - type: olm.gvk
+    value:
+      group: mq.services.k8s.aws
+      kind: Broker
+      version: v1alpha1
+  - type: olm.package
+    value:
+      packageName: ack-mq-controller
+      version: 0.0.7
+relatedImages:
+  - image: public.ecr.aws/aws-controllers-k8s/mq-controller:v0.0.7
+    name: ""
+  - image: quay.io/openshift-community-operators/ack-mq-controller@sha256:b69a3b4763e2490c2f579e2945a08b515872c804b4317b063b01cca62a28af03
+    name: ""
+schema: olm.bundle

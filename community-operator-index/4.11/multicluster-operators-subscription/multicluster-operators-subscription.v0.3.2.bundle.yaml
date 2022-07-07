@@ -1,0 +1,57 @@
+image: quay.io/openshift-community-operators/multicluster-operators-subscription@sha256:562e666305d4dd9bd74b2da42c5ce2fe409e6c6f7885e210db5abd15e10a87eb
+name: multicluster-operators-subscription.v0.3.2
+package: multicluster-operators-subscription
+properties:
+  - type: olm.gvk
+    value:
+      group: app.k8s.io
+      kind: Application
+      version: v1beta1
+  - type: olm.gvk
+    value:
+      group: apps.open-cluster-management.io
+      kind: Channel
+      version: v1
+  - type: olm.gvk
+    value:
+      group: apps.open-cluster-management.io
+      kind: Deployable
+      version: v1
+  - type: olm.gvk
+    value:
+      group: apps.open-cluster-management.io
+      kind: GitOpsCluster
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: apps.open-cluster-management.io
+      kind: HelmRelease
+      version: v1
+  - type: olm.gvk
+    value:
+      group: apps.open-cluster-management.io
+      kind: PlacementRule
+      version: v1
+  - type: olm.gvk
+    value:
+      group: apps.open-cluster-management.io
+      kind: Subscription
+      version: v1
+  - type: olm.package
+    value:
+      packageName: multicluster-operators-subscription
+      version: 0.3.2
+relatedImages:
+  - image: quay.io/open-cluster-management/multicluster-operators-application:2.4.0
+    name: ""
+  - image: quay.io/open-cluster-management/multicluster-operators-channel:2.4.0
+    name: ""
+  - image: quay.io/open-cluster-management/multicluster-operators-deployable:2.4.0
+    name: ""
+  - image: quay.io/open-cluster-management/multicluster-operators-placementrule:2.4.0
+    name: ""
+  - image: quay.io/open-cluster-management/multicluster-operators-subscription:2.4.0
+    name: ""
+  - image: quay.io/openshift-community-operators/multicluster-operators-subscription@sha256:562e666305d4dd9bd74b2da42c5ce2fe409e6c6f7885e210db5abd15e10a87eb
+    name: ""
+schema: olm.bundle

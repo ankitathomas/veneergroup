@@ -1,0 +1,28 @@
+image: quay.io/openshift-community-operators/kiali@sha256:ed2962a3f0c967778e68b6de2810b835d030e9ae8765d74c697e3c0bb32dab16
+name: kiali-operator.v1.29.0
+package: kiali
+properties:
+  - type: olm.deprecated
+    value: {}
+  - type: olm.gvk
+    value:
+      group: kiali.io
+      kind: Kiali
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: monitoring.kiali.io
+      kind: MonitoringDashboard
+      version: v1alpha1
+  - type: olm.maxOpenShiftVersion
+    value: "4.8"
+  - type: olm.package
+    value:
+      packageName: kiali
+      version: 1.29.0
+relatedImages:
+  - image: quay.io/kiali/kiali-operator:v1.29.0
+    name: ""
+  - image: quay.io/openshift-community-operators/kiali@sha256:ed2962a3f0c967778e68b6de2810b835d030e9ae8765d74c697e3c0bb32dab16
+    name: ""
+schema: olm.bundle

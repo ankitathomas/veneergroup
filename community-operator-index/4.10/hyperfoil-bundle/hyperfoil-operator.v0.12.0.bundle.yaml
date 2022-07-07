@@ -1,0 +1,28 @@
+image: quay.io/openshift-community-operators/hyperfoil-bundle@sha256:cbc5b8c214699d1e70064f4e0e73e76d31d9f1ec0edfb5919252c275dcb28a2e
+name: hyperfoil-operator.v0.12.0
+package: hyperfoil-bundle
+properties:
+  - type: olm.deprecated
+    value: {}
+  - type: olm.gvk
+    value:
+      group: hyperfoil.io
+      kind: Hyperfoil
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: hyperfoil.io
+      kind: Hyperfoil
+      version: v1alpha2
+  - type: olm.maxOpenShiftVersion
+    value: "4.8"
+  - type: olm.package
+    value:
+      packageName: hyperfoil-bundle
+      version: 0.12.0
+relatedImages:
+  - image: quay.io/hyperfoil/hyperfoil-operator:0.12.0
+    name: ""
+  - image: quay.io/openshift-community-operators/hyperfoil-bundle@sha256:cbc5b8c214699d1e70064f4e0e73e76d31d9f1ec0edfb5919252c275dcb28a2e
+    name: ""
+schema: olm.bundle

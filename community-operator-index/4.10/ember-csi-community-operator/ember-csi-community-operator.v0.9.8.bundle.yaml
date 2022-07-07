@@ -1,0 +1,19 @@
+image: quay.io/openshift-community-operators/ember-csi-community-operator@sha256:da35619eb60352de05e59f8d08abc7a8b8c6dd5243074c9a7eb3fa71e24b3776
+name: ember-csi-community-operator.v0.9.8
+package: ember-csi-community-operator
+properties:
+  - type: olm.gvk
+    value:
+      group: ember-csi.io
+      kind: EmberStorageBackend
+      version: v1alpha1
+  - type: olm.package
+    value:
+      packageName: ember-csi-community-operator
+      version: 0.9.8
+relatedImages:
+  - image: quay.io/embercsi/ember-csi-operator:latest
+    name: ""
+  - image: quay.io/openshift-community-operators/ember-csi-community-operator@sha256:da35619eb60352de05e59f8d08abc7a8b8c6dd5243074c9a7eb3fa71e24b3776
+    name: ""
+schema: olm.bundle

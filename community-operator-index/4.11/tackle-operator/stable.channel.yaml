@@ -1,0 +1,17 @@
+entries:
+  - name: tackle-operator.v0.0.1
+  - name: tackle-operator.v0.0.2
+    replaces: tackle-operator.v0.0.1
+  - name: tackle-operator.v0.0.3
+    replaces: tackle-operator.v0.0.2
+  - name: tackle-operator.v0.0.4
+    replaces: tackle-operator.v0.0.3
+  - name: tackle-operator.v1.0.0
+    replaces: tackle-operator.v0.0.4
+  - name: tackle-operator.v1.1.0
+    replaces: tackle-operator.v1.0.0
+  - name: tackle-operator.v1.2.0
+    replaces: tackle-operator.v1.1.0
+name: stable
+package: tackle-operator
+schema: olm.channel

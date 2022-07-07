@@ -1,0 +1,12 @@
+entries:
+  - name: aqua-operator.v6.5.4
+    skipRange: '>=1.0.2 <6.5.4'
+  - name: aqua-operator.v6.5.5
+    replaces: aqua-operator.v6.5.4
+    skipRange: '>=1.0.2 <6.5.5'
+  - name: aqua-operator.v6.5.6
+    replaces: aqua-operator.v6.5.5
+    skipRange: '>=1.0.2 <6.5.6'
+name: 6.5.0
+package: aqua
+schema: olm.channel

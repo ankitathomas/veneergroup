@@ -1,0 +1,29 @@
+image: quay.io/openshift-community-operators/gitops-primer@sha256:0427c475dc849df562adfe0da047be383c1653d85ed6f3b855ae0bd781b5b184
+name: gitops-primer.v0.0.6
+package: gitops-primer
+properties:
+  - type: olm.gvk
+    value:
+      group: primer.gitops.io
+      kind: Export
+      version: v1alpha1
+  - type: olm.package
+    value:
+      packageName: gitops-primer
+      version: 0.0.6
+relatedImages:
+  - image: quay.io/konveyor/gitops-primer-downloader:v0.0.6
+    name: ""
+  - image: quay.io/konveyor/gitops-primer-export:v0.0.6
+    name: ""
+  - image: quay.io/konveyor/gitops-primer-webhook:v0.0.6
+    name: ""
+  - image: quay.io/konveyor/gitops-primer:v0.0.6
+    name: ""
+  - image: quay.io/openshift-community-operators/gitops-primer@sha256:0427c475dc849df562adfe0da047be383c1653d85ed6f3b855ae0bd781b5b184
+    name: ""
+  - image: quay.io/openshift/origin-oauth-proxy:4.9
+    name: ""
+  - image: registry.redhat.io/openshift4/ose-kube-rbac-proxy@sha256:6d57bfd91fac9b68eb72d27226bc297472ceb136c996628b845ecc54a48b31cb
+    name: ""
+schema: olm.bundle

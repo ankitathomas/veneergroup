@@ -1,0 +1,5 @@
+entries:
+  - name: ecr-secret-operator.v0.3.1
+name: alpha
+package: ecr-secret-operator
+schema: olm.channel

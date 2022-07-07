@@ -1,0 +1,51 @@
+entries:
+  - name: hive-operator.v1.1.10
+    replaces: hive-operator.v1.1.9
+  - name: hive-operator.v1.1.11
+    replaces: hive-operator.v1.1.10
+  - name: hive-operator.v1.1.12
+    replaces: hive-operator.v1.1.11
+  - name: hive-operator.v1.1.13
+    replaces: hive-operator.v1.1.12
+  - name: hive-operator.v1.1.14
+    replaces: hive-operator.v1.1.13
+  - name: hive-operator.v1.1.15
+    replaces: hive-operator.v1.1.14
+  - name: hive-operator.v1.1.16
+    replaces: hive-operator.v1.1.15
+  - name: hive-operator.v1.1.5
+  - name: hive-operator.v1.1.6
+    replaces: hive-operator.v1.1.5
+  - name: hive-operator.v1.1.7
+    replaces: hive-operator.v1.1.6
+  - name: hive-operator.v1.1.8
+    replaces: hive-operator.v1.1.7
+  - name: hive-operator.v1.1.9
+    replaces: hive-operator.v1.1.8
+  - name: hive-operator.v1.2.3179-0756b70e6
+    replaces: hive-operator.v1.1.16
+  - name: hive-operator.v2.4.3180-7299056
+    replaces: hive-operator.v1.2.3179-0756b70e6
+  - name: hive-operator.v2.4.3189-026033b
+    replaces: hive-operator.v2.4.3180-7299056
+  - name: hive-operator.v2.4.3192-fae0111
+    replaces: hive-operator.v2.4.3189-026033b
+  - name: hive-operator.v2.4.3194-f82b7d8
+    replaces: hive-operator.v2.4.3192-fae0111
+  - name: hive-operator.v2.4.3197-6c9c8e4
+    replaces: hive-operator.v2.4.3194-f82b7d8
+  - name: hive-operator.v2.4.3199-cce4cb9
+    replaces: hive-operator.v2.4.3197-6c9c8e4
+  - name: hive-operator.v2.4.3201-8c50440
+    replaces: hive-operator.v2.4.3199-cce4cb9
+  - name: hive-operator.v2.4.3203-672cfe7
+    replaces: hive-operator.v2.4.3201-8c50440
+  - name: hive-operator.v2.4.3206-b0714a7
+    replaces: hive-operator.v2.4.3203-672cfe7
+  - name: hive-operator.v2.4.3222-d68346c
+    replaces: hive-operator.v2.4.3206-b0714a7
+  - name: hive-operator.v2.4.3227-74831db
+    replaces: hive-operator.v2.4.3222-d68346c
+name: ocm-2.4
+package: hive-operator
+schema: olm.channel

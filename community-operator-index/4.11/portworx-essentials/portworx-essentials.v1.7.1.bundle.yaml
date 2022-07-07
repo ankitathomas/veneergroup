@@ -1,0 +1,34 @@
+image: quay.io/openshift-community-operators/portworx-essentials@sha256:5dda4adc66392d6a2dbb944f9b403b20c29a1cff567416daef6f205b3f63cf5e
+name: portworx-essentials.v1.7.1
+package: portworx-essentials
+properties:
+  - type: olm.gvk
+    value:
+      group: core.libopenstorage.org
+      kind: StorageCluster
+      version: v1
+  - type: olm.gvk
+    value:
+      group: core.libopenstorage.org
+      kind: StorageCluster
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: core.libopenstorage.org
+      kind: StorageNode
+      version: v1
+  - type: olm.gvk
+    value:
+      group: core.libopenstorage.org
+      kind: StorageNode
+      version: v1alpha1
+  - type: olm.package
+    value:
+      packageName: portworx-essentials
+      version: 1.7.1
+relatedImages:
+  - image: portworx/px-operator:1.7.1
+    name: ""
+  - image: quay.io/openshift-community-operators/portworx-essentials@sha256:5dda4adc66392d6a2dbb944f9b403b20c29a1cff567416daef6f205b3f63cf5e
+    name: ""
+schema: olm.bundle

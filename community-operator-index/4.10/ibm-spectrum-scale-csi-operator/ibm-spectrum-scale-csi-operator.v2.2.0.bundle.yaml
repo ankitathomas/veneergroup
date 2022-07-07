@@ -1,0 +1,23 @@
+image: quay.io/openshift-community-operators/ibm-spectrum-scale-csi-operator@sha256:644640d64b58963f2cb95513962cfdbe33204d9ae136f51d9d0303f8fa40e80f
+name: ibm-spectrum-scale-csi-operator.v2.2.0
+package: ibm-spectrum-scale-csi-operator
+properties:
+  - type: olm.deprecated
+    value: {}
+  - type: olm.gvk
+    value:
+      group: csi.ibm.com
+      kind: CSIScaleOperator
+      version: v1
+  - type: olm.maxOpenShiftVersion
+    value: "4.8"
+  - type: olm.package
+    value:
+      packageName: ibm-spectrum-scale-csi-operator
+      version: 2.2.0
+relatedImages:
+  - image: quay.io/ibm-spectrum-scale/ibm-spectrum-scale-csi-operator:v2.2.0
+    name: ""
+  - image: quay.io/openshift-community-operators/ibm-spectrum-scale-csi-operator@sha256:644640d64b58963f2cb95513962cfdbe33204d9ae136f51d9d0303f8fa40e80f
+    name: ""
+schema: olm.bundle

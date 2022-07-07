@@ -1,0 +1,19 @@
+image: quay.io/openshift-community-operators/keepalived-operator@sha256:82ec9fdf9d620525d8b833a12662012408804846919fa424768f502dc5b51fe4
+name: keepalived-operator.v1.3.0
+package: keepalived-operator
+properties:
+  - type: olm.gvk
+    value:
+      group: redhatcop.redhat.io
+      kind: KeepalivedGroup
+      version: v1alpha1
+  - type: olm.package
+    value:
+      packageName: keepalived-operator
+      version: 1.3.0
+relatedImages:
+  - image: quay.io/openshift-community-operators/keepalived-operator@sha256:82ec9fdf9d620525d8b833a12662012408804846919fa424768f502dc5b51fe4
+    name: ""
+  - image: quay.io/redhat-cop/keepalived-operator:v1.3.0
+    name: ""
+schema: olm.bundle

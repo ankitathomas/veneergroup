@@ -1,0 +1,21 @@
+entries:
+  - name: istio-workspace-operator.v0.0.10
+    replaces: istio-workspace-operator.v0.0.9
+  - name: istio-workspace-operator.v0.0.6
+  - name: istio-workspace-operator.v0.0.7
+    replaces: istio-workspace-operator.v0.0.6
+  - name: istio-workspace-operator.v0.0.8
+    replaces: istio-workspace-operator.v0.0.7
+  - name: istio-workspace-operator.v0.0.9
+    replaces: istio-workspace-operator.v0.0.8
+  - name: istio-workspace-operator.v0.1.0
+    replaces: istio-workspace-operator.v0.0.10
+  - name: istio-workspace-operator.v0.2.0
+    replaces: istio-workspace-operator.v0.1.0
+  - name: istio-workspace-operator.v0.3.0
+    replaces: istio-workspace-operator.v0.2.0
+  - name: istio-workspace-operator.v0.4.0
+    replaces: istio-workspace-operator.v0.3.0
+name: alpha
+package: istio-workspace-operator
+schema: olm.channel

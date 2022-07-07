@@ -1,0 +1,15 @@
+entries:
+  - name: silicom-sts-operator.v0.0.1
+  - name: silicom-sts-operator.v0.0.2
+    replaces: silicom-sts-operator.v0.0.1
+  - name: silicom-sts-operator.v0.0.3
+    replaces: silicom-sts-operator.v0.0.2
+  - name: silicom-sts-operator.v0.0.4
+    replaces: silicom-sts-operator.v0.0.3
+  - name: silicom-sts-operator.v0.0.5
+    replaces: silicom-sts-operator.v0.0.4
+  - name: silicom-sts-operator.v0.0.6
+    replaces: silicom-sts-operator.v0.0.5
+name: alpha
+package: silicom-sts-operator
+schema: olm.channel

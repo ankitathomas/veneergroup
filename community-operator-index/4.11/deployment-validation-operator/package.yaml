@@ -1,0 +1,3 @@
+defaultChannel: alpha
+name: deployment-validation-operator
+schema: olm.package

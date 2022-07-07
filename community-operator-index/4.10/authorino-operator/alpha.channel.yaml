@@ -1,0 +1,5 @@
+entries:
+  - name: authorino-operator.v0.0.1
+name: alpha
+package: authorino-operator
+schema: olm.channel

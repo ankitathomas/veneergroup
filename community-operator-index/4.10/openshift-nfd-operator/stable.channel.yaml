@@ -1,0 +1,12 @@
+entries:
+  - name: nfd.v4.10.0
+    replaces: nfd.v4.9.0
+    skipRange: '>=4.6.0 <4.11.0'
+  - name: nfd.v4.8.0
+    skipRange: '>=4.6.0 <4.8.0'
+  - name: nfd.v4.9.0
+    replaces: nfd.v4.8.0
+    skipRange: '>=4.7.0 <4.10.0'
+name: stable
+package: openshift-nfd-operator
+schema: olm.channel

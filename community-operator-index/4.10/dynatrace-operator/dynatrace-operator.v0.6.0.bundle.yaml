@@ -1,0 +1,24 @@
+image: quay.io/openshift-community-operators/dynatrace-operator@sha256:d7bb57d98471f228becb89ec9d3752013867e5c3932ca8fe22cc7cd33a8acf57
+name: dynatrace-operator.v0.6.0
+package: dynatrace-operator
+properties:
+  - type: olm.gvk
+    value:
+      group: dynatrace.com
+      kind: DynaKube
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: dynatrace.com
+      kind: DynaKube
+      version: v1beta1
+  - type: olm.package
+    value:
+      packageName: dynatrace-operator
+      version: 0.6.0
+relatedImages:
+  - image: quay.io/openshift-community-operators/dynatrace-operator@sha256:d7bb57d98471f228becb89ec9d3752013867e5c3932ca8fe22cc7cd33a8acf57
+    name: ""
+  - image: registry.connect.redhat.com/dynatrace/dynatrace-operator@sha256:f444bf52a3ec20983a08c1442a3953d2b067fbd3f4dc5c172717c41d2c28865c
+    name: ""
+schema: olm.bundle

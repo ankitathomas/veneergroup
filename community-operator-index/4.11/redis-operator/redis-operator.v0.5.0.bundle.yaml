@@ -1,0 +1,19 @@
+image: quay.io/openshift-community-operators/redis-operator@sha256:26c3ba8d96b63fc47210f1a97580121600f6726c8e27d2fc6792e4544f3ca80a
+name: redis-operator.v0.5.0
+package: redis-operator
+properties:
+  - type: olm.gvk
+    value:
+      group: redis.redis.opstreelabs.in
+      kind: Redis
+      version: v1beta1
+  - type: olm.package
+    value:
+      packageName: redis-operator
+      version: 0.5.0
+relatedImages:
+  - image: quay.io/openshift-community-operators/redis-operator@sha256:26c3ba8d96b63fc47210f1a97580121600f6726c8e27d2fc6792e4544f3ca80a
+    name: ""
+  - image: quay.io/opstree/redis-operator:v0.5.0
+    name: ""
+schema: olm.bundle

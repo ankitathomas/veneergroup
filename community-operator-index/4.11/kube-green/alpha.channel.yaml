@@ -1,0 +1,7 @@
+entries:
+  - name: kube-green.v0.3.0
+  - name: kube-green.v0.3.1
+    replaces: kube-green.v0.3.0
+name: alpha
+package: kube-green
+schema: olm.channel

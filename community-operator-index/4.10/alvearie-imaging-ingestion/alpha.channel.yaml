@@ -1,0 +1,9 @@
+entries:
+  - name: imaging-ingestion-operator.v0.0.1
+  - name: imaging-ingestion-operator.v0.0.2
+    replaces: imaging-ingestion-operator.v0.0.1
+  - name: imaging-ingestion-operator.v0.0.3
+    replaces: imaging-ingestion-operator.v0.0.2
+name: alpha
+package: alvearie-imaging-ingestion
+schema: olm.channel

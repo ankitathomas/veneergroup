@@ -1,0 +1,5 @@
+entries:
+  - name: prometheus-exporter-operator.v0.3.4
+name: alpha
+package: prometheus-exporter-operator
+schema: olm.channel

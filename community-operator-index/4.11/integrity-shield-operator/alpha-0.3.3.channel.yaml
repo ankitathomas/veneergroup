@@ -1,0 +1,13 @@
+entries:
+  - name: integrity-shield-operator.v0.1.6
+  - name: integrity-shield-operator.v0.3.0
+    replaces: integrity-shield-operator.v0.1.6
+  - name: integrity-shield-operator.v0.3.1
+    replaces: integrity-shield-operator.v0.3.0
+  - name: integrity-shield-operator.v0.3.2
+    replaces: integrity-shield-operator.v0.3.1
+  - name: integrity-shield-operator.v0.3.3
+    replaces: integrity-shield-operator.v0.3.2
+name: alpha-0.3.3
+package: integrity-shield-operator
+schema: olm.channel

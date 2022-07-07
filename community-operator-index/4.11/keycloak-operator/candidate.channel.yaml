@@ -1,0 +1,7 @@
+entries:
+  - name: keycloak-operator.v20.0.0-alpha.1
+  - name: keycloak-operator.v20.0.0-alpha.2
+    replaces: keycloak-operator.v20.0.0-alpha.1
+name: candidate
+package: keycloak-operator
+schema: olm.channel

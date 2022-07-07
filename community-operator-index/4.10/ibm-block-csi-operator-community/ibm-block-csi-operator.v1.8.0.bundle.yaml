@@ -1,0 +1,21 @@
+image: quay.io/openshift-community-operators/ibm-block-csi-operator-community@sha256:7088c0d1a15148137cb08dfce8faa4e9fd5b875c8e220ff8ee8844a1dc76e877
+name: ibm-block-csi-operator.v1.8.0
+package: ibm-block-csi-operator-community
+properties:
+  - type: olm.deprecated
+    value: {}
+  - type: olm.gvk
+    value:
+      group: csi.ibm.com
+      kind: IBMBlockCSI
+      version: v1
+  - type: olm.package
+    value:
+      packageName: ibm-block-csi-operator-community
+      version: 1.8.0
+relatedImages:
+  - image: ibmcom/ibm-block-csi-operator:1.8.0
+    name: ""
+  - image: quay.io/openshift-community-operators/ibm-block-csi-operator-community@sha256:7088c0d1a15148137cb08dfce8faa4e9fd5b875c8e220ff8ee8844a1dc76e877
+    name: ""
+schema: olm.bundle

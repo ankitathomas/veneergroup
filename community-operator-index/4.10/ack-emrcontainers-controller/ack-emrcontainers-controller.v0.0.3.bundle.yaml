@@ -1,0 +1,19 @@
+image: quay.io/openshift-community-operators/ack-emrcontainers-controller@sha256:2aaf037b8ae46b0fb0fd8e21a3a6366f609a2025bb375aba6598842187045c2f
+name: ack-emrcontainers-controller.v0.0.3
+package: ack-emrcontainers-controller
+properties:
+  - type: olm.gvk
+    value:
+      group: emrcontainers.services.k8s.aws
+      kind: VirtualCluster
+      version: v1alpha1
+  - type: olm.package
+    value:
+      packageName: ack-emrcontainers-controller
+      version: 0.0.3
+relatedImages:
+  - image: public.ecr.aws/aws-controllers-k8s/emrcontainers-controller:v0.0.3
+    name: ""
+  - image: quay.io/openshift-community-operators/ack-emrcontainers-controller@sha256:2aaf037b8ae46b0fb0fd8e21a3a6366f609a2025bb375aba6598842187045c2f
+    name: ""
+schema: olm.bundle

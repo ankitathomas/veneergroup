@@ -1,0 +1,51 @@
+entries:
+  - name: oadp-operator.v0.5.0
+    skipRange: '>=0.0.0 <99.0.0'
+  - name: oadp-operator.v0.5.1
+    replaces: oadp-operator.v0.5.0
+    skipRange: '>=0.0.0 <0.5.1'
+    skips:
+      - oadp-operator.v0.5.0
+  - name: oadp-operator.v0.5.2
+    replaces: oadp-operator.v0.5.1
+    skipRange: '>=0.0.0 <0.5.2'
+    skips:
+      - oadp-operator.v0.5.0
+      - oadp-operator.v0.5.1
+  - name: oadp-operator.v0.5.3
+    replaces: oadp-operator.v0.5.2
+    skipRange: '>=0.0.0 <0.5.3'
+    skips:
+      - oadp-operator.v0.5.0
+      - oadp-operator.v0.5.1
+      - oadp-operator.v0.5.2
+  - name: oadp-operator.v0.5.4
+    replaces: oadp-operator.v0.5.3
+    skipRange: '>=0.0.0 <0.5.4'
+    skips:
+      - oadp-operator.v0.5.0
+      - oadp-operator.v0.5.1
+      - oadp-operator.v0.5.2
+      - oadp-operator.v0.5.3
+  - name: oadp-operator.v0.5.5
+    replaces: oadp-operator.v0.5.4
+    skipRange: '>=0.0.0 <0.5.5'
+    skips:
+      - oadp-operator.v0.5.0
+      - oadp-operator.v0.5.1
+      - oadp-operator.v0.5.2
+      - oadp-operator.v0.5.3
+      - oadp-operator.v0.5.4
+  - name: oadp-operator.v0.5.6
+    replaces: oadp-operator.v0.5.5
+    skipRange: '>=0.0.0 <0.5.6'
+    skips:
+      - oadp-operator.v0.5.0
+      - oadp-operator.v0.5.1
+      - oadp-operator.v0.5.2
+      - oadp-operator.v0.5.3
+      - oadp-operator.v0.5.4
+      - oadp-operator.v0.5.5
+name: stable
+package: oadp-operator
+schema: olm.channel

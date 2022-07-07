@@ -1,0 +1,5 @@
+entries:
+  - name: prometurbo-operator.v8.5.0
+name: stable
+package: prometurbo
+schema: olm.channel

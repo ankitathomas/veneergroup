@@ -1,0 +1,19 @@
+image: quay.io/openshift-community-operators/koku-metrics-operator@sha256:6dbdb44781c47ad6a4512815b6a99e552509c6d220dea0e0cf0072ca0451bafb
+name: koku-metrics-operator.v0.9.6
+package: koku-metrics-operator
+properties:
+  - type: olm.gvk
+    value:
+      group: koku-metrics-cfg.openshift.io
+      kind: KokuMetricsConfig
+      version: v1beta1
+  - type: olm.package
+    value:
+      packageName: koku-metrics-operator
+      version: 0.9.6
+relatedImages:
+  - image: quay.io/openshift-community-operators/koku-metrics-operator@sha256:6dbdb44781c47ad6a4512815b6a99e552509c6d220dea0e0cf0072ca0451bafb
+    name: ""
+  - image: quay.io/project-koku/koku-metrics-operator@sha256:520a852663a629a78df4328573b629102d269587245c44f7559e54cd30e90bb1
+    name: ""
+schema: olm.bundle

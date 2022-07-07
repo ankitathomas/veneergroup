@@ -1,0 +1,50 @@
+image: quay.io/openshift-community-operators/ibmcloud-operator@sha256:a9be4134231b2ec36912905488e076262a8730635e89fe3d40095abedb9360a8
+name: ibmcloud-operator.v1.0.12
+package: ibmcloud-operator
+properties:
+  - type: olm.deprecated
+    value: {}
+  - type: olm.gvk
+    value:
+      group: ibmcloud.ibm.com
+      kind: Binding
+      version: v1
+  - type: olm.gvk
+    value:
+      group: ibmcloud.ibm.com
+      kind: Binding
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: ibmcloud.ibm.com
+      kind: Binding
+      version: v1beta1
+  - type: olm.gvk
+    value:
+      group: ibmcloud.ibm.com
+      kind: Service
+      version: v1
+  - type: olm.gvk
+    value:
+      group: ibmcloud.ibm.com
+      kind: Service
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: ibmcloud.ibm.com
+      kind: Service
+      version: v1beta1
+  - type: olm.maxOpenShiftVersion
+    value: "4.8"
+  - type: olm.package
+    value:
+      packageName: ibmcloud-operator
+      version: 1.0.12
+relatedImages:
+  - image: cloudoperators/ibmcloud-operator:1.0.12
+    name: ""
+  - image: gcr.io/kubebuilder/kube-rbac-proxy:v0.5.0
+    name: ""
+  - image: quay.io/openshift-community-operators/ibmcloud-operator@sha256:a9be4134231b2ec36912905488e076262a8730635e89fe3d40095abedb9360a8
+    name: ""
+schema: olm.bundle

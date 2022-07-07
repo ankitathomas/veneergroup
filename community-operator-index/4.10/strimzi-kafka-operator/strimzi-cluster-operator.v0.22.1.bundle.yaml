@@ -1,0 +1,164 @@
+image: quay.io/openshift-community-operators/strimzi-kafka-operator@sha256:2913e5b15ad8f9e7bf14ea171ceb896b1b6b36a67b8ab922c2f1c2b706d624d9
+name: strimzi-cluster-operator.v0.22.1
+package: strimzi-kafka-operator
+properties:
+  - type: olm.deprecated
+    value: {}
+  - type: olm.gvk
+    value:
+      group: kafka.strimzi.io
+      kind: Kafka
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: kafka.strimzi.io
+      kind: Kafka
+      version: v1beta1
+  - type: olm.gvk
+    value:
+      group: kafka.strimzi.io
+      kind: Kafka
+      version: v1beta2
+  - type: olm.gvk
+    value:
+      group: kafka.strimzi.io
+      kind: KafkaBridge
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: kafka.strimzi.io
+      kind: KafkaBridge
+      version: v1beta2
+  - type: olm.gvk
+    value:
+      group: kafka.strimzi.io
+      kind: KafkaConnect
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: kafka.strimzi.io
+      kind: KafkaConnect
+      version: v1beta1
+  - type: olm.gvk
+    value:
+      group: kafka.strimzi.io
+      kind: KafkaConnect
+      version: v1beta2
+  - type: olm.gvk
+    value:
+      group: kafka.strimzi.io
+      kind: KafkaConnectS2I
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: kafka.strimzi.io
+      kind: KafkaConnectS2I
+      version: v1beta1
+  - type: olm.gvk
+    value:
+      group: kafka.strimzi.io
+      kind: KafkaConnectS2I
+      version: v1beta2
+  - type: olm.gvk
+    value:
+      group: kafka.strimzi.io
+      kind: KafkaConnector
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: kafka.strimzi.io
+      kind: KafkaConnector
+      version: v1beta2
+  - type: olm.gvk
+    value:
+      group: kafka.strimzi.io
+      kind: KafkaMirrorMaker
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: kafka.strimzi.io
+      kind: KafkaMirrorMaker
+      version: v1beta1
+  - type: olm.gvk
+    value:
+      group: kafka.strimzi.io
+      kind: KafkaMirrorMaker
+      version: v1beta2
+  - type: olm.gvk
+    value:
+      group: kafka.strimzi.io
+      kind: KafkaMirrorMaker2
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: kafka.strimzi.io
+      kind: KafkaMirrorMaker2
+      version: v1beta2
+  - type: olm.gvk
+    value:
+      group: kafka.strimzi.io
+      kind: KafkaRebalance
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: kafka.strimzi.io
+      kind: KafkaRebalance
+      version: v1beta2
+  - type: olm.gvk
+    value:
+      group: kafka.strimzi.io
+      kind: KafkaTopic
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: kafka.strimzi.io
+      kind: KafkaTopic
+      version: v1beta1
+  - type: olm.gvk
+    value:
+      group: kafka.strimzi.io
+      kind: KafkaTopic
+      version: v1beta2
+  - type: olm.gvk
+    value:
+      group: kafka.strimzi.io
+      kind: KafkaUser
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: kafka.strimzi.io
+      kind: KafkaUser
+      version: v1beta1
+  - type: olm.gvk
+    value:
+      group: kafka.strimzi.io
+      kind: KafkaUser
+      version: v1beta2
+  - type: olm.maxOpenShiftVersion
+    value: "4.8"
+  - type: olm.package
+    value:
+      packageName: strimzi-kafka-operator
+      version: 0.22.1
+relatedImages:
+  - image: quay.io/openshift-community-operators/strimzi-kafka-operator@sha256:2913e5b15ad8f9e7bf14ea171ceb896b1b6b36a67b8ab922c2f1c2b706d624d9
+    name: ""
+  - image: quay.io/strimzi/jmxtrans@sha256:79bbdab70980a6929197264b944a1f53b528785de1ecf47f96a0a397d43d784f
+    name: ""
+  - image: quay.io/strimzi/kafka-bridge@sha256:bed07186355a4c04ee50e90048e3bd3a023264093a9ef28f0278cce44640e93f
+    name: ""
+  - image: quay.io/strimzi/kafka@sha256:322087236facbddbdb1c24d2f8d963773913a85f2333bebecf1e37374e88e54c
+    name: ""
+  - image: quay.io/strimzi/kafka@sha256:3e15af3627116de6c7db1619d9c963147392851be36fa6342c3c17263e993de3
+    name: ""
+  - image: quay.io/strimzi/kafka@sha256:59239810a6c46907590df3daaa79d10c034c26f770a51fec07313da389b031f6
+    name: ""
+  - image: quay.io/strimzi/kafka@sha256:9413de5670950e85f43a5ee6d06940218f753f78f71489eb8f4fdcccdd21074e
+    name: ""
+  - image: quay.io/strimzi/kafka@sha256:f7f19ec9598c4c577460988f48ddf55c1103fe3883fbe4ea8813f2864f24662e
+    name: ""
+  - image: quay.io/strimzi/kaniko-executor@sha256:c812530c2ea981d3316c7544b180289abfbd9adf1dde6f1345692b8fb0a65cb0
+    name: ""
+  - image: quay.io/strimzi/operator@sha256:0e37f671e6d489c3e56ffb8f51f19a2a014b2cb3f57eafcc5e2931090932e725
+    name: ""
+schema: olm.bundle

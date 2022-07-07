@@ -1,0 +1,51 @@
+image: quay.io/openshift-community-operators/pulsar-operator@sha256:b4d07c91a9502a13a6a3ab8d2f5f03413c26070ff380f884a11eaff704f77f4f
+name: pulsar-operator.v0.10.3
+package: pulsar-operator
+properties:
+  - type: olm.gvk
+    value:
+      group: pulsar.streamnative.io
+      kind: PulsarBroker
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: pulsar.streamnative.io
+      kind: PulsarConnection
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: pulsar.streamnative.io
+      kind: PulsarNamespace
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: pulsar.streamnative.io
+      kind: PulsarPermission
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: pulsar.streamnative.io
+      kind: PulsarProxy
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: pulsar.streamnative.io
+      kind: PulsarTenant
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: pulsar.streamnative.io
+      kind: PulsarTopic
+      version: v1alpha1
+  - type: olm.package
+    value:
+      packageName: pulsar-operator
+      version: 0.10.3
+relatedImages:
+  - image: docker.cloudsmith.io/streamnative/operators/pulsar-operator:v0.10.3
+    name: ""
+  - image: gcr.io/kubebuilder/kube-rbac-proxy:v0.5.0
+    name: ""
+  - image: quay.io/openshift-community-operators/pulsar-operator@sha256:b4d07c91a9502a13a6a3ab8d2f5f03413c26070ff380f884a11eaff704f77f4f
+    name: ""
+schema: olm.bundle

@@ -1,0 +1,21 @@
+image: quay.io/openshift-community-operators/hyperfoil-bundle@sha256:ed97ddecf9681bc46ef0e98899d82d556cbcdebf900f27c2d2b28b1c9de8f93c
+name: hyperfoil-operator.v0.15.0
+package: hyperfoil-bundle
+properties:
+  - type: olm.gvk
+    value:
+      group: hyperfoil.io
+      kind: Hyperfoil
+      version: v1alpha2
+  - type: olm.package
+    value:
+      packageName: hyperfoil-bundle
+      version: 0.15.0
+relatedImages:
+  - image: gcr.io/kubebuilder/kube-rbac-proxy:v0.8.0
+    name: ""
+  - image: quay.io/hyperfoil/hyperfoil-operator:0.15.0
+    name: ""
+  - image: quay.io/openshift-community-operators/hyperfoil-bundle@sha256:ed97ddecf9681bc46ef0e98899d82d556cbcdebf900f27c2d2b28b1c9de8f93c
+    name: ""
+schema: olm.bundle

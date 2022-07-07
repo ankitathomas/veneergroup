@@ -1,0 +1,15 @@
+entries:
+  - name: special-resource-operator.v0.0.1
+  - name: special-resource-operator.v4.8.0
+    replaces: special-resource-operator.v0.0.1
+  - name: special-resource-operator.v4.8.1
+    replaces: special-resource-operator.v4.8.0
+  - name: special-resource-operator.v4.8.2
+    replaces: special-resource-operator.v4.8.1
+    skipRange: '>=4.6.0 <4.9.0'
+  - name: special-resource-operator.v4.9.0
+    replaces: special-resource-operator.v4.8.2
+    skipRange: '>=4.6.0 <4.9.0'
+name: alpha
+package: special-resource-operator
+schema: olm.channel

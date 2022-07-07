@@ -1,0 +1,21 @@
+image: quay.io/openshift-community-operators/keepalived-operator@sha256:eb51d51ea68e9951c47359d70a98ed2d5cbc795eb106872c7223c4a9e5f17ecf
+name: keepalived-operator.v1.3.4
+package: keepalived-operator
+properties:
+  - type: olm.gvk
+    value:
+      group: redhatcop.redhat.io
+      kind: KeepalivedGroup
+      version: v1alpha1
+  - type: olm.package
+    value:
+      packageName: keepalived-operator
+      version: 1.3.4
+relatedImages:
+  - image: quay.io/coreos/kube-rbac-proxy@sha256:e10d1d982dd653db74ca87a1d1ad017bc5ef1aeb651bdea089debf16485b080b
+    name: ""
+  - image: quay.io/openshift-community-operators/keepalived-operator@sha256:eb51d51ea68e9951c47359d70a98ed2d5cbc795eb106872c7223c4a9e5f17ecf
+    name: ""
+  - image: quay.io/redhat-cop/keepalived-operator@sha256:98e481c9b747f275f6ff46d9ce97ee4a0bf29db4128dbdbb7f428cf571e4ffca
+    name: ""
+schema: olm.bundle

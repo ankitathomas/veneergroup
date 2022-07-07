@@ -1,0 +1,41 @@
+image: quay.io/openshift-community-operators/argocd-operator@sha256:2fbdcd6633e7c77fc68cab242eed2869b9b03ef6e3823da68a83ff545eee2234
+name: argocd-operator.v0.1.0
+package: argocd-operator
+properties:
+  - type: olm.gvk
+    value:
+      group: argoproj.io
+      kind: AppProject
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: argoproj.io
+      kind: Application
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: argoproj.io
+      kind: ApplicationSet
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: argoproj.io
+      kind: ArgoCD
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: argoproj.io
+      kind: ArgoCDExport
+      version: v1alpha1
+  - type: olm.package
+    value:
+      packageName: argocd-operator
+      version: 0.1.0
+relatedImages:
+  - image: gcr.io/kubebuilder/kube-rbac-proxy:v0.8.0
+    name: ""
+  - image: quay.io/argoprojlabs/argocd-operator@sha256:36a65debc06ec68237e5cb6ce9dd2e5076407b00b05d511654e152bd03f2496a
+    name: ""
+  - image: quay.io/openshift-community-operators/argocd-operator@sha256:2fbdcd6633e7c77fc68cab242eed2869b9b03ef6e3823da68a83ff545eee2234
+    name: ""
+schema: olm.bundle

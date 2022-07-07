@@ -1,0 +1,9 @@
+entries:
+  - name: prometheusoperator.0.37.0
+  - name: prometheusoperator.0.47.0
+    replaces: prometheusoperator.0.37.0
+  - name: prometheusoperator.0.56.3
+    replaces: prometheusoperator.0.47.0
+name: beta
+package: prometheus
+schema: olm.channel

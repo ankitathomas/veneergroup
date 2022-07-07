@@ -1,0 +1,7 @@
+entries:
+  - name: odoo-operator.v0.0.1
+  - name: odoo-operator.v0.0.2
+    replaces: odoo-operator.v0.0.1
+name: alpha
+package: odoo-operator
+schema: olm.channel

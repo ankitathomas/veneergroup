@@ -1,0 +1,88 @@
+image: quay.io/openshift-community-operators/universal-crossplane@sha256:f763c2df63c996750a03dc73bc9dd93c770a526629a4e97d5b688f096dcbe8d8
+name: universal-crossplane.1.3.1-up.1
+package: universal-crossplane
+properties:
+  - type: olm.gvk
+    value:
+      group: apiextensions.crossplane.io
+      kind: CompositeResourceDefinition
+      version: v1
+  - type: olm.gvk
+    value:
+      group: apiextensions.crossplane.io
+      kind: CompositeResourceDefinition
+      version: v1beta1
+  - type: olm.gvk
+    value:
+      group: apiextensions.crossplane.io
+      kind: Composition
+      version: v1
+  - type: olm.gvk
+    value:
+      group: apiextensions.crossplane.io
+      kind: Composition
+      version: v1beta1
+  - type: olm.gvk
+    value:
+      group: pkg.crossplane.io
+      kind: Configuration
+      version: v1
+  - type: olm.gvk
+    value:
+      group: pkg.crossplane.io
+      kind: Configuration
+      version: v1beta1
+  - type: olm.gvk
+    value:
+      group: pkg.crossplane.io
+      kind: ConfigurationRevision
+      version: v1
+  - type: olm.gvk
+    value:
+      group: pkg.crossplane.io
+      kind: ConfigurationRevision
+      version: v1beta1
+  - type: olm.gvk
+    value:
+      group: pkg.crossplane.io
+      kind: ControllerConfig
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: pkg.crossplane.io
+      kind: Lock
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: pkg.crossplane.io
+      kind: Provider
+      version: v1
+  - type: olm.gvk
+    value:
+      group: pkg.crossplane.io
+      kind: Provider
+      version: v1beta1
+  - type: olm.gvk
+    value:
+      group: pkg.crossplane.io
+      kind: ProviderRevision
+      version: v1
+  - type: olm.gvk
+    value:
+      group: pkg.crossplane.io
+      kind: ProviderRevision
+      version: v1beta1
+  - type: olm.package
+    value:
+      packageName: universal-crossplane
+      version: 1.3.1-up.1
+relatedImages:
+  - image: crossplane/crossplane:v1.3.1
+    name: ""
+  - image: quay.io/openshift-community-operators/universal-crossplane@sha256:f763c2df63c996750a03dc73bc9dd93c770a526629a4e97d5b688f096dcbe8d8
+    name: ""
+  - image: upbound/uxp-bootstrapper:v1.3.1-up.1
+    name: ""
+  - image: upbound/xgql:v0.1.4
+    name: ""
+schema: olm.bundle

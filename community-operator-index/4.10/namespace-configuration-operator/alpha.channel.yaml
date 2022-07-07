@@ -1,0 +1,31 @@
+entries:
+  - name: namespace-configuration-operator.v1.0.0
+  - name: namespace-configuration-operator.v1.0.1
+    replaces: namespace-configuration-operator.v1.0.0
+  - name: namespace-configuration-operator.v1.0.2
+    replaces: namespace-configuration-operator.v1.0.1
+  - name: namespace-configuration-operator.v1.0.3
+    replaces: namespace-configuration-operator.v1.0.2
+  - name: namespace-configuration-operator.v1.0.4
+    replaces: namespace-configuration-operator.v1.0.3
+  - name: namespace-configuration-operator.v1.0.5
+    replaces: namespace-configuration-operator.v1.0.4
+  - name: namespace-configuration-operator.v1.0.6
+    replaces: namespace-configuration-operator.v1.0.5
+  - name: namespace-configuration-operator.v1.0.7
+    replaces: namespace-configuration-operator.v1.0.6
+  - name: namespace-configuration-operator.v1.1.0
+    replaces: namespace-configuration-operator.v1.0.7
+  - name: namespace-configuration-operator.v1.2.0
+    replaces: namespace-configuration-operator.v1.1.0
+  - name: namespace-configuration-operator.v1.2.1
+    replaces: namespace-configuration-operator.v1.2.0
+  - name: namespace-configuration-operator.v1.2.2
+    replaces: namespace-configuration-operator.v1.2.1
+  - name: namespace-configuration-operator.v1.2.3
+    replaces: namespace-configuration-operator.v1.2.2
+  - name: namespace-configuration-operator.v1.2.4
+    replaces: namespace-configuration-operator.v1.2.3
+name: alpha
+package: namespace-configuration-operator
+schema: olm.channel

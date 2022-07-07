@@ -1,0 +1,24 @@
+image: quay.io/openshift-community-operators/ack-applicationautoscaling-controller@sha256:c2b21d42f1b736a2a02ea2989f0a2b2710b1c5dce4899fbc9ef40c52b51a1470
+name: ack-applicationautoscaling-controller.v0.2.9
+package: ack-applicationautoscaling-controller
+properties:
+  - type: olm.gvk
+    value:
+      group: applicationautoscaling.services.k8s.aws
+      kind: ScalableTarget
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: applicationautoscaling.services.k8s.aws
+      kind: ScalingPolicy
+      version: v1alpha1
+  - type: olm.package
+    value:
+      packageName: ack-applicationautoscaling-controller
+      version: 0.2.9
+relatedImages:
+  - image: public.ecr.aws/aws-controllers-k8s/applicationautoscaling-controller:v0.2.9
+    name: ""
+  - image: quay.io/openshift-community-operators/ack-applicationautoscaling-controller@sha256:c2b21d42f1b736a2a02ea2989f0a2b2710b1c5dce4899fbc9ef40c52b51a1470
+    name: ""
+schema: olm.bundle

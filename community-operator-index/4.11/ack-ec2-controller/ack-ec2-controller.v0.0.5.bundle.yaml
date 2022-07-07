@@ -1,0 +1,49 @@
+image: quay.io/openshift-community-operators/ack-ec2-controller@sha256:e72e9057f72986b231f43245b9d85c132107ebc06c80c0d31b3d57071b97d33c
+name: ack-ec2-controller.v0.0.5
+package: ack-ec2-controller
+properties:
+  - type: olm.gvk
+    value:
+      group: ec2.services.k8s.aws
+      kind: InternetGateway
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: ec2.services.k8s.aws
+      kind: RouteTable
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: ec2.services.k8s.aws
+      kind: SecurityGroup
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: ec2.services.k8s.aws
+      kind: Subnet
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: ec2.services.k8s.aws
+      kind: TransitGateway
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: ec2.services.k8s.aws
+      kind: VPC
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: ec2.services.k8s.aws
+      kind: VPCEndpoint
+      version: v1alpha1
+  - type: olm.package
+    value:
+      packageName: ack-ec2-controller
+      version: 0.0.5
+relatedImages:
+  - image: public.ecr.aws/aws-controllers-k8s/ec2-controller:v0.0.5
+    name: ""
+  - image: quay.io/openshift-community-operators/ack-ec2-controller@sha256:e72e9057f72986b231f43245b9d85c132107ebc06c80c0d31b3d57071b97d33c
+    name: ""
+schema: olm.bundle

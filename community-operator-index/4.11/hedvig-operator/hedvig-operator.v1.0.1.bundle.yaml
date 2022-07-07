@@ -1,0 +1,23 @@
+image: quay.io/openshift-community-operators/hedvig-operator@sha256:75bc3966ba4e36bad7beca668f25ea6c1330a8ca41d682d65ea0cb4f177e5381
+name: hedvig-operator.v1.0.1
+package: hedvig-operator
+properties:
+  - type: olm.deprecated
+    value: {}
+  - type: olm.gvk
+    value:
+      group: hedvig.io
+      kind: HedvigDeploy
+      version: v1
+  - type: olm.maxOpenShiftVersion
+    value: "4.8"
+  - type: olm.package
+    value:
+      packageName: hedvig-operator
+      version: 1.0.1
+relatedImages:
+  - image: hedvig/hedvig-operator:1.0.1
+    name: ""
+  - image: quay.io/openshift-community-operators/hedvig-operator@sha256:75bc3966ba4e36bad7beca668f25ea6c1330a8ca41d682d65ea0cb4f177e5381
+    name: ""
+schema: olm.bundle

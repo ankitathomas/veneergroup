@@ -1,0 +1,11 @@
+entries:
+  - name: node-healthcheck-operator.v0.0.1
+  - name: node-healthcheck-operator.v0.0.2
+    replaces: node-healthcheck-operator.v0.0.1
+  - name: node-healthcheck-operator.v0.1.0
+    replaces: node-healthcheck-operator.v0.0.2
+  - name: node-healthcheck-operator.v0.1.1
+    replaces: node-healthcheck-operator.v0.1.0
+name: alpha
+package: node-healthcheck-operator
+schema: olm.channel

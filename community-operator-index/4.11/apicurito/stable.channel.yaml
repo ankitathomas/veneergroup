@@ -1,0 +1,11 @@
+entries:
+  - name: apicurito.v1.0.1
+    replaces: apicuritooperator.v0.1.0
+  - name: apicurito.v1.0.2
+    replaces: apicurito.v1.0.1
+  - name: apicurito.v1.0.3
+    replaces: apicurito.v1.0.2
+  - name: apicuritooperator.v0.1.0
+name: stable
+package: apicurito
+schema: olm.channel

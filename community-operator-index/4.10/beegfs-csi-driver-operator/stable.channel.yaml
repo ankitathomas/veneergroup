@@ -1,0 +1,9 @@
+entries:
+  - name: beegfs-csi-driver-operator.v1.2.0
+  - name: beegfs-csi-driver-operator.v1.2.1
+    replaces: beegfs-csi-driver-operator.v1.2.0
+  - name: beegfs-csi-driver-operator.v1.2.2
+    replaces: beegfs-csi-driver-operator.v1.2.1
+name: stable
+package: beegfs-csi-driver-operator
+schema: olm.channel

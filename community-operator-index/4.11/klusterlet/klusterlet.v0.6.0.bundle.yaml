@@ -1,0 +1,19 @@
+image: quay.io/openshift-community-operators/klusterlet@sha256:6818835d08ecdf3acc7eff2c4c5036689095780552fb74e5457086fb879991db
+name: klusterlet.v0.6.0
+package: klusterlet
+properties:
+  - type: olm.gvk
+    value:
+      group: operator.open-cluster-management.io
+      kind: Klusterlet
+      version: v1
+  - type: olm.package
+    value:
+      packageName: klusterlet
+      version: 0.6.0
+relatedImages:
+  - image: quay.io/open-cluster-management/registration-operator:v0.6.0
+    name: ""
+  - image: quay.io/openshift-community-operators/klusterlet@sha256:6818835d08ecdf3acc7eff2c4c5036689095780552fb74e5457086fb879991db
+    name: ""
+schema: olm.bundle

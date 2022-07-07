@@ -1,0 +1,5 @@
+entries:
+  - name: reportportal-operator.v0.0.8
+name: alpha
+package: reportportal-operator
+schema: olm.channel

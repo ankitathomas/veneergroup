@@ -1,0 +1,21 @@
+image: quay.io/openshift-community-operators/bookkeeper-operator@sha256:d14e6ecb52908287ec360cd5bc56099ae41a94aaa6eb592ea4d318529a2fcfab
+name: bookkeeper-operator.v0.11.0
+package: bookkeeper-operator
+properties:
+  - type: olm.gvk
+    value:
+      group: bookkeeper.streamnative.io
+      kind: BookKeeperCluster
+      version: v1alpha1
+  - type: olm.package
+    value:
+      packageName: bookkeeper-operator
+      version: 0.11.0
+relatedImages:
+  - image: quay.io/openshift-community-operators/bookkeeper-operator@sha256:d14e6ecb52908287ec360cd5bc56099ae41a94aaa6eb592ea4d318529a2fcfab
+    name: ""
+  - image: quay.io/streamnativeio/bookkeeper-operator:v0.11.0
+    name: ""
+  - image: quay.io/streamnativeio/kube-rbac-proxy:v0.8.0
+    name: ""
+schema: olm.bundle

@@ -1,0 +1,11 @@
+entries:
+  - name: postgresoperator.v5.0.4
+  - name: postgresoperator.v5.1.0
+    replaces: postgresoperator.v5.0.4
+    skips:
+      - postgresoperator.v5.0.5
+  - name: postgresoperator.v5.1.1
+    replaces: postgresoperator.v5.1.0
+name: v5
+package: postgresql
+schema: olm.channel

@@ -1,0 +1,7 @@
+entries:
+  - name: strimzi-cluster-operator.v0.22.1
+  - name: strimzi-cluster-operator.v0.23.0
+    replaces: strimzi-cluster-operator.v0.22.1
+name: strimzi-0.23.x
+package: strimzi-kafka-operator
+schema: olm.channel

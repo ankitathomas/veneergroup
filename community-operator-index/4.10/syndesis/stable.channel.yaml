@@ -1,0 +1,7 @@
+entries:
+  - name: syndesis.v1.12.0
+  - name: syndesis.v1.13.0
+    replaces: syndesis.v1.12.0
+name: stable
+package: syndesis
+schema: olm.channel

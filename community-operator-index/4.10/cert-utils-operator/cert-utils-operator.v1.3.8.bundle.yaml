@@ -1,0 +1,16 @@
+image: quay.io/openshift-community-operators/cert-utils-operator@sha256:9156c73cbc0d92f7854ca44c4bb2a3c0f344db94b00ff99364555d1759eb5c4c
+name: cert-utils-operator.v1.3.8
+package: cert-utils-operator
+properties:
+  - type: olm.package
+    value:
+      packageName: cert-utils-operator
+      version: 1.3.8
+relatedImages:
+  - image: quay.io/openshift-community-operators/cert-utils-operator@sha256:9156c73cbc0d92f7854ca44c4bb2a3c0f344db94b00ff99364555d1759eb5c4c
+    name: ""
+  - image: quay.io/redhat-cop/cert-utils-operator@sha256:a13c5bd3dc94ea4e93e24e7177bcec90d68c9c22162327c6a8c0a17511f01b87
+    name: ""
+  - image: quay.io/redhat-cop/kube-rbac-proxy@sha256:c68135620167c41e3d9f6c1d2ca1eb8fa24312b86186d09b8010656b9d25fb47
+    name: ""
+schema: olm.bundle

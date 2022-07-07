@@ -1,0 +1,7 @@
+entries:
+  - name: cockroachdb.v5.0.3
+  - name: cockroachdb.v5.0.4
+    replaces: cockroachdb.v5.0.3
+name: stable-5.x
+package: cockroachdb
+schema: olm.channel

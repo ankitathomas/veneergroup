@@ -1,0 +1,49 @@
+image: quay.io/openshift-community-operators/assisted-service-operator@sha256:fd906410928c6de833e75e22e8afd488689562584477e6fc45f84c48849922d7
+name: assisted-service-operator.v0.2.8
+package: assisted-service-operator
+properties:
+  - type: olm.gvk
+    value:
+      group: agent-install.openshift.io
+      kind: Agent
+      version: v1beta1
+  - type: olm.gvk
+    value:
+      group: agent-install.openshift.io
+      kind: AgentServiceConfig
+      version: v1beta1
+  - type: olm.gvk
+    value:
+      group: agent-install.openshift.io
+      kind: InfraEnv
+      version: v1beta1
+  - type: olm.gvk
+    value:
+      group: agent-install.openshift.io
+      kind: NMStateConfig
+      version: v1beta1
+  - type: olm.gvk
+    value:
+      group: extensions.hive.openshift.io
+      kind: AgentClusterInstall
+      version: v1beta1
+  - type: olm.package
+    value:
+      packageName: assisted-service-operator
+      version: 0.2.8
+relatedImages:
+  - image: quay.io/edge-infrastructure/assisted-image-service@sha256:c9b2409920cb39f856067c3ca98e117b927917e0c9b1ea115b9debc08e411e95
+    name: ""
+  - image: quay.io/edge-infrastructure/assisted-installer-agent@sha256:1a438fe9396a18e304b2e1128971f1d76e1ffacd5129d10cb5ef5830409b9ce5
+    name: ""
+  - image: quay.io/edge-infrastructure/assisted-installer-controller@sha256:896668e91a028bf5d9cabef6f23e366db7f1d5a31ace6856fb94f1444a7cf107
+    name: ""
+  - image: quay.io/edge-infrastructure/assisted-installer@sha256:86bf0357cf1ae8a8f52005f261bfa4f079ceb142894f1b13f049bbf29dba023d
+    name: ""
+  - image: quay.io/edge-infrastructure/assisted-service@sha256:eabc9b6e6ccd6e4a7c44a2e4662fadca50aa8acc2d708857cd3f0e7c682e42be
+    name: ""
+  - image: quay.io/edge-infrastructure/postgresql-12-centos7@sha256:94727d70e0afbf4e167e078744f3a10ac9d82edc553d57b0ecbb5443264f07e1
+    name: ""
+  - image: quay.io/openshift-community-operators/assisted-service-operator@sha256:fd906410928c6de833e75e22e8afd488689562584477e6fc45f84c48849922d7
+    name: ""
+schema: olm.bundle

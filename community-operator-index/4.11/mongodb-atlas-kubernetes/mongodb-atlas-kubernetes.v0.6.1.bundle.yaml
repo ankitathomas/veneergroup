@@ -1,0 +1,29 @@
+image: quay.io/openshift-community-operators/mongodb-atlas-kubernetes@sha256:7569c7fe4cc2ba8d6a73be784575ef8cb817d2adfc9475aa5faf4d71dba4439c
+name: mongodb-atlas-kubernetes.v0.6.1
+package: mongodb-atlas-kubernetes
+properties:
+  - type: olm.gvk
+    value:
+      group: atlas.mongodb.com
+      kind: AtlasCluster
+      version: v1
+  - type: olm.gvk
+    value:
+      group: atlas.mongodb.com
+      kind: AtlasDatabaseUser
+      version: v1
+  - type: olm.gvk
+    value:
+      group: atlas.mongodb.com
+      kind: AtlasProject
+      version: v1
+  - type: olm.package
+    value:
+      packageName: mongodb-atlas-kubernetes
+      version: 0.6.1
+relatedImages:
+  - image: mongodb/mongodb-atlas-kubernetes-operator:0.6.1
+    name: ""
+  - image: quay.io/openshift-community-operators/mongodb-atlas-kubernetes@sha256:7569c7fe4cc2ba8d6a73be784575ef8cb817d2adfc9475aa5faf4d71dba4439c
+    name: ""
+schema: olm.bundle

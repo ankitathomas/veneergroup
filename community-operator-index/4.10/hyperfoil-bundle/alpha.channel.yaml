@@ -1,0 +1,9 @@
+entries:
+  - name: hyperfoil-operator.v0.12.0
+  - name: hyperfoil-operator.v0.15.0
+    replaces: hyperfoil-operator.v0.12.0
+  - name: hyperfoil-operator.v0.15.1
+    replaces: hyperfoil-operator.v0.15.0
+name: alpha
+package: hyperfoil-bundle
+schema: olm.channel

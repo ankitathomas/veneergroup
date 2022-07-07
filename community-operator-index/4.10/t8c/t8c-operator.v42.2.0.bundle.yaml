@@ -1,0 +1,24 @@
+image: quay.io/openshift-community-operators/t8c@sha256:333e6c07a074927ec476bdd68356f785da54a814b3187eeb74f018614b7efe68
+name: t8c-operator.v42.2.0
+package: t8c
+properties:
+  - type: olm.gvk
+    value:
+      group: charts.helm.k8s.io
+      kind: Xl
+      version: v1
+  - type: olm.gvk
+    value:
+      group: charts.helm.k8s.io
+      kind: Xl
+      version: v1alpha1
+  - type: olm.package
+    value:
+      packageName: t8c
+      version: 42.2.0
+relatedImages:
+  - image: quay.io/openshift-community-operators/t8c@sha256:333e6c07a074927ec476bdd68356f785da54a814b3187eeb74f018614b7efe68
+    name: ""
+  - image: registry.connect.redhat.com/turbonomic/t8c-operator:42.2
+    name: ""
+schema: olm.bundle

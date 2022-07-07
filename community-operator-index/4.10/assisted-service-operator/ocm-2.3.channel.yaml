@@ -1,0 +1,59 @@
+entries:
+  - name: assisted-service-operator.v0.0.1
+  - name: assisted-service-operator.v0.0.2
+    replaces: assisted-service-operator.v0.0.1
+    skipRange: <0.0.2
+  - name: assisted-service-operator.v0.0.3
+    replaces: assisted-service-operator.v0.0.2
+    skipRange: <0.0.3
+  - name: assisted-service-operator.v0.0.4
+    replaces: assisted-service-operator.v0.0.3
+    skipRange: '>=0.0.0 <0.0.4'
+    skips:
+      - assisted-service-operator.v0.0.1
+      - assisted-service-operator.v0.0.2
+      - assisted-service-operator.v0.0.3
+  - name: assisted-service-operator.v0.0.5
+    replaces: assisted-service-operator.v0.0.4
+    skipRange: '>=0.0.0 <0.0.5'
+    skips:
+      - assisted-service-operator.v0.0.1
+      - assisted-service-operator.v0.0.2
+      - assisted-service-operator.v0.0.3
+      - assisted-service-operator.v0.0.4
+      - assisted-service-operator.v0.0.5-rc.1
+  - name: assisted-service-operator.v0.0.5-rc.1
+    skipRange: '>=0.0.0 <0.0.5'
+  - name: assisted-service-operator.v0.0.6
+    replaces: assisted-service-operator.v0.0.5
+    skipRange: '>=0.0.0 <0.0.5'
+    skips:
+      - assisted-service-operator.v0.0.1
+      - assisted-service-operator.v0.0.2
+      - assisted-service-operator.v0.0.3
+      - assisted-service-operator.v0.0.4
+      - assisted-service-operator.v0.0.5-rc.1
+      - assisted-service-operator.v0.0.5
+  - name: assisted-service-operator.v0.0.7
+    replaces: assisted-service-operator.v0.0.6
+    skipRange: '>=0.0.1 <0.0.7'
+    skips:
+      - assisted-service-operator.v0.0.1
+      - assisted-service-operator.v0.0.2
+      - assisted-service-operator.v0.0.3
+      - assisted-service-operator.v0.0.4
+  - name: assisted-service-operator.v0.0.8
+    replaces: assisted-service-operator.v0.0.7
+    skipRange: '>=0.0.0 <0.0.8'
+    skips:
+      - assisted-service-operator.v0.0.1
+      - assisted-service-operator.v0.0.2
+      - assisted-service-operator.v0.0.3
+      - assisted-service-operator.v0.0.4
+      - assisted-service-operator.v0.0.5-rc.1
+      - assisted-service-operator.v0.0.5
+      - assisted-service-operator.v0.0.6
+      - assisted-service-operator.v0.0.7
+name: ocm-2.3
+package: assisted-service-operator
+schema: olm.channel

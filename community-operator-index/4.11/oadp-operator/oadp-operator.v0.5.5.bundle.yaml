@@ -1,0 +1,95 @@
+image: quay.io/openshift-community-operators/oadp-operator@sha256:3ab407e1274944175e4002fb168ac2acaeb6d66411ef018758f556bd2ad1b135
+name: oadp-operator.v0.5.5
+package: oadp-operator
+properties:
+  - type: olm.gvk
+    value:
+      group: oadp.openshift.io
+      kind: CloudStorage
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: oadp.openshift.io
+      kind: DataProtectionApplication
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: velero.io
+      kind: Backup
+      version: v1
+  - type: olm.gvk
+    value:
+      group: velero.io
+      kind: BackupStorageLocation
+      version: v1
+  - type: olm.gvk
+    value:
+      group: velero.io
+      kind: DeleteBackupRequest
+      version: v1
+  - type: olm.gvk
+    value:
+      group: velero.io
+      kind: DownloadRequest
+      version: v1
+  - type: olm.gvk
+    value:
+      group: velero.io
+      kind: PodVolumeBackup
+      version: v1
+  - type: olm.gvk
+    value:
+      group: velero.io
+      kind: PodVolumeRestore
+      version: v1
+  - type: olm.gvk
+    value:
+      group: velero.io
+      kind: ResticRepository
+      version: v1
+  - type: olm.gvk
+    value:
+      group: velero.io
+      kind: Restore
+      version: v1
+  - type: olm.gvk
+    value:
+      group: velero.io
+      kind: Schedule
+      version: v1
+  - type: olm.gvk
+    value:
+      group: velero.io
+      kind: ServerStatusRequest
+      version: v1
+  - type: olm.gvk
+    value:
+      group: velero.io
+      kind: VolumeSnapshotLocation
+      version: v1
+  - type: olm.package
+    value:
+      packageName: oadp-operator
+      version: 0.5.5
+relatedImages:
+  - image: quay.io/konveyor/oadp-operator@sha256:e55b2c75a119b012c70cfed76798e8c564ad30fc4245b1d0c2ba02fa458fade5
+    name: ""
+  - image: quay.io/konveyor/openshift-velero-plugin@sha256:8215a83003879c4cca4e04d1466057e01e5be83354959abb575cf742d39a7c64
+    name: ""
+  - image: quay.io/konveyor/registry@sha256:fdde90f37db9ff7b1a25b665ae1039c949cfdb7985390c1eb9cb68646c9e6729
+    name: ""
+  - image: quay.io/konveyor/velero-plugin-for-aws@sha256:6fc0cced1316cacd1b925a5af8ecf6d3815a47fb44ac7fdeb04a39d94640a579
+    name: ""
+  - image: quay.io/konveyor/velero-plugin-for-csi@sha256:0fab296cea670763e97a5c2ad0aaad0c41bf5ac06626eeb2fb59d92bf93be0f5
+    name: ""
+  - image: quay.io/konveyor/velero-plugin-for-gcp@sha256:f0ebb24c39961e2749155652e3c6beb89d4021b1504f87815db0c28e64732a6a
+    name: ""
+  - image: quay.io/konveyor/velero-plugin-for-microsoft-azure@sha256:9c77679e53e36eadeab2152829a068c619a929d93238e47a890e89ab072f83cd
+    name: ""
+  - image: quay.io/konveyor/velero-restic-restore-helper@sha256:78b85cdf81c084d0ba86733152397e680f981ba0470004b9cebef479065375a4
+    name: ""
+  - image: quay.io/konveyor/velero@sha256:79c4de2fada86f9392b1ccc3ad7bddd40bb0ec7727e68dc5fc527f259ef97b91
+    name: ""
+  - image: quay.io/openshift-community-operators/oadp-operator@sha256:3ab407e1274944175e4002fb168ac2acaeb6d66411ef018758f556bd2ad1b135
+    name: ""
+schema: olm.bundle

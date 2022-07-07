@@ -1,0 +1,21 @@
+image: quay.io/openshift-community-operators/netobserv-operator@sha256:0b0ed3fdd30b5310a7edd3725de3f8431cf64409d96afb8a4812e49f3962a85a
+name: netobserv-operator.v0.1.0
+package: netobserv-operator
+properties:
+  - type: olm.gvk
+    value:
+      group: flows.netobserv.io
+      kind: FlowCollector
+      version: v1alpha1
+  - type: olm.package
+    value:
+      packageName: netobserv-operator
+      version: 0.1.0
+relatedImages:
+  - image: gcr.io/kubebuilder/kube-rbac-proxy:v0.8.0
+    name: ""
+  - image: quay.io/netobserv/network-observability-operator:0.1.0
+    name: ""
+  - image: quay.io/openshift-community-operators/netobserv-operator@sha256:0b0ed3fdd30b5310a7edd3725de3f8431cf64409d96afb8a4812e49f3962a85a
+    name: ""
+schema: olm.bundle

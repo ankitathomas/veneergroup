@@ -1,0 +1,21 @@
+image: quay.io/openshift-community-operators/kube-green@sha256:68edaa38d5a438f641ffc32f1261490b9800033a7397d0f2399d3cf0e3300f07
+name: kube-green.v0.3.0
+package: kube-green
+properties:
+  - type: olm.gvk
+    value:
+      group: kube-green.com
+      kind: SleepInfo
+      version: v1alpha1
+  - type: olm.package
+    value:
+      packageName: kube-green
+      version: 0.3.0
+relatedImages:
+  - image: gcr.io/kubebuilder/kube-rbac-proxy:v0.5.0
+    name: ""
+  - image: kubegreen/kube-green:0.3.0
+    name: ""
+  - image: quay.io/openshift-community-operators/kube-green@sha256:68edaa38d5a438f641ffc32f1261490b9800033a7397d0f2399d3cf0e3300f07
+    name: ""
+schema: olm.bundle

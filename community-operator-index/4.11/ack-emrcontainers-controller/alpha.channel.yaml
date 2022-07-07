@@ -1,0 +1,7 @@
+entries:
+  - name: ack-emrcontainers-controller.v0.0.3
+  - name: ack-emrcontainers-controller.v0.0.4
+    replaces: ack-emrcontainers-controller.v0.0.3
+name: alpha
+package: ack-emrcontainers-controller
+schema: olm.channel

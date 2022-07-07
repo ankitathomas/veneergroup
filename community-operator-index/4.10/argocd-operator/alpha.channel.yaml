@@ -1,0 +1,13 @@
+entries:
+  - name: argocd-operator.v0.0.15
+  - name: argocd-operator.v0.1.0
+    replaces: argocd-operator.v0.0.15
+  - name: argocd-operator.v0.2.0
+    replaces: argocd-operator.v0.1.0
+  - name: argocd-operator.v0.2.1
+    replaces: argocd-operator.v0.2.0
+  - name: argocd-operator.v0.3.0
+    replaces: argocd-operator.v0.2.1
+name: alpha
+package: argocd-operator
+schema: olm.channel

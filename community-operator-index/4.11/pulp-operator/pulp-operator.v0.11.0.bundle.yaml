@@ -1,0 +1,39 @@
+image: quay.io/openshift-community-operators/pulp-operator@sha256:ef9bd0f07df8277d30f44d5a9c34e84c488154fcff0817335c7712db095caacc
+name: pulp-operator.v0.11.0
+package: pulp-operator
+properties:
+  - type: olm.gvk
+    value:
+      group: pulp.pulpproject.org
+      kind: Pulp
+      version: v1beta1
+  - type: olm.gvk
+    value:
+      group: pulp.pulpproject.org
+      kind: PulpBackup
+      version: v1beta1
+  - type: olm.gvk
+    value:
+      group: pulp.pulpproject.org
+      kind: PulpRestore
+      version: v1beta1
+  - type: olm.package
+    value:
+      packageName: pulp-operator
+      version: 0.11.0
+relatedImages:
+  - image: gcr.io/kubebuilder/kube-rbac-proxy:v0.8.0
+    name: ""
+  - image: postgres:13
+    name: ""
+  - image: quay.io/openshift-community-operators/pulp-operator@sha256:ef9bd0f07df8277d30f44d5a9c34e84c488154fcff0817335c7712db095caacc
+    name: ""
+  - image: quay.io/pulp/pulp-operator:v0.11.0
+    name: ""
+  - image: quay.io/pulp/pulp-web:stable
+    name: ""
+  - image: quay.io/pulp/pulp:stable
+    name: ""
+  - image: redis:latest
+    name: ""
+schema: olm.bundle

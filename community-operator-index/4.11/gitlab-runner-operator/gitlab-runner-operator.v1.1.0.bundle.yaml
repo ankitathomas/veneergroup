@@ -1,0 +1,25 @@
+image: quay.io/openshift-community-operators/gitlab-runner-operator@sha256:cbf32360ab43ee792ad2efef2e683439f6fa5b3a42d300bcdbd448f0b7fc55a4
+name: gitlab-runner-operator.v1.1.0
+package: gitlab-runner-operator
+properties:
+  - type: olm.deprecated
+    value: {}
+  - type: olm.gvk
+    value:
+      group: apps.gitlab.com
+      kind: Runner
+      version: v1beta2
+  - type: olm.maxOpenShiftVersion
+    value: "4.8"
+  - type: olm.package
+    value:
+      packageName: gitlab-runner-operator
+      version: 1.1.0
+relatedImages:
+  - image: gcr.io/kubebuilder/kube-rbac-proxy:v0.5.0
+    name: ""
+  - image: quay.io/openshift-community-operators/gitlab-runner-operator@sha256:cbf32360ab43ee792ad2efef2e683439f6fa5b3a42d300bcdbd448f0b7fc55a4
+    name: ""
+  - image: registry.gitlab.com/gitlab-org/gl-openshift/gitlab-runner-operator/gitlab-runner-operator:v1.1.0
+    name: ""
+schema: olm.bundle

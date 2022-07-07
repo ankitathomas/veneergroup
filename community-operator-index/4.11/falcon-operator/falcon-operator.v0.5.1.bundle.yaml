@@ -1,0 +1,26 @@
+image: quay.io/openshift-community-operators/falcon-operator@sha256:437a822ad3ca5bfb64ea9f02d060f0be170d16c05b7070a69824363da0037440
+name: falcon-operator.v0.5.1
+package: falcon-operator
+properties:
+  - type: olm.gvk
+    value:
+      group: falcon.crowdstrike.com
+      kind: FalconContainer
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: falcon.crowdstrike.com
+      kind: FalconNodeSensor
+      version: v1alpha1
+  - type: olm.package
+    value:
+      packageName: falcon-operator
+      version: 0.5.1
+relatedImages:
+  - image: gcr.io/kubebuilder/kube-rbac-proxy:v0.8.0
+    name: ""
+  - image: quay.io/crowdstrike/falcon-operator:v0.5.1
+    name: ""
+  - image: quay.io/openshift-community-operators/falcon-operator@sha256:437a822ad3ca5bfb64ea9f02d060f0be170d16c05b7070a69824363da0037440
+    name: ""
+schema: olm.bundle

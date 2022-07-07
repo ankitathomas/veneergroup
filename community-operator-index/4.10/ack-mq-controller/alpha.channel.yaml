@@ -1,0 +1,29 @@
+entries:
+  - name: ack-mq-controller.v0.0.10
+    replaces: ack-mq-controller.v0.0.9
+  - name: ack-mq-controller.v0.0.11
+    replaces: ack-mq-controller.v0.0.10
+  - name: ack-mq-controller.v0.0.12
+    replaces: ack-mq-controller.v0.0.11
+  - name: ack-mq-controller.v0.0.13
+    replaces: ack-mq-controller.v0.0.12
+  - name: ack-mq-controller.v0.0.14
+    replaces: ack-mq-controller.v0.0.13
+  - name: ack-mq-controller.v0.0.15
+    replaces: ack-mq-controller.v0.0.14
+  - name: ack-mq-controller.v0.0.16
+    replaces: ack-mq-controller.v0.0.15
+  - name: ack-mq-controller.v0.0.17
+    replaces: ack-mq-controller.v0.0.16
+  - name: ack-mq-controller.v0.0.18
+    replaces: ack-mq-controller.v0.0.17
+  - name: ack-mq-controller.v0.0.19
+    replaces: ack-mq-controller.v0.0.18
+  - name: ack-mq-controller.v0.0.7
+  - name: ack-mq-controller.v0.0.8
+    replaces: ack-mq-controller.v0.0.7
+  - name: ack-mq-controller.v0.0.9
+    replaces: ack-mq-controller.v0.0.8
+name: alpha
+package: ack-mq-controller
+schema: olm.channel

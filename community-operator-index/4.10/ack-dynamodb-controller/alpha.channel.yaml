@@ -1,0 +1,33 @@
+entries:
+  - name: ack-dynamodb-controller.v0.0.10
+    replaces: ack-dynamodb-controller.v0.0.9
+  - name: ack-dynamodb-controller.v0.0.11
+    replaces: ack-dynamodb-controller.v0.0.10
+  - name: ack-dynamodb-controller.v0.0.12
+    replaces: ack-dynamodb-controller.v0.0.11
+  - name: ack-dynamodb-controller.v0.0.13
+    replaces: ack-dynamodb-controller.v0.0.12
+  - name: ack-dynamodb-controller.v0.0.14
+    replaces: ack-dynamodb-controller.v0.0.13
+  - name: ack-dynamodb-controller.v0.0.15
+    replaces: ack-dynamodb-controller.v0.0.14
+  - name: ack-dynamodb-controller.v0.0.16
+    replaces: ack-dynamodb-controller.v0.0.15
+  - name: ack-dynamodb-controller.v0.0.17
+    replaces: ack-dynamodb-controller.v0.0.16
+  - name: ack-dynamodb-controller.v0.0.18
+    replaces: ack-dynamodb-controller.v0.0.17
+  - name: ack-dynamodb-controller.v0.0.19
+    replaces: ack-dynamodb-controller.v0.0.18
+  - name: ack-dynamodb-controller.v0.0.20
+    replaces: ack-dynamodb-controller.v0.0.19
+  - name: ack-dynamodb-controller.v0.0.8
+  - name: ack-dynamodb-controller.v0.0.9
+    replaces: ack-dynamodb-controller.v0.0.8
+  - name: ack-dynamodb-controller.v0.1.0
+    replaces: ack-dynamodb-controller.v0.0.20
+  - name: ack-dynamodb-controller.v0.1.1
+    replaces: ack-dynamodb-controller.v0.1.0
+name: alpha
+package: ack-dynamodb-controller
+schema: olm.channel

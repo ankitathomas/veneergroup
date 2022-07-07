@@ -1,0 +1,21 @@
+image: quay.io/openshift-community-operators/patch-operator@sha256:d06e1c1e18f34b60d0162a3df291d28ce7f45c07066bca8d15cda30ae69d2165
+name: patch-operator.v0.1.2
+package: patch-operator
+properties:
+  - type: olm.gvk
+    value:
+      group: redhatcop.redhat.io
+      kind: Patch
+      version: v1alpha1
+  - type: olm.package
+    value:
+      packageName: patch-operator
+      version: 0.1.2
+relatedImages:
+  - image: quay.io/openshift-community-operators/patch-operator@sha256:d06e1c1e18f34b60d0162a3df291d28ce7f45c07066bca8d15cda30ae69d2165
+    name: ""
+  - image: quay.io/redhat-cop/kube-rbac-proxy@sha256:c68135620167c41e3d9f6c1d2ca1eb8fa24312b86186d09b8010656b9d25fb47
+    name: ""
+  - image: quay.io/redhat-cop/patch-operator@sha256:3c34c94e8e4ba4bf93fbb6dffd231403d4fdaad570046d212fcf61b9a56d3ae4
+    name: ""
+schema: olm.bundle

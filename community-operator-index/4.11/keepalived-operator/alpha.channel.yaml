@@ -1,0 +1,29 @@
+entries:
+  - name: keepalived-operator.v1.0.0
+  - name: keepalived-operator.v1.1.0
+    replaces: keepalived-operator.v1.0.0
+  - name: keepalived-operator.v1.2.0
+    replaces: keepalived-operator.v1.1.0
+  - name: keepalived-operator.v1.2.1
+    replaces: keepalived-operator.v1.2.0
+  - name: keepalived-operator.v1.2.2
+    replaces: keepalived-operator.v1.2.1
+  - name: keepalived-operator.v1.3.0
+    replaces: keepalived-operator.v1.2.2
+  - name: keepalived-operator.v1.3.1
+    replaces: keepalived-operator.v1.3.0
+  - name: keepalived-operator.v1.3.2
+    replaces: keepalived-operator.v1.3.1
+  - name: keepalived-operator.v1.3.3
+    replaces: keepalived-operator.v1.3.2
+  - name: keepalived-operator.v1.3.4
+    replaces: keepalived-operator.v1.3.3
+  - name: keepalived-operator.v1.4.0
+    replaces: keepalived-operator.v1.3.4
+  - name: keepalived-operator.v1.4.1
+    replaces: keepalived-operator.v1.4.0
+  - name: keepalived-operator.v1.4.2
+    replaces: keepalived-operator.v1.4.1
+name: alpha
+package: keepalived-operator
+schema: olm.channel

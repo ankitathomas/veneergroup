@@ -1,0 +1,19 @@
+image: quay.io/openshift-community-operators/mta-operator@sha256:e89f485aba9976290324db28f1410bb5da9efbc5b79cbb6d22d578acab0c5639
+name: windup-operator.0.0.9
+package: mta-operator
+properties:
+  - type: olm.gvk
+    value:
+      group: windup.jboss.org
+      kind: Windup
+      version: v1
+  - type: olm.package
+    value:
+      packageName: mta-operator
+      version: 0.0.9
+relatedImages:
+  - image: quay.io/openshift-community-operators/mta-operator@sha256:e89f485aba9976290324db28f1410bb5da9efbc5b79cbb6d22d578acab0c5639
+    name: ""
+  - image: quay.io/windupeng/windup-operator-native:0.0.9
+    name: ""
+schema: olm.bundle

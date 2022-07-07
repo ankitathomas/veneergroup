@@ -1,0 +1,5 @@
+entries:
+  - name: sigstore-helm-operator.v0.0.1
+name: alpha
+package: sigstore-helm-operator
+schema: olm.channel

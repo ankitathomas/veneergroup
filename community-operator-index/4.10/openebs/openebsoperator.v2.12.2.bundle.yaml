@@ -1,0 +1,19 @@
+image: quay.io/openshift-community-operators/openebs@sha256:045a45541db3dbf712f2d0e5e030c017f300a462e5d84ce09b8695ce9c616b94
+name: openebsoperator.v2.12.2
+package: openebs
+properties:
+  - type: olm.gvk
+    value:
+      group: openebs.io
+      kind: OpenEBSInstallTemplate
+      version: v1alpha1
+  - type: olm.package
+    value:
+      packageName: openebs
+      version: 2.12.2
+relatedImages:
+  - image: index.docker.io/openebs/helm-operator:v0.0.8
+    name: ""
+  - image: quay.io/openshift-community-operators/openebs@sha256:045a45541db3dbf712f2d0e5e030c017f300a462e5d84ce09b8695ce9c616b94
+    name: ""
+schema: olm.bundle

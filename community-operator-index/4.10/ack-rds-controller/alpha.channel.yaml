@@ -1,0 +1,35 @@
+entries:
+  - name: ack-rds-controller.v0.0.12
+  - name: ack-rds-controller.v0.0.13
+    replaces: ack-rds-controller.v0.0.12
+  - name: ack-rds-controller.v0.0.14
+    replaces: ack-rds-controller.v0.0.13
+  - name: ack-rds-controller.v0.0.15
+    replaces: ack-rds-controller.v0.0.14
+  - name: ack-rds-controller.v0.0.16
+    replaces: ack-rds-controller.v0.0.15
+  - name: ack-rds-controller.v0.0.17
+    replaces: ack-rds-controller.v0.0.16
+  - name: ack-rds-controller.v0.0.18
+    replaces: ack-rds-controller.v0.0.17
+  - name: ack-rds-controller.v0.0.19
+    replaces: ack-rds-controller.v0.0.18
+  - name: ack-rds-controller.v0.0.20
+    replaces: ack-rds-controller.v0.0.19
+  - name: ack-rds-controller.v0.0.21
+    replaces: ack-rds-controller.v0.0.20
+  - name: ack-rds-controller.v0.0.22
+    replaces: ack-rds-controller.v0.0.21
+  - name: ack-rds-controller.v0.0.23
+    replaces: ack-rds-controller.v0.0.22
+  - name: ack-rds-controller.v0.0.24
+    replaces: ack-rds-controller.v0.0.23
+  - name: ack-rds-controller.v0.0.25
+    replaces: ack-rds-controller.v0.0.24
+  - name: ack-rds-controller.v0.0.26
+    replaces: ack-rds-controller.v0.0.25
+  - name: ack-rds-controller.v0.0.27
+    replaces: ack-rds-controller.v0.0.26
+name: alpha
+package: ack-rds-controller
+schema: olm.channel

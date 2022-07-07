@@ -1,0 +1,33 @@
+image: quay.io/openshift-community-operators/keda@sha256:c96837e740d4351e73cc5d9d8371a0f3ece3578f9aef946b4bd744083436e102
+name: keda.v1.5.0
+package: keda
+properties:
+  - type: olm.deprecated
+    value: {}
+  - type: olm.gvk
+    value:
+      group: keda.k8s.io
+      kind: KedaController
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: keda.k8s.io
+      kind: ScaledObject
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: keda.k8s.io
+      kind: TriggerAuthentication
+      version: v1alpha1
+  - type: olm.maxOpenShiftVersion
+    value: "4.8"
+  - type: olm.package
+    value:
+      packageName: keda
+      version: 1.5.0
+relatedImages:
+  - image: docker.io/kedacore/keda-olm-operator:1.5.0
+    name: ""
+  - image: quay.io/openshift-community-operators/keda@sha256:c96837e740d4351e73cc5d9d8371a0f3ece3578f9aef946b4bd744083436e102
+    name: ""
+schema: olm.bundle

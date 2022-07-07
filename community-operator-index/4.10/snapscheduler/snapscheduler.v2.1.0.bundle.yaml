@@ -1,0 +1,21 @@
+image: quay.io/openshift-community-operators/snapscheduler@sha256:6bd100320e9c6cc6fe35d21b85099a90e41cab9cdc4018d519b9389d70f75cd1
+name: snapscheduler.v2.1.0
+package: snapscheduler
+properties:
+  - type: olm.gvk
+    value:
+      group: snapscheduler.backube
+      kind: SnapshotSchedule
+      version: v1
+  - type: olm.package
+    value:
+      packageName: snapscheduler
+      version: 2.1.0
+relatedImages:
+  - image: quay.io/backube/snapscheduler:2.1.0
+    name: ""
+  - image: quay.io/brancz/kube-rbac-proxy:v0.11.0
+    name: ""
+  - image: quay.io/openshift-community-operators/snapscheduler@sha256:6bd100320e9c6cc6fe35d21b85099a90e41cab9cdc4018d519b9389d70f75cd1
+    name: ""
+schema: olm.bundle

@@ -1,0 +1,13 @@
+entries:
+  - name: dynatrace-operator.v0.5.0
+    skips:
+      - dynatrace-operator.v0.4.2
+      - dynatrace-operator.v0.4.1
+      - dynatrace-operator.v0.3.0
+  - name: dynatrace-operator.v0.5.1
+    replaces: dynatrace-operator.v0.5.0
+  - name: dynatrace-operator.v0.6.0
+    replaces: dynatrace-operator.v0.5.1
+name: alpha
+package: dynatrace-operator
+schema: olm.channel

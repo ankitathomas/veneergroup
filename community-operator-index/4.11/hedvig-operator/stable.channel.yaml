@@ -1,0 +1,7 @@
+entries:
+  - name: hedvig-operator.v1.0.1
+  - name: hedvig-operator.v1.0.2
+    replaces: hedvig-operator.v1.0.1
+name: stable
+package: hedvig-operator
+schema: olm.channel

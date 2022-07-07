@@ -1,0 +1,49 @@
+image: quay.io/openshift-community-operators/ack-rds-controller@sha256:1b480058126d4064021df108142dc0b70f3fb435c27820bb5e948e55e008c5c6
+name: ack-rds-controller.v0.0.14
+package: ack-rds-controller
+properties:
+  - type: olm.gvk
+    value:
+      group: rds.services.k8s.aws
+      kind: DBCluster
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: rds.services.k8s.aws
+      kind: DBClusterParameterGroup
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: rds.services.k8s.aws
+      kind: DBInstance
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: rds.services.k8s.aws
+      kind: DBParameterGroup
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: rds.services.k8s.aws
+      kind: DBSecurityGroup
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: rds.services.k8s.aws
+      kind: DBSubnetGroup
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: rds.services.k8s.aws
+      kind: GlobalCluster
+      version: v1alpha1
+  - type: olm.package
+    value:
+      packageName: ack-rds-controller
+      version: 0.0.14
+relatedImages:
+  - image: public.ecr.aws/aws-controllers-k8s/rds-controller:v0.0.14
+    name: ""
+  - image: quay.io/openshift-community-operators/ack-rds-controller@sha256:1b480058126d4064021df108142dc0b70f3fb435c27820bb5e948e55e008c5c6
+    name: ""
+schema: olm.bundle

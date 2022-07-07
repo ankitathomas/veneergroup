@@ -1,0 +1,99 @@
+entries:
+  - name: hive-operator.v1.1.10
+    replaces: hive-operator.v1.1.9
+  - name: hive-operator.v1.1.11
+    replaces: hive-operator.v1.1.10
+  - name: hive-operator.v1.1.12
+    replaces: hive-operator.v1.1.11
+  - name: hive-operator.v1.1.13
+    replaces: hive-operator.v1.1.12
+  - name: hive-operator.v1.1.14
+    replaces: hive-operator.v1.1.13
+  - name: hive-operator.v1.1.15
+    replaces: hive-operator.v1.1.14
+  - name: hive-operator.v1.1.16
+    replaces: hive-operator.v1.1.15
+  - name: hive-operator.v1.1.5
+  - name: hive-operator.v1.1.6
+    replaces: hive-operator.v1.1.5
+  - name: hive-operator.v1.1.7
+    replaces: hive-operator.v1.1.6
+  - name: hive-operator.v1.1.8
+    replaces: hive-operator.v1.1.7
+  - name: hive-operator.v1.1.9
+    replaces: hive-operator.v1.1.8
+  - name: hive-operator.v1.2.3179-0756b70e6
+    replaces: hive-operator.v1.1.16
+  - name: hive-operator.v1.2.3222-1411793
+    replaces: hive-operator.v1.2.3179-0756b70e6
+  - name: hive-operator.v1.2.3254-512b7f4
+    replaces: hive-operator.v1.2.3222-1411793
+  - name: hive-operator.v1.2.3274-a27a4f7
+    replaces: hive-operator.v1.2.3254-512b7f4
+  - name: hive-operator.v1.2.3299-f0cc1ba
+    replaces: hive-operator.v1.2.3274-a27a4f7
+  - name: hive-operator.v1.2.3310-bc1417a
+    replaces: hive-operator.v1.2.3299-f0cc1ba
+  - name: hive-operator.v1.2.3329-16c6e0f
+    replaces: hive-operator.v1.2.3310-bc1417a
+  - name: hive-operator.v1.2.3337-d668960
+    replaces: hive-operator.v1.2.3329-16c6e0f
+  - name: hive-operator.v1.2.3359-8f0773c
+    replaces: hive-operator.v1.2.3337-d668960
+  - name: hive-operator.v1.2.3375-1f0f3eb
+    replaces: hive-operator.v1.2.3359-8f0773c
+  - name: hive-operator.v1.2.3391-55f6363
+    replaces: hive-operator.v1.2.3375-1f0f3eb
+  - name: hive-operator.v1.2.3427-e50103a
+    replaces: hive-operator.v1.2.3391-55f6363
+  - name: hive-operator.v1.2.3431-6ba92bb
+    replaces: hive-operator.v1.2.3427-e50103a
+  - name: hive-operator.v1.2.3457-b212e8a
+    replaces: hive-operator.v1.2.3431-6ba92bb
+  - name: hive-operator.v1.2.3461-a607db0
+    replaces: hive-operator.v1.2.3457-b212e8a
+  - name: hive-operator.v1.2.3481-ad1892a
+    replaces: hive-operator.v1.2.3461-a607db0
+  - name: hive-operator.v1.2.3490-7e0b248
+    replaces: hive-operator.v1.2.3481-ad1892a
+  - name: hive-operator.v1.2.3506-f54f0ec
+    replaces: hive-operator.v1.2.3490-7e0b248
+  - name: hive-operator.v1.2.3530-0be0b66
+    replaces: hive-operator.v1.2.3506-f54f0ec
+  - name: hive-operator.v1.2.3542-688681d
+    replaces: hive-operator.v1.2.3530-0be0b66
+  - name: hive-operator.v1.2.3552-133480f
+    replaces: hive-operator.v1.2.3542-688681d
+  - name: hive-operator.v1.2.3557-bfb69ae
+    replaces: hive-operator.v1.2.3552-133480f
+  - name: hive-operator.v1.2.3577-1549a35
+    replaces: hive-operator.v1.2.3557-bfb69ae
+  - name: hive-operator.v1.2.3581-88b1c28
+    replaces: hive-operator.v1.2.3577-1549a35
+  - name: hive-operator.v1.2.3588-5ccea30
+    replaces: hive-operator.v1.2.3581-88b1c28
+  - name: hive-operator.v1.2.3594-20fd254
+    replaces: hive-operator.v1.2.3588-5ccea30
+  - name: hive-operator.v1.2.3598-e150a7f
+    replaces: hive-operator.v1.2.3594-20fd254
+  - name: hive-operator.v1.2.3606-2544e8a
+    replaces: hive-operator.v1.2.3598-e150a7f
+  - name: hive-operator.v1.2.3633-595563c
+    replaces: hive-operator.v1.2.3606-2544e8a
+  - name: hive-operator.v1.2.3641-2a02c5d
+    replaces: hive-operator.v1.2.3633-595563c
+  - name: hive-operator.v1.2.3656-68d5e0a
+    replaces: hive-operator.v1.2.3641-2a02c5d
+  - name: hive-operator.v1.2.3666-420863a
+    replaces: hive-operator.v1.2.3656-68d5e0a
+  - name: hive-operator.v1.2.3676-b7b175c
+    replaces: hive-operator.v1.2.3666-420863a
+  - name: hive-operator.v1.2.3687-204949e
+    replaces: hive-operator.v1.2.3676-b7b175c
+  - name: hive-operator.v1.2.3716-d6fe109
+    replaces: hive-operator.v1.2.3687-204949e
+  - name: hive-operator.v1.2.3725-6ac23a8
+    replaces: hive-operator.v1.2.3716-d6fe109
+name: alpha
+package: hive-operator
+schema: olm.channel

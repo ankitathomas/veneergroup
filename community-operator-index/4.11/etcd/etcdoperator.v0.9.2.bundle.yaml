@@ -1,0 +1,29 @@
+image: quay.io/openshift-community-operators/etcd@sha256:d976e5a01b20e39c4227bca469cf6c6744e61d1140ac1d4db994154f4b451a81
+name: etcdoperator.v0.9.2
+package: etcd
+properties:
+  - type: olm.gvk
+    value:
+      group: etcd.database.coreos.com
+      kind: EtcdBackup
+      version: v1beta2
+  - type: olm.gvk
+    value:
+      group: etcd.database.coreos.com
+      kind: EtcdCluster
+      version: v1beta2
+  - type: olm.gvk
+    value:
+      group: etcd.database.coreos.com
+      kind: EtcdRestore
+      version: v1beta2
+  - type: olm.package
+    value:
+      packageName: etcd
+      version: 0.9.2
+relatedImages:
+  - image: quay.io/coreos/etcd-operator@sha256:c0301e4686c3ed4206e370b42de5a3bd2229b9fb4906cf85f3f30650424abec2
+    name: ""
+  - image: quay.io/openshift-community-operators/etcd@sha256:d976e5a01b20e39c4227bca469cf6c6744e61d1140ac1d4db994154f4b451a81
+    name: ""
+schema: olm.bundle

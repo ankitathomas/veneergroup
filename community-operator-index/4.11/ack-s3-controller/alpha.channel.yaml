@@ -1,0 +1,39 @@
+entries:
+  - name: ack-s3-controller.v0.0.10
+    replaces: ack-s3-controller.v0.0.9
+  - name: ack-s3-controller.v0.0.11
+    replaces: ack-s3-controller.v0.0.10
+  - name: ack-s3-controller.v0.0.12
+    replaces: ack-s3-controller.v0.0.11
+  - name: ack-s3-controller.v0.0.13
+    replaces: ack-s3-controller.v0.0.12
+  - name: ack-s3-controller.v0.0.14
+    replaces: ack-s3-controller.v0.0.13
+  - name: ack-s3-controller.v0.0.15
+    replaces: ack-s3-controller.v0.0.14
+  - name: ack-s3-controller.v0.0.16
+    replaces: ack-s3-controller.v0.0.15
+  - name: ack-s3-controller.v0.0.17
+    replaces: ack-s3-controller.v0.0.16
+  - name: ack-s3-controller.v0.0.18
+    replaces: ack-s3-controller.v0.0.17
+  - name: ack-s3-controller.v0.0.19
+    replaces: ack-s3-controller.v0.0.18
+  - name: ack-s3-controller.v0.0.20
+    replaces: ack-s3-controller.v0.0.19
+  - name: ack-s3-controller.v0.0.7
+  - name: ack-s3-controller.v0.0.8
+    replaces: ack-s3-controller.v0.0.7
+  - name: ack-s3-controller.v0.0.9
+    replaces: ack-s3-controller.v0.0.8
+  - name: ack-s3-controller.v0.1.0
+    replaces: ack-s3-controller.v0.0.20
+  - name: ack-s3-controller.v0.1.1
+    replaces: ack-s3-controller.v0.1.0
+  - name: ack-s3-controller.v0.1.2
+    replaces: ack-s3-controller.v0.1.1
+  - name: ack-s3-controller.v0.1.3
+    replaces: ack-s3-controller.v0.1.2
+name: alpha
+package: ack-s3-controller
+schema: olm.channel

@@ -1,0 +1,74 @@
+image: quay.io/openshift-community-operators/oadp-operator@sha256:24bfc353bb70b750c2b713b7a9cbc3e62856df60327a0b762c5c349b10710cb8
+name: oadp-operator.v0.4.1
+package: oadp-operator
+properties:
+  - type: olm.gvk
+    value:
+      group: oadp.openshift.io
+      kind: Velero
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: velero.io
+      kind: Backup
+      version: v1
+  - type: olm.gvk
+    value:
+      group: velero.io
+      kind: BackupStorageLocation
+      version: v1
+  - type: olm.gvk
+    value:
+      group: velero.io
+      kind: DeleteBackupRequest
+      version: v1
+  - type: olm.gvk
+    value:
+      group: velero.io
+      kind: DownloadRequest
+      version: v1
+  - type: olm.gvk
+    value:
+      group: velero.io
+      kind: PodVolumeBackup
+      version: v1
+  - type: olm.gvk
+    value:
+      group: velero.io
+      kind: PodVolumeRestore
+      version: v1
+  - type: olm.gvk
+    value:
+      group: velero.io
+      kind: ResticRepository
+      version: v1
+  - type: olm.gvk
+    value:
+      group: velero.io
+      kind: Restore
+      version: v1
+  - type: olm.gvk
+    value:
+      group: velero.io
+      kind: Schedule
+      version: v1
+  - type: olm.gvk
+    value:
+      group: velero.io
+      kind: ServerStatusRequest
+      version: v1
+  - type: olm.gvk
+    value:
+      group: velero.io
+      kind: VolumeSnapshotLocation
+      version: v1
+  - type: olm.package
+    value:
+      packageName: oadp-operator
+      version: 0.4.1
+relatedImages:
+  - image: quay.io/konveyor/oadp-operator:oadp-0.4.1
+    name: ""
+  - image: quay.io/openshift-community-operators/oadp-operator@sha256:24bfc353bb70b750c2b713b7a9cbc3e62856df60327a0b762c5c349b10710cb8
+    name: ""
+schema: olm.bundle

@@ -1,0 +1,5 @@
+entries:
+  - name: etcdoperator.v0.6.1
+name: alpha
+package: etcd
+schema: olm.channel

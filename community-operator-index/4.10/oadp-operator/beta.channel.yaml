@@ -1,0 +1,23 @@
+entries:
+  - name: oadp-operator.v0.3.0
+  - name: oadp-operator.v0.4.0
+    replaces: oadp-operator.v0.3.0
+    skipRange: '>=0.0.0 <0.4.0'
+    skips:
+      - oadp-operator.v0.3.0
+  - name: oadp-operator.v0.4.1
+    replaces: oadp-operator.v0.4.0
+    skipRange: '>=0.0.0 <0.4.1'
+    skips:
+      - oadp-operator.v0.3.0
+      - oadp-operator.v0.4.0
+  - name: oadp-operator.v0.4.2
+    replaces: oadp-operator.v0.4.1
+    skipRange: '>=0.0.0 <0.4.2'
+    skips:
+      - oadp-operator.v0.3.0
+      - oadp-operator.v0.4.0
+      - oadp-operator.v0.4.1
+name: beta
+package: oadp-operator
+schema: olm.channel

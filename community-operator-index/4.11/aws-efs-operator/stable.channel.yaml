@@ -1,0 +1,7 @@
+entries:
+  - name: aws-efs-operator.v0.0.7
+  - name: aws-efs-operator.v0.0.8
+    replaces: aws-efs-operator.v0.0.7
+name: stable
+package: aws-efs-operator
+schema: olm.channel

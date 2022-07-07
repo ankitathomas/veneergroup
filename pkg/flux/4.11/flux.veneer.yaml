@@ -1,0 +1,259 @@
+defaultChannel: stable
+name: flux
+schema: olm.package
+---
+entries:
+  - name: flux.v0.13.4
+  - name: flux.v0.14.0
+    replaces: flux.v0.13.4
+  - name: flux.v0.14.1
+    replaces: flux.v0.14.0
+  - name: flux.v0.14.2
+    replaces: flux.v0.14.1
+  - name: flux.v0.15.2
+    replaces: flux.v0.14.2
+  - name: flux.v0.15.3
+    replaces: flux.v0.15.2
+  - name: flux.v0.16.0
+    replaces: flux.v0.15.3
+  - name: flux.v0.16.1
+    replaces: flux.v0.16.0
+  - name: flux.v0.16.2
+    replaces: flux.v0.16.1
+  - name: flux.v0.17.0
+    replaces: flux.v0.16.2
+  - name: flux.v0.17.1
+    replaces: flux.v0.17.0
+  - name: flux.v0.17.2
+    replaces: flux.v0.17.1
+  - name: flux.v0.18.1
+    replaces: flux.v0.17.2
+  - name: flux.v0.18.3
+    replaces: flux.v0.18.1
+  - name: flux.v0.19.1
+    replaces: flux.v0.18.3
+  - name: flux.v0.20.0
+    replaces: flux.v0.19.1
+  - name: flux.v0.20.1
+    replaces: flux.v0.20.0
+  - name: flux.v0.21.0
+    replaces: flux.v0.20.1
+  - name: flux.v0.21.1
+    replaces: flux.v0.21.0
+  - name: flux.v0.22.0
+    replaces: flux.v0.21.1
+  - name: flux.v0.22.1
+    replaces: flux.v0.22.0
+  - name: flux.v0.23.0
+    replaces: flux.v0.22.1
+  - name: flux.v0.24.0
+    replaces: flux.v0.23.0
+  - name: flux.v0.24.1
+    replaces: flux.v0.24.0
+  - name: flux.v0.25.2
+    replaces: flux.v0.24.1
+  - name: flux.v0.25.3
+    replaces: flux.v0.25.2
+  - name: flux.v0.26.0
+    replaces: flux.v0.25.3
+  - name: flux.v0.26.1
+    replaces: flux.v0.26.0
+  - name: flux.v0.27.0
+    replaces: flux.v0.26.1
+  - name: flux.v0.27.2
+    replaces: flux.v0.27.0
+  - name: flux.v0.27.3
+    replaces: flux.v0.27.2
+  - name: flux.v0.27.4
+    replaces: flux.v0.27.3
+  - name: flux.v0.28.3
+    replaces: flux.v0.27.4
+  - name: flux.v0.28.4
+    replaces: flux.v0.28.3
+  - name: flux.v0.28.5
+    replaces: flux.v0.28.4
+  - name: flux.v0.30.2
+    replaces: flux.v0.28.5
+name: stable
+package: flux
+schema: olm.channel
+---
+image: quay.io/openshift-community-operators/flux@sha256:c2d43faaf53bd8105e3ad34b9ee69065178ee2c64c2b22186f8e6248b12f3c70
+name: flux.v0.13.4
+package: flux
+schema: olm.bundle
+---
+image: quay.io/openshift-community-operators/flux@sha256:6feabb3cd40451fa7ee3a8f24c785811d571d474c7a33182473e4949cfc5de1a
+name: flux.v0.14.0
+package: flux
+schema: olm.bundle
+---
+image: quay.io/openshift-community-operators/flux@sha256:5c73e2255d592292ec386213b9eeddc9aad10d05276d5ed634c43753b2798fc5
+name: flux.v0.14.1
+package: flux
+schema: olm.bundle
+---
+image: quay.io/openshift-community-operators/flux@sha256:dc7fb5046d00ad4b81cfe52975c4d73645f916920b8279a1fd02c5db7bea463d
+name: flux.v0.14.2
+package: flux
+schema: olm.bundle
+---
+image: quay.io/openshift-community-operators/flux@sha256:c598f866d20f708e777bd942f2d012090a21e0791d43d1c7da6f0572a80bb6d9
+name: flux.v0.15.2
+package: flux
+schema: olm.bundle
+---
+image: quay.io/openshift-community-operators/flux@sha256:961784bbcb6f7aa4e3fd8bedda5260e9346b846e42d5ea14de1362f7f04a19ab
+name: flux.v0.15.3
+package: flux
+schema: olm.bundle
+---
+image: quay.io/openshift-community-operators/flux@sha256:fc3c7dc20f6da287964d5a3f54d939ae79daeb14cd54c03261276a43cfbb3d31
+name: flux.v0.16.0
+package: flux
+schema: olm.bundle
+---
+image: quay.io/openshift-community-operators/flux@sha256:a9007d3e180301e446f52a20590778c6c6ab64aad5c91d641e3216ec6f2e609d
+name: flux.v0.16.1
+package: flux
+schema: olm.bundle
+---
+image: quay.io/openshift-community-operators/flux@sha256:3ae656edab9e797d541132fab58346379ed9c7a27cf556464a78ec2c3a5dac77
+name: flux.v0.16.2
+package: flux
+schema: olm.bundle
+---
+image: quay.io/openshift-community-operators/flux@sha256:aa23954ff957176f2aac1680cbbadd73f064d088b170dbab4a6e371a22799252
+name: flux.v0.17.0
+package: flux
+schema: olm.bundle
+---
+image: quay.io/openshift-community-operators/flux@sha256:e37430f2c6bf1eea9f01f334ecc45b4eb637cf4e51b2a2c5aae09691d053d653
+name: flux.v0.17.1
+package: flux
+schema: olm.bundle
+---
+image: quay.io/openshift-community-operators/flux@sha256:2ff7f00ad4898dcb7f2cc2c40f33cdd7adc239621e85cdc2ab0c4ded7d118484
+name: flux.v0.17.2
+package: flux
+schema: olm.bundle
+---
+image: quay.io/openshift-community-operators/flux@sha256:19475cf5c5f4902db0ed3a083bc7d5bf59128fd36cb3dc6e7b44ed4b1c4dacd0
+name: flux.v0.18.1
+package: flux
+schema: olm.bundle
+---
+image: quay.io/openshift-community-operators/flux@sha256:6e6047daf8cf15ebff0b047f062da87f62d22465741166bfe516c728511c02ff
+name: flux.v0.18.3
+package: flux
+schema: olm.bundle
+---
+image: quay.io/openshift-community-operators/flux@sha256:ea71ef8e892e9639bc1aeacb5ff3e27801fe685f6560f4bc069e9352de925b23
+name: flux.v0.19.1
+package: flux
+schema: olm.bundle
+---
+image: quay.io/openshift-community-operators/flux@sha256:07ac8d2611bfbbcbcc0c2ca740ec53b6c0fe1f0d53c877233b71b0762f5fc126
+name: flux.v0.20.0
+package: flux
+schema: olm.bundle
+---
+image: quay.io/openshift-community-operators/flux@sha256:cec3f9dc70b9be10fdfdbc3c9e557e9914d731a715fc90dd8e60534722406ab8
+name: flux.v0.20.1
+package: flux
+schema: olm.bundle
+---
+image: quay.io/openshift-community-operators/flux@sha256:bb00fd403ec59fb835f1d0c38f2ac006ea465ad1b3c4b7f78faa02b607ce8862
+name: flux.v0.21.0
+package: flux
+schema: olm.bundle
+---
+image: quay.io/openshift-community-operators/flux@sha256:82395862b06ca518d767510a353fd4581d8c2d48024dea1971bd198cfe5f4a26
+name: flux.v0.21.1
+package: flux
+schema: olm.bundle
+---
+image: quay.io/openshift-community-operators/flux@sha256:d2b34646dd695354a941ac2c07e53e1e09996d48956f7c9739d84e468255c39e
+name: flux.v0.22.0
+package: flux
+schema: olm.bundle
+---
+image: quay.io/openshift-community-operators/flux@sha256:9d0dd09c2870694a227f6bd3c6017c3e588ac53c896b81a883255553436660b5
+name: flux.v0.22.1
+package: flux
+schema: olm.bundle
+---
+image: quay.io/openshift-community-operators/flux@sha256:a77807a028f4aa3e609c860220ff528e74a28083c6990903d7d6efd975374956
+name: flux.v0.23.0
+package: flux
+schema: olm.bundle
+---
+image: quay.io/openshift-community-operators/flux@sha256:399b2e6ad48ae7ff7b7c8ac27dc512dc310a3c8eee1954b7d1f5ac327d12ac37
+name: flux.v0.24.0
+package: flux
+schema: olm.bundle
+---
+image: quay.io/openshift-community-operators/flux@sha256:f6cfe0947c46994054ff9fa63a0745c91995c5c46453b6a9222b6b720c55d434
+name: flux.v0.24.1
+package: flux
+schema: olm.bundle
+---
+image: quay.io/openshift-community-operators/flux@sha256:5e2a4c980f706e9d3e928bf0618f49c90e0d4a3bf7802a5ee7bee479930691ec
+name: flux.v0.25.2
+package: flux
+schema: olm.bundle
+---
+image: quay.io/openshift-community-operators/flux@sha256:0018ded5989b4ebfa75211d658172c501b53398bf684d6ade297c0321b82d1e0
+name: flux.v0.25.3
+package: flux
+schema: olm.bundle
+---
+image: quay.io/openshift-community-operators/flux@sha256:2be4cc295279bfeef55e0810e778e42bf890d017a25bd42392f34efa6c78e6a8
+name: flux.v0.26.0
+package: flux
+schema: olm.bundle
+---
+image: quay.io/openshift-community-operators/flux@sha256:56c41ad0b18e1301c61cdc622b15d5ce6717c89e849abf32703ba6e4877480fb
+name: flux.v0.26.1
+package: flux
+schema: olm.bundle
+---
+image: quay.io/openshift-community-operators/flux@sha256:3dd0b5897b7b776f84fa4291152dedd0691b1e09ffb1e8173d3f12841ff98e06
+name: flux.v0.27.0
+package: flux
+schema: olm.bundle
+---
+image: quay.io/openshift-community-operators/flux@sha256:238aa0b72cfc6b236a8e0db70862482f922358def42eca7a3ddaeea2e6624352
+name: flux.v0.27.2
+package: flux
+schema: olm.bundle
+---
+image: quay.io/openshift-community-operators/flux@sha256:8dc2bf5101659cdf9c727015ee62f130470da9073da11605ee0420b1f76608ce
+name: flux.v0.27.3
+package: flux
+schema: olm.bundle
+---
+image: quay.io/openshift-community-operators/flux@sha256:63311c48a966c79385bad234cbf5d34490a3e6929378275bd62b61efb2898c79
+name: flux.v0.27.4
+package: flux
+schema: olm.bundle
+---
+image: quay.io/openshift-community-operators/flux@sha256:5e6114de13c10a3229b5fb0e60f5445d0b6182773f91dca8ce639ce021cc9062
+name: flux.v0.28.3
+package: flux
+schema: olm.bundle
+---
+image: quay.io/openshift-community-operators/flux@sha256:bf1b4cef4618cc1736df077544a03d83e00481a739d9cc4a952dca9ad2ddc760
+name: flux.v0.28.4
+package: flux
+schema: olm.bundle
+---
+image: quay.io/openshift-community-operators/flux@sha256:3daad9af5372599dbccaf1e6a6d6d58e06fdcaafeec31a24aa2f41c6d357e4ca
+name: flux.v0.28.5
+package: flux
+schema: olm.bundle
+---
+image: quay.io/openshift-community-operators/flux@sha256:9d3fc4b6171f78effcb3a1744ef00c38308fbc1ad6f5a1422865f5672d7364eb
+name: flux.v0.30.2
+package: flux
+schema: olm.bundle

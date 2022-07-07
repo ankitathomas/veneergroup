@@ -1,0 +1,21 @@
+image: quay.io/openshift-community-operators/group-sync-operator@sha256:ef9ba884a39bcc1638622dfe2e69f87043f87bfdde6b0caf8450c68e1923795c
+name: group-sync-operator.v0.0.14
+package: group-sync-operator
+properties:
+  - type: olm.gvk
+    value:
+      group: redhatcop.redhat.io
+      kind: GroupSync
+      version: v1alpha1
+  - type: olm.package
+    value:
+      packageName: group-sync-operator
+      version: 0.0.14
+relatedImages:
+  - image: quay.io/openshift-community-operators/group-sync-operator@sha256:ef9ba884a39bcc1638622dfe2e69f87043f87bfdde6b0caf8450c68e1923795c
+    name: ""
+  - image: quay.io/redhat-cop/group-sync-operator@sha256:ef5999e53e620a1ccefb50c4ee69305a8087cc96c96ad37de6a9fd4c7d022a6b
+    name: ""
+  - image: registry.redhat.io/openshift4/ose-kube-rbac-proxy@sha256:6d57bfd91fac9b68eb72d27226bc297472ceb136c996628b845ecc54a48b31cb
+    name: ""
+schema: olm.bundle

@@ -1,0 +1,23 @@
+image: quay.io/openshift-community-operators/microcks@sha256:0be280e63495aafe05833430c8e209a3464268a5603daad2bb252b3f0102b9f2
+name: microcks-operator.v1.3.0
+package: microcks
+properties:
+  - type: olm.deprecated
+    value: {}
+  - type: olm.gvk
+    value:
+      group: microcks.github.io
+      kind: MicrocksInstall
+      version: v1alpha1
+  - type: olm.maxOpenShiftVersion
+    value: "4.8"
+  - type: olm.package
+    value:
+      packageName: microcks
+      version: 1.3.0
+relatedImages:
+  - image: quay.io/microcks/microcks-ansible-operator:1.3.0
+    name: ""
+  - image: quay.io/openshift-community-operators/microcks@sha256:0be280e63495aafe05833430c8e209a3464268a5603daad2bb252b3f0102b9f2
+    name: ""
+schema: olm.bundle

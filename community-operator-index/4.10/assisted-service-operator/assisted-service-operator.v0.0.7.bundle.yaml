@@ -1,0 +1,47 @@
+image: quay.io/openshift-community-operators/assisted-service-operator@sha256:9c94492f1537353c1b020d64694cb576c2fc07a0a4a809efc96c015ec7a160de
+name: assisted-service-operator.v0.0.7
+package: assisted-service-operator
+properties:
+  - type: olm.gvk
+    value:
+      group: agent-install.openshift.io
+      kind: Agent
+      version: v1beta1
+  - type: olm.gvk
+    value:
+      group: agent-install.openshift.io
+      kind: AgentServiceConfig
+      version: v1beta1
+  - type: olm.gvk
+    value:
+      group: agent-install.openshift.io
+      kind: InfraEnv
+      version: v1beta1
+  - type: olm.gvk
+    value:
+      group: agent-install.openshift.io
+      kind: NMStateConfig
+      version: v1beta1
+  - type: olm.gvk
+    value:
+      group: extensions.hive.openshift.io
+      kind: AgentClusterInstall
+      version: v1beta1
+  - type: olm.package
+    value:
+      packageName: assisted-service-operator
+      version: 0.0.7
+relatedImages:
+  - image: quay.io/ocpmetal/assisted-installer-agent@sha256:712607a27aae61a66769263e5091e32ad5d20999c773e7777fb66e80b26c63fe
+    name: ""
+  - image: quay.io/ocpmetal/assisted-installer-controller@sha256:b5dfbd5ca3d443d8736493c732745ed58c87226f33036e2d544860a5cb3e7376
+    name: ""
+  - image: quay.io/ocpmetal/assisted-installer@sha256:b6d33c502a6f92936c701822b66550880cbf17d07602c0c10b5b34b2e5d963fe
+    name: ""
+  - image: quay.io/ocpmetal/assisted-service@sha256:82b37b50fdd2a8880ee5f519cbd33be24752fa70e527e25662c308f917e7ddf2
+    name: ""
+  - image: quay.io/ocpmetal/postgresql-12-centos7@sha256:94727d70e0afbf4e167e078744f3a10ac9d82edc553d57b0ecbb5443264f07e1
+    name: ""
+  - image: quay.io/openshift-community-operators/assisted-service-operator@sha256:9c94492f1537353c1b020d64694cb576c2fc07a0a4a809efc96c015ec7a160de
+    name: ""
+schema: olm.bundle

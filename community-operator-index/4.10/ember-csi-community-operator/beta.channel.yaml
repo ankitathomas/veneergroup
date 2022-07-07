@@ -1,0 +1,11 @@
+entries:
+  - name: ember-csi-community-operator.v0.9.6
+  - name: ember-csi-community-operator.v0.9.7
+    replaces: ember-csi-community-operator.v0.9.6
+  - name: ember-csi-community-operator.v0.9.8
+    replaces: ember-csi-community-operator.v0.9.7
+  - name: ember-csi-community-operator.v0.9.9
+    replaces: ember-csi-community-operator.v0.9.8
+name: beta
+package: ember-csi-community-operator
+schema: olm.channel

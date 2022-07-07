@@ -1,0 +1,29 @@
+image: quay.io/openshift-community-operators/ack-dynamodb-controller@sha256:954a426af72210c8e782c13748627a9bbc5a7d7bd8163e9f20cd630f4c7a07df
+name: ack-dynamodb-controller.v0.0.9
+package: ack-dynamodb-controller
+properties:
+  - type: olm.gvk
+    value:
+      group: dynamodb.services.k8s.aws
+      kind: Backup
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: dynamodb.services.k8s.aws
+      kind: GlobalTable
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: dynamodb.services.k8s.aws
+      kind: Table
+      version: v1alpha1
+  - type: olm.package
+    value:
+      packageName: ack-dynamodb-controller
+      version: 0.0.9
+relatedImages:
+  - image: public.ecr.aws/aws-controllers-k8s/dynamodb-controller:v0.0.9
+    name: ""
+  - image: quay.io/openshift-community-operators/ack-dynamodb-controller@sha256:954a426af72210c8e782c13748627a9bbc5a7d7bd8163e9f20cd630f4c7a07df
+    name: ""
+schema: olm.bundle

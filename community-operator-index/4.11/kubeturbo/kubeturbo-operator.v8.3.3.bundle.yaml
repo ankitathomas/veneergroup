@@ -1,0 +1,24 @@
+image: quay.io/openshift-community-operators/kubeturbo@sha256:748682ac50ae4b078c3fe1a4c4d19ed034d0ee2786081941fc81d1bb58bef4dd
+name: kubeturbo-operator.v8.3.3
+package: kubeturbo
+properties:
+  - type: olm.gvk
+    value:
+      group: charts.helm.k8s.io
+      kind: Kubeturbo
+      version: v1
+  - type: olm.gvk
+    value:
+      group: charts.helm.k8s.io
+      kind: Kubeturbo
+      version: v1alpha1
+  - type: olm.package
+    value:
+      packageName: kubeturbo
+      version: 8.3.3
+relatedImages:
+  - image: quay.io/openshift-community-operators/kubeturbo@sha256:748682ac50ae4b078c3fe1a4c4d19ed034d0ee2786081941fc81d1bb58bef4dd
+    name: ""
+  - image: turbonomic/kubeturbo-operator:8.3
+    name: ""
+schema: olm.bundle

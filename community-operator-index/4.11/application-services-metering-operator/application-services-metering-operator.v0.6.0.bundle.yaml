@@ -1,0 +1,19 @@
+image: quay.io/openshift-community-operators/application-services-metering-operator@sha256:a82b04ac63d75f6c993ca33d6d40f6bd915659e2b10be6e7cce9c34f6b0ca119
+name: application-services-metering-operator.v0.6.0
+package: application-services-metering-operator
+properties:
+  - type: olm.gvk
+    value:
+      group: applicationservices.redhat.com
+      kind: Meter
+      version: v1
+  - type: olm.package
+    value:
+      packageName: application-services-metering-operator
+      version: 0.6.0
+relatedImages:
+  - image: quay.io/openshift-community-operators/application-services-metering-operator@sha256:a82b04ac63d75f6c993ca33d6d40f6bd915659e2b10be6e7cce9c34f6b0ca119
+    name: ""
+  - image: quay.io/redhat-developer/application-services-metering-operator:0.6.0
+    name: ""
+schema: olm.bundle

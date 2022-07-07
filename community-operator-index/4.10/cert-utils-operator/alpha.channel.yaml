@@ -1,0 +1,59 @@
+entries:
+  - name: cert-utils-operator.v0.0.1
+  - name: cert-utils-operator.v0.0.3
+    replaces: cert-utils-operator.v0.0.1
+  - name: cert-utils-operator.v0.1.0
+    replaces: cert-utils-operator.v0.0.3
+  - name: cert-utils-operator.v0.1.1
+    replaces: cert-utils-operator.v0.1.0
+  - name: cert-utils-operator.v0.2.0
+    replaces: cert-utils-operator.v0.1.1
+  - name: cert-utils-operator.v0.2.1
+    replaces: cert-utils-operator.v0.2.0
+  - name: cert-utils-operator.v0.2.2
+    replaces: cert-utils-operator.v0.2.1
+  - name: cert-utils-operator.v1.0.0
+    replaces: cert-utils-operator.v0.2.2
+  - name: cert-utils-operator.v1.0.1
+    replaces: cert-utils-operator.v1.0.0
+  - name: cert-utils-operator.v1.0.2
+    replaces: cert-utils-operator.v1.0.1
+  - name: cert-utils-operator.v1.0.3
+    replaces: cert-utils-operator.v1.0.2
+  - name: cert-utils-operator.v1.0.4
+    replaces: cert-utils-operator.v1.0.3
+  - name: cert-utils-operator.v1.0.5
+    replaces: cert-utils-operator.v1.0.4
+  - name: cert-utils-operator.v1.0.6
+    replaces: cert-utils-operator.v1.0.5
+  - name: cert-utils-operator.v1.0.7
+    replaces: cert-utils-operator.v1.0.6
+  - name: cert-utils-operator.v1.1.0
+    replaces: cert-utils-operator.v1.0.7
+  - name: cert-utils-operator.v1.2.0
+    replaces: cert-utils-operator.v1.1.0
+  - name: cert-utils-operator.v1.3.0
+    replaces: cert-utils-operator.v1.2.0
+  - name: cert-utils-operator.v1.3.1
+    replaces: cert-utils-operator.v1.3.0
+  - name: cert-utils-operator.v1.3.10
+    replaces: cert-utils-operator.v1.3.9
+  - name: cert-utils-operator.v1.3.2
+    replaces: cert-utils-operator.v1.3.1
+  - name: cert-utils-operator.v1.3.3
+    replaces: cert-utils-operator.v1.3.2
+  - name: cert-utils-operator.v1.3.4
+    replaces: cert-utils-operator.v1.3.3
+  - name: cert-utils-operator.v1.3.5
+    replaces: cert-utils-operator.v1.3.4
+  - name: cert-utils-operator.v1.3.6
+    replaces: cert-utils-operator.v1.3.5
+  - name: cert-utils-operator.v1.3.7
+    replaces: cert-utils-operator.v1.3.6
+  - name: cert-utils-operator.v1.3.8
+    replaces: cert-utils-operator.v1.3.7
+  - name: cert-utils-operator.v1.3.9
+    replaces: cert-utils-operator.v1.3.8
+name: alpha
+package: cert-utils-operator
+schema: olm.channel

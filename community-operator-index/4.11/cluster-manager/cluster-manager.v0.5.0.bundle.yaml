@@ -1,0 +1,19 @@
+image: quay.io/openshift-community-operators/cluster-manager@sha256:a936f0faeb62dc161cf0fc42abb56d984b077556c1d826abe1ca24fea5555199
+name: cluster-manager.v0.5.0
+package: cluster-manager
+properties:
+  - type: olm.gvk
+    value:
+      group: operator.open-cluster-management.io
+      kind: ClusterManager
+      version: v1
+  - type: olm.package
+    value:
+      packageName: cluster-manager
+      version: 0.5.0
+relatedImages:
+  - image: quay.io/open-cluster-management/registration-operator:v0.5.0
+    name: ""
+  - image: quay.io/openshift-community-operators/cluster-manager@sha256:a936f0faeb62dc161cf0fc42abb56d984b077556c1d826abe1ca24fea5555199
+    name: ""
+schema: olm.bundle

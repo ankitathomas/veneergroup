@@ -1,0 +1,17 @@
+entries:
+  - name: group-sync-operator.v0.0.13
+  - name: group-sync-operator.v0.0.14
+    replaces: group-sync-operator.v0.0.13
+  - name: group-sync-operator.v0.0.15
+    replaces: group-sync-operator.v0.0.14
+  - name: group-sync-operator.v0.0.16
+    replaces: group-sync-operator.v0.0.15
+  - name: group-sync-operator.v0.0.17
+    replaces: group-sync-operator.v0.0.16
+  - name: group-sync-operator.v0.0.18
+    replaces: group-sync-operator.v0.0.17
+  - name: group-sync-operator.v0.0.19
+    replaces: group-sync-operator.v0.0.18
+name: alpha
+package: group-sync-operator
+schema: olm.channel

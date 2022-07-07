@@ -1,0 +1,36 @@
+image: quay.io/openshift-community-operators/global-load-balancer-operator@sha256:c38b3fdb49d19776e718e732248945a83b941e018f0cc959375e14fcf28387d1
+name: global-load-balancer-operator.v1.0.7
+package: global-load-balancer-operator
+properties:
+  - type: olm.gvk
+    value:
+      group: externaldns.k8s.io
+      kind: DNSEndpoint
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: redhatcop.redhat.io
+      kind: GlobalDNSRecord
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: redhatcop.redhat.io
+      kind: GlobalDNSZone
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: redhatcop.redhat.io
+      kind: GlobalRouteDiscovery
+      version: v1alpha1
+  - type: olm.package
+    value:
+      packageName: global-load-balancer-operator
+      version: 1.0.7
+relatedImages:
+  - image: quay.io/coreos/kube-rbac-proxy:v0.5.0
+    name: ""
+  - image: quay.io/openshift-community-operators/global-load-balancer-operator@sha256:c38b3fdb49d19776e718e732248945a83b941e018f0cc959375e14fcf28387d1
+    name: ""
+  - image: quay.io/redhat-cop/global-load-balancer-operator:v1.0.7
+    name: ""
+schema: olm.bundle

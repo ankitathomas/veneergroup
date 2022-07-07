@@ -1,0 +1,54 @@
+image: quay.io/openshift-community-operators/prometheus@sha256:f0fdb1a53526bb9d3761ac6c1ae30bc73539a544efd1ce099e3d1893fadc9c6b
+name: prometheusoperator.0.47.0
+package: prometheus
+properties:
+  - type: olm.gvk
+    value:
+      group: monitoring.coreos.com
+      kind: Alertmanager
+      version: v1
+  - type: olm.gvk
+    value:
+      group: monitoring.coreos.com
+      kind: AlertmanagerConfig
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: monitoring.coreos.com
+      kind: PodMonitor
+      version: v1
+  - type: olm.gvk
+    value:
+      group: monitoring.coreos.com
+      kind: Probe
+      version: v1
+  - type: olm.gvk
+    value:
+      group: monitoring.coreos.com
+      kind: Prometheus
+      version: v1
+  - type: olm.gvk
+    value:
+      group: monitoring.coreos.com
+      kind: PrometheusRule
+      version: v1
+  - type: olm.gvk
+    value:
+      group: monitoring.coreos.com
+      kind: ServiceMonitor
+      version: v1
+  - type: olm.gvk
+    value:
+      group: monitoring.coreos.com
+      kind: ThanosRuler
+      version: v1
+  - type: olm.package
+    value:
+      packageName: prometheus
+      version: 0.47.0
+relatedImages:
+  - image: quay.io/openshift-community-operators/prometheus@sha256:f0fdb1a53526bb9d3761ac6c1ae30bc73539a544efd1ce099e3d1893fadc9c6b
+    name: ""
+  - image: quay.io/prometheus-operator/prometheus-operator:v0.47.0
+    name: ""
+schema: olm.bundle

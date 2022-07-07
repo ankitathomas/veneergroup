@@ -1,0 +1,9 @@
+entries:
+  - name: sap-commerce-operator.v0.0.2
+  - name: sap-commerce-operator.v0.0.3
+    replaces: sap-commerce-operator.v0.0.2
+  - name: sap-commerce-operator.v0.0.4
+    replaces: sap-commerce-operator.v0.0.3
+name: alpha
+package: sap-commerce-operator
+schema: olm.channel

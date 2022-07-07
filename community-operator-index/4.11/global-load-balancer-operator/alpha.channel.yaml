@@ -1,0 +1,31 @@
+entries:
+  - name: global-load-balancer-operator.v1.0.0
+  - name: global-load-balancer-operator.v1.0.1
+    replaces: global-load-balancer-operator.v1.0.0
+  - name: global-load-balancer-operator.v1.0.2
+    replaces: global-load-balancer-operator.v1.0.1
+  - name: global-load-balancer-operator.v1.0.3
+    replaces: global-load-balancer-operator.v1.0.2
+  - name: global-load-balancer-operator.v1.0.4
+    replaces: global-load-balancer-operator.v1.0.3
+  - name: global-load-balancer-operator.v1.0.5
+    replaces: global-load-balancer-operator.v1.0.4
+  - name: global-load-balancer-operator.v1.0.6
+    replaces: global-load-balancer-operator.v1.0.5
+  - name: global-load-balancer-operator.v1.0.7
+    replaces: global-load-balancer-operator.v1.0.6
+  - name: global-load-balancer-operator.v1.1.0
+    replaces: global-load-balancer-operator.v1.0.7
+  - name: global-load-balancer-operator.v1.2.0
+    replaces: global-load-balancer-operator.v1.1.0
+  - name: global-load-balancer-operator.v1.3.0
+    replaces: global-load-balancer-operator.v1.2.0
+  - name: global-load-balancer-operator.v1.4.0
+    replaces: global-load-balancer-operator.v1.3.0
+  - name: global-load-balancer-operator.v1.4.1
+    replaces: global-load-balancer-operator.v1.4.0
+  - name: global-load-balancer-operator.v1.4.2
+    replaces: global-load-balancer-operator.v1.4.1
+name: alpha
+package: global-load-balancer-operator
+schema: olm.channel

@@ -1,0 +1,5 @@
+entries:
+  - name: machine-deletion.v0.0.1
+name: alpha
+package: machine-deletion-operator
+schema: olm.channel

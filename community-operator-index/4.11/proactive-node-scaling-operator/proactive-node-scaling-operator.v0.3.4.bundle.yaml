@@ -1,0 +1,21 @@
+image: quay.io/openshift-community-operators/proactive-node-scaling-operator@sha256:b229247e114deb6da8279a7fec3aeba08ddbadd6be48e647ad9db866e223f07d
+name: proactive-node-scaling-operator.v0.3.4
+package: proactive-node-scaling-operator
+properties:
+  - type: olm.gvk
+    value:
+      group: redhatcop.redhat.io
+      kind: NodeScalingWatermark
+      version: v1alpha1
+  - type: olm.package
+    value:
+      packageName: proactive-node-scaling-operator
+      version: 0.3.4
+relatedImages:
+  - image: gcr.io/kubebuilder/kube-rbac-proxy:v0.5.0
+    name: ""
+  - image: quay.io/openshift-community-operators/proactive-node-scaling-operator@sha256:b229247e114deb6da8279a7fec3aeba08ddbadd6be48e647ad9db866e223f07d
+    name: ""
+  - image: quay.io/redhat-cop/proactive-node-scaling-operator:v0.3.4
+    name: ""
+schema: olm.bundle

@@ -1,0 +1,35 @@
+entries:
+  - name: external-secrets-operator.v0.3.10
+    replaces: external-secrets-operator.v0.3.9
+  - name: external-secrets-operator.v0.3.11
+    replaces: external-secrets-operator.v0.3.10
+  - name: external-secrets-operator.v0.3.8
+  - name: external-secrets-operator.v0.3.9
+    replaces: external-secrets-operator.v0.3.8
+  - name: external-secrets-operator.v0.4.1
+    replaces: external-secrets-operator.v0.3.11
+  - name: external-secrets-operator.v0.4.2
+    replaces: external-secrets-operator.v0.4.1
+  - name: external-secrets-operator.v0.4.3
+    replaces: external-secrets-operator.v0.4.2
+  - name: external-secrets-operator.v0.4.4
+    replaces: external-secrets-operator.v0.4.3
+  - name: external-secrets-operator.v0.5.0
+    replaces: external-secrets-operator.v0.4.4
+  - name: external-secrets-operator.v0.5.1
+    replaces: external-secrets-operator.v0.5.0
+  - name: external-secrets-operator.v0.5.2
+    replaces: external-secrets-operator.v0.5.1
+  - name: external-secrets-operator.v0.5.3
+    replaces: external-secrets-operator.v0.5.2
+  - name: external-secrets-operator.v0.5.4
+    replaces: external-secrets-operator.v0.5.3
+  - name: external-secrets-operator.v0.5.5
+    replaces: external-secrets-operator.v0.5.4
+  - name: external-secrets-operator.v0.5.6
+    replaces: external-secrets-operator.v0.5.5
+  - name: external-secrets-operator.v0.5.7
+    replaces: external-secrets-operator.v0.5.6
+name: alpha
+package: external-secrets-operator
+schema: olm.channel

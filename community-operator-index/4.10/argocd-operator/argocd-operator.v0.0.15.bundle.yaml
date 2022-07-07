@@ -1,0 +1,43 @@
+image: quay.io/openshift-community-operators/argocd-operator@sha256:b249034703fa9890111b4dd98bd7be6f983c2778e85610ea060d4416f5b28233
+name: argocd-operator.v0.0.15
+package: argocd-operator
+properties:
+  - type: olm.deprecated
+    value: {}
+  - type: olm.gvk
+    value:
+      group: argoproj.io
+      kind: AppProject
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: argoproj.io
+      kind: Application
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: argoproj.io
+      kind: ApplicationSet
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: argoproj.io
+      kind: ArgoCD
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: argoproj.io
+      kind: ArgoCDExport
+      version: v1alpha1
+  - type: olm.maxOpenShiftVersion
+    value: "4.8"
+  - type: olm.package
+    value:
+      packageName: argocd-operator
+      version: 0.0.15
+relatedImages:
+  - image: quay.io/openshift-community-operators/argocd-operator@sha256:b249034703fa9890111b4dd98bd7be6f983c2778e85610ea060d4416f5b28233
+    name: ""
+  - image: quay.io/redhat-cop/argocd-operator@sha256:450367603cd2f3909077f854ce3b659d4c1c22490aebc11c317f97269daeae50
+    name: ""
+schema: olm.bundle

@@ -1,0 +1,37 @@
+entries:
+  - name: opentelemetry-operator.v0.21.0
+  - name: opentelemetry-operator.v0.27.0
+    replaces: opentelemetry-operator.v0.21.0
+  - name: opentelemetry-operator.v0.33.0
+    replaces: opentelemetry-operator.v0.27.0
+  - name: opentelemetry-operator.v0.38.0
+    replaces: opentelemetry-operator.v0.33.0
+  - name: opentelemetry-operator.v0.39.0
+    replaces: opentelemetry-operator.v0.38.0
+  - name: opentelemetry-operator.v0.40.0
+    replaces: opentelemetry-operator.v0.39.0
+  - name: opentelemetry-operator.v0.41.0
+    replaces: opentelemetry-operator.v0.40.0
+  - name: opentelemetry-operator.v0.42.0
+    replaces: opentelemetry-operator.v0.41.0
+  - name: opentelemetry-operator.v0.43.0
+    replaces: opentelemetry-operator.v0.42.0
+  - name: opentelemetry-operator.v0.44.0
+    replaces: opentelemetry-operator.v0.43.0
+  - name: opentelemetry-operator.v0.45.0
+    replaces: opentelemetry-operator.v0.44.0
+  - name: opentelemetry-operator.v0.46.0
+    replaces: opentelemetry-operator.v0.45.0
+  - name: opentelemetry-operator.v0.47.0
+    replaces: opentelemetry-operator.v0.46.0
+  - name: opentelemetry-operator.v0.48.0
+    replaces: opentelemetry-operator.v0.47.0
+  - name: opentelemetry-operator.v0.49.0
+    replaces: opentelemetry-operator.v0.48.0
+  - name: opentelemetry-operator.v0.51.0
+    replaces: opentelemetry-operator.v0.49.0
+  - name: opentelemetry-operator.v0.52.0
+    replaces: opentelemetry-operator.v0.51.0
+name: alpha
+package: opentelemetry-operator
+schema: olm.channel

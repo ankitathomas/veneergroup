@@ -1,0 +1,35 @@
+entries:
+  - name: volume-expander-operator.v0.1.0
+  - name: volume-expander-operator.v0.1.2
+    replaces: volume-expander-operator.v0.1.0
+  - name: volume-expander-operator.v0.1.3
+    replaces: volume-expander-operator.v0.1.2
+  - name: volume-expander-operator.v0.1.4
+    replaces: volume-expander-operator.v0.1.3
+  - name: volume-expander-operator.v0.1.5
+    replaces: volume-expander-operator.v0.1.4
+  - name: volume-expander-operator.v0.1.6
+    replaces: volume-expander-operator.v0.1.5
+  - name: volume-expander-operator.v0.1.7
+    replaces: volume-expander-operator.v0.1.6
+  - name: volume-expander-operator.v0.1.8
+    replaces: volume-expander-operator.v0.1.7
+  - name: volume-expander-operator.v0.2.0
+    replaces: volume-expander-operator.v0.1.8
+  - name: volume-expander-operator.v0.3.0
+    replaces: volume-expander-operator.v0.2.0
+  - name: volume-expander-operator.v0.3.1
+    replaces: volume-expander-operator.v0.3.0
+  - name: volume-expander-operator.v0.3.2
+    replaces: volume-expander-operator.v0.3.1
+  - name: volume-expander-operator.v0.3.3
+    replaces: volume-expander-operator.v0.3.2
+  - name: volume-expander-operator.v0.3.4
+    replaces: volume-expander-operator.v0.3.3
+  - name: volume-expander-operator.v0.3.5
+    replaces: volume-expander-operator.v0.3.4
+  - name: volume-expander-operator.v0.3.6
+    replaces: volume-expander-operator.v0.3.5
+name: alpha
+package: volume-expander-operator
+schema: olm.channel

@@ -1,0 +1,9 @@
+entries:
+  - name: zookeeper-operator.v0.10.3
+  - name: zookeeper-operator.v0.11.0
+    replaces: zookeeper-operator.v0.10.3
+  - name: zookeeper-operator.v0.11.5
+    replaces: zookeeper-operator.v0.11.0
+name: alpha
+package: zookeeper-operator
+schema: olm.channel

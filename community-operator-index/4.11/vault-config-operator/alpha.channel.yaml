@@ -1,0 +1,23 @@
+entries:
+  - name: vault-config-operator.v0.1.0
+  - name: vault-config-operator.v0.1.1
+    replaces: vault-config-operator.v0.1.0
+  - name: vault-config-operator.v0.1.2
+    replaces: vault-config-operator.v0.1.1
+  - name: vault-config-operator.v0.2.0
+    replaces: vault-config-operator.v0.1.2
+  - name: vault-config-operator.v0.3.0
+    replaces: vault-config-operator.v0.2.0
+  - name: vault-config-operator.v0.3.1
+    replaces: vault-config-operator.v0.3.0
+  - name: vault-config-operator.v0.4.0
+    replaces: vault-config-operator.v0.3.1
+  - name: vault-config-operator.v0.4.1
+    replaces: vault-config-operator.v0.4.0
+  - name: vault-config-operator.v0.5.0
+    replaces: vault-config-operator.v0.4.1
+  - name: vault-config-operator.v0.5.1
+    replaces: vault-config-operator.v0.5.0
+name: alpha
+package: vault-config-operator
+schema: olm.channel

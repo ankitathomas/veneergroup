@@ -1,0 +1,17 @@
+entries:
+  - name: hive-operator.v2.5.3489-6dec9c3
+  - name: hive-operator.v2.5.3491-6feded1
+    replaces: hive-operator.v2.5.3489-6dec9c3
+  - name: hive-operator.v2.5.3495-5cfdd44
+    replaces: hive-operator.v2.5.3491-6feded1
+  - name: hive-operator.v2.5.3506-f42617c
+    replaces: hive-operator.v2.5.3495-5cfdd44
+  - name: hive-operator.v2.5.3508-6cb94c6
+    replaces: hive-operator.v2.5.3506-f42617c
+  - name: hive-operator.v2.5.3514-4052426
+    replaces: hive-operator.v2.5.3508-6cb94c6
+  - name: hive-operator.v2.5.3516-a2ed9b3
+    replaces: hive-operator.v2.5.3514-4052426
+name: mce-2.0
+package: hive-operator
+schema: olm.channel

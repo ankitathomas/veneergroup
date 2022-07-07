@@ -1,0 +1,6 @@
+entries:
+  - name: datadog-operator.v0.8.0
+    skipRange: <0.8.0
+name: alpha
+package: datadog-operator
+schema: olm.channel

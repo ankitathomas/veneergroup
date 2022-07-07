@@ -1,0 +1,32 @@
+entries:
+  - name: cert-manager.v1.4.0
+  - name: cert-manager.v1.4.1
+    replaces: cert-manager.v1.4.0
+  - name: cert-manager.v1.4.2
+    replaces: cert-manager.v1.4.1
+  - name: cert-manager.v1.4.3
+    replaces: cert-manager.v1.4.2
+  - name: cert-manager.v1.4.4
+    replaces: cert-manager.v1.4.3
+  - name: cert-manager.v1.5.3
+    replaces: cert-manager.v1.4.4
+  - name: cert-manager.v1.5.4
+    replaces: cert-manager.v1.5.3
+  - name: cert-manager.v1.6.0
+    replaces: cert-manager.v1.5.4
+  - name: cert-manager.v1.6.1
+    replaces: cert-manager.v1.6.0
+  - name: cert-manager.v1.6.2
+    replaces: cert-manager.v1.6.1
+    skipRange: '>=1.6.0 <1.6.2'
+  - name: cert-manager.v1.7.1
+    replaces: cert-manager.v1.6.2
+    skipRange: '>=1.7.0 <1.7.1'
+  - name: cert-manager.v1.7.2
+    replaces: cert-manager.v1.7.1
+    skipRange: '>=1.7.0 <1.7.2'
+  - name: cert-manager.v1.8.0
+    replaces: cert-manager.v1.7.2
+name: stable
+package: cert-manager
+schema: olm.channel

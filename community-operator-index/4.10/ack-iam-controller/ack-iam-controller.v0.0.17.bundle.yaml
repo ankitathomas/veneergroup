@@ -1,0 +1,24 @@
+image: quay.io/openshift-community-operators/ack-iam-controller@sha256:7d5252580134e1321fd1aa9972b08c3777432c488c362424fb169cb8486d5652
+name: ack-iam-controller.v0.0.17
+package: ack-iam-controller
+properties:
+  - type: olm.gvk
+    value:
+      group: iam.services.k8s.aws
+      kind: Policy
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: iam.services.k8s.aws
+      kind: Role
+      version: v1alpha1
+  - type: olm.package
+    value:
+      packageName: ack-iam-controller
+      version: 0.0.17
+relatedImages:
+  - image: public.ecr.aws/aws-controllers-k8s/iam-controller:v0.0.17
+    name: ""
+  - image: quay.io/openshift-community-operators/ack-iam-controller@sha256:7d5252580134e1321fd1aa9972b08c3777432c488c362424fb169cb8486d5652
+    name: ""
+schema: olm.bundle

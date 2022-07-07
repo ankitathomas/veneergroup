@@ -1,0 +1,34 @@
+image: quay.io/openshift-community-operators/ack-kms-controller@sha256:592258fd46886a52cb7011b2ea3cdec3bca770e5273d51a02e55fe745b4f41ab
+name: ack-kms-controller.v0.0.6
+package: ack-kms-controller
+properties:
+  - type: olm.gvk
+    value:
+      group: kms.services.k8s.aws
+      kind: Alias
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: kms.services.k8s.aws
+      kind: CustomKeyStore
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: kms.services.k8s.aws
+      kind: Grant
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: kms.services.k8s.aws
+      kind: Key
+      version: v1alpha1
+  - type: olm.package
+    value:
+      packageName: ack-kms-controller
+      version: 0.0.6
+relatedImages:
+  - image: public.ecr.aws/aws-controllers-k8s/kms-controller:v0.0.6
+    name: ""
+  - image: quay.io/openshift-community-operators/ack-kms-controller@sha256:592258fd46886a52cb7011b2ea3cdec3bca770e5273d51a02e55fe745b4f41ab
+    name: ""
+schema: olm.bundle

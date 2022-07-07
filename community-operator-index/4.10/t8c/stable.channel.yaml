@@ -1,0 +1,23 @@
+entries:
+  - name: t8c-operator.v42.1.0
+  - name: t8c-operator.v42.10.0
+    replaces: t8c-operator.v42.9.0
+  - name: t8c-operator.v42.2.0
+    replaces: t8c-operator.v42.1.0
+  - name: t8c-operator.v42.3.0
+    replaces: t8c-operator.v42.2.0
+  - name: t8c-operator.v42.4.0
+    replaces: t8c-operator.v42.3.0
+  - name: t8c-operator.v42.5.0
+    replaces: t8c-operator.v42.4.0
+  - name: t8c-operator.v42.6.0
+    replaces: t8c-operator.v42.5.0
+  - name: t8c-operator.v42.7.0
+    replaces: t8c-operator.v42.6.0
+  - name: t8c-operator.v42.8.0
+    replaces: t8c-operator.v42.7.0
+  - name: t8c-operator.v42.9.0
+    replaces: t8c-operator.v42.8.0
+name: stable
+package: t8c
+schema: olm.channel

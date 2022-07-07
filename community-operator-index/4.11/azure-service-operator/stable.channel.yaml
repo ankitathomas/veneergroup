@@ -1,0 +1,11 @@
+entries:
+  - name: azure-service-operator.v0.37.0
+  - name: azure-service-operator.v1.0.24492
+    replaces: azure-service-operator.v0.37.0
+  - name: azure-service-operator.v1.0.27207
+    replaces: azure-service-operator.v1.0.24492
+  - name: azure-service-operator.v1.0.28631
+    replaces: azure-service-operator.v1.0.27207
+name: stable
+package: azure-service-operator
+schema: olm.channel

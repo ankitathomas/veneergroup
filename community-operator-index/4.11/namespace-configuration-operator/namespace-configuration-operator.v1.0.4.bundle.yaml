@@ -1,0 +1,29 @@
+image: quay.io/openshift-community-operators/namespace-configuration-operator@sha256:68f0437d4fb0892fc259729cf32d651c0760fc39f6e7e23bd935170b6b6d0123
+name: namespace-configuration-operator.v1.0.4
+package: namespace-configuration-operator
+properties:
+  - type: olm.gvk
+    value:
+      group: redhatcop.redhat.io
+      kind: GroupConfig
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: redhatcop.redhat.io
+      kind: NamespaceConfig
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: redhatcop.redhat.io
+      kind: UserConfig
+      version: v1alpha1
+  - type: olm.package
+    value:
+      packageName: namespace-configuration-operator
+      version: 1.0.4
+relatedImages:
+  - image: quay.io/openshift-community-operators/namespace-configuration-operator@sha256:68f0437d4fb0892fc259729cf32d651c0760fc39f6e7e23bd935170b6b6d0123
+    name: ""
+  - image: quay.io/redhat-cop/namespace-configuration-operator:v1.0.4
+    name: ""
+schema: olm.bundle

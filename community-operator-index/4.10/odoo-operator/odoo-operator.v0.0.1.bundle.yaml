@@ -1,0 +1,19 @@
+image: quay.io/openshift-community-operators/odoo-operator@sha256:d9c73158120e72a7b7bb0a2981793a8ecd03c545ad4e39db066dc4b5fd2d71aa
+name: odoo-operator.v0.0.1
+package: odoo-operator
+properties:
+  - type: olm.gvk
+    value:
+      group: odoo-community.org
+      kind: Odoo
+      version: v1alpha1
+  - type: olm.package
+    value:
+      packageName: odoo-operator
+      version: 0.0.1
+relatedImages:
+  - image: quay.io/openshift-community-operators/odoo-operator@sha256:d9c73158120e72a7b7bb0a2981793a8ecd03c545ad4e39db066dc4b5fd2d71aa
+    name: ""
+  - image: ursa/odoo-operator:0.0.1
+    name: ""
+schema: olm.bundle

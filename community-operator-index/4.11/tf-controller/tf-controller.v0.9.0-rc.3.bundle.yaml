@@ -1,0 +1,19 @@
+image: quay.io/openshift-community-operators/tf-controller@sha256:9e000a5af61e6f59f508d3127fa2e79ae7b5e19b6b993645025262321b16e78f
+name: tf-controller.v0.9.0-rc.3
+package: tf-controller
+properties:
+  - type: olm.gvk
+    value:
+      group: infra.contrib.fluxcd.io
+      kind: Terraform
+      version: v1alpha1
+  - type: olm.package
+    value:
+      packageName: tf-controller
+      version: 0.9.0-rc.3
+relatedImages:
+  - image: ghcr.io/weaveworks/tf-controller:v0.9.0-rc.3
+    name: ""
+  - image: quay.io/openshift-community-operators/tf-controller@sha256:9e000a5af61e6f59f508d3127fa2e79ae7b5e19b6b993645025262321b16e78f
+    name: ""
+schema: olm.bundle

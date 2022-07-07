@@ -1,0 +1,7 @@
+entries:
+  - name: pulsar-operator.v0.10.3
+  - name: pulsar-operator.v0.11.0
+    replaces: pulsar-operator.v0.10.3
+name: alpha
+package: pulsar-operator
+schema: olm.channel

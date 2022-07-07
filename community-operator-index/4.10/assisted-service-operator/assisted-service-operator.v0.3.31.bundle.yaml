@@ -1,0 +1,54 @@
+image: quay.io/openshift-community-operators/assisted-service-operator@sha256:0d005d3cb8a231112524dc3c1f6086abada7ca6c9a2d138e1454493e83a5eb83
+name: assisted-service-operator.v0.3.31
+package: assisted-service-operator
+properties:
+  - type: olm.gvk
+    value:
+      group: agent-install.openshift.io
+      kind: Agent
+      version: v1beta1
+  - type: olm.gvk
+    value:
+      group: agent-install.openshift.io
+      kind: AgentClassification
+      version: v1beta1
+  - type: olm.gvk
+    value:
+      group: agent-install.openshift.io
+      kind: AgentServiceConfig
+      version: v1beta1
+  - type: olm.gvk
+    value:
+      group: agent-install.openshift.io
+      kind: InfraEnv
+      version: v1beta1
+  - type: olm.gvk
+    value:
+      group: agent-install.openshift.io
+      kind: NMStateConfig
+      version: v1beta1
+  - type: olm.gvk
+    value:
+      group: extensions.hive.openshift.io
+      kind: AgentClusterInstall
+      version: v1beta1
+  - type: olm.package
+    value:
+      packageName: assisted-service-operator
+      version: 0.3.31
+relatedImages:
+  - image: quay.io/edge-infrastructure/assisted-image-service@sha256:9407cd644a4fdd9492d4145d34b305764596c92d8ad0ee7c83b9d57e8d528e0f
+    name: ""
+  - image: quay.io/edge-infrastructure/assisted-installer-agent@sha256:094359250de656b8fe80af5a3a80ae1e24060266bce96ec1d04fde1defb71f25
+    name: ""
+  - image: quay.io/edge-infrastructure/assisted-installer-controller@sha256:6fbb35b601d6b602050831fb315f92614a88c27ba657a6b23cfa97532368bf38
+    name: ""
+  - image: quay.io/edge-infrastructure/assisted-installer@sha256:f69d7a7f1689d43bc7e1ebea7254b52d6fb567345975f4399b7a523987b68148
+    name: ""
+  - image: quay.io/edge-infrastructure/assisted-service@sha256:8fe4bc6e152c656b325626f11abe7b6c96b9a1c74aa964631068df7e1e8ba47c
+    name: ""
+  - image: quay.io/edge-infrastructure/postgresql-12-centos7@sha256:23d4af1d4a494308056467fdf91821e741557110cb62da48baa1f4dead93f07b
+    name: ""
+  - image: quay.io/openshift-community-operators/assisted-service-operator@sha256:0d005d3cb8a231112524dc3c1f6086abada7ca6c9a2d138e1454493e83a5eb83
+    name: ""
+schema: olm.bundle

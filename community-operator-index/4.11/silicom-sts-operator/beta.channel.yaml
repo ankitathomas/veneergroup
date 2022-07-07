@@ -1,0 +1,7 @@
+entries:
+  - name: silicom-sts-operator.v0.0.1
+  - name: silicom-sts-operator.v0.0.2
+    replaces: silicom-sts-operator.v0.0.1
+name: beta
+package: silicom-sts-operator
+schema: olm.channel

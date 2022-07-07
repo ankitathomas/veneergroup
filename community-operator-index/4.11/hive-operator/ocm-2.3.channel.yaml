@@ -1,0 +1,17 @@
+entries:
+  - name: hive-operator.v1.1.5
+  - name: hive-operator.v1.1.6
+    replaces: hive-operator.v1.1.5
+  - name: hive-operator.v1.1.7
+    replaces: hive-operator.v1.1.6
+  - name: hive-operator.v1.1.8
+    replaces: hive-operator.v1.1.7
+  - name: hive-operator.v1.1.9-1.1.8.1
+    replaces: hive-operator.v1.1.8
+  - name: hive-operator.v1.1.9-1.1.8.2
+    replaces: hive-operator.v1.1.9-1.1.8.1
+  - name: hive-operator.v2.3.3033-c1c7735
+    replaces: hive-operator.v1.1.9-1.1.8.2
+name: ocm-2.3
+package: hive-operator
+schema: olm.channel

@@ -1,0 +1,9 @@
+entries:
+  - name: openebsoperator.v2.11.0
+  - name: openebsoperator.v2.12.2
+    replaces: openebsoperator.v2.11.0
+  - name: openebsoperator.v3.0.0
+    replaces: openebsoperator.v2.12.2
+name: alpha
+package: openebs
+schema: olm.channel

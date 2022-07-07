@@ -1,0 +1,11 @@
+entries:
+  - name: datatrucker-operator.v1.3.0
+  - name: datatrucker-operator.v1.3.1
+    replaces: datatrucker-operator.v1.3.0
+  - name: datatrucker-operator.v1.3.2
+    replaces: datatrucker-operator.v1.3.1
+  - name: datatrucker-operator.v2.0.0
+    replaces: datatrucker-operator.v1.3.2
+name: alpha
+package: datatrucker-operator
+schema: olm.channel

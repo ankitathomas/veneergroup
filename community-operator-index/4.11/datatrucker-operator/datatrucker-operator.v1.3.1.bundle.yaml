@@ -1,0 +1,26 @@
+image: quay.io/openshift-community-operators/datatrucker-operator@sha256:5fe23f32bd5b30ea7ddf0288eebcea7f95ac2fb92297fcfb275291884d9d00af
+name: datatrucker-operator.v1.3.1
+package: datatrucker-operator
+properties:
+  - type: olm.gvk
+    value:
+      group: datatrucker.datatrucker.io
+      kind: DatatruckerConfig
+      version: v1
+  - type: olm.gvk
+    value:
+      group: datatrucker.datatrucker.io
+      kind: DatatruckerFlow
+      version: v1
+  - type: olm.package
+    value:
+      packageName: datatrucker-operator
+      version: 1.3.1
+relatedImages:
+  - image: docker.io/datatruckerio/datatrucker-operator:1.3.1
+    name: ""
+  - image: gcr.io/kubebuilder/kube-rbac-proxy:v0.5.0
+    name: ""
+  - image: quay.io/openshift-community-operators/datatrucker-operator@sha256:5fe23f32bd5b30ea7ddf0288eebcea7f95ac2fb92297fcfb275291884d9d00af
+    name: ""
+schema: olm.bundle

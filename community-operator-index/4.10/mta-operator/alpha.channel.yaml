@@ -1,0 +1,23 @@
+entries:
+  - name: windup-operator.0.0.1
+  - name: windup-operator.0.0.10
+    replaces: windup-operator.0.0.9
+  - name: windup-operator.0.0.2
+    replaces: windup-operator.0.0.1
+  - name: windup-operator.0.0.3
+    replaces: windup-operator.0.0.2
+  - name: windup-operator.0.0.4
+    replaces: windup-operator.0.0.3
+  - name: windup-operator.0.0.5
+    replaces: windup-operator.0.0.4
+  - name: windup-operator.0.0.6
+    replaces: windup-operator.0.0.5
+  - name: windup-operator.0.0.7
+    replaces: windup-operator.0.0.6
+  - name: windup-operator.0.0.8
+    replaces: windup-operator.0.0.7
+  - name: windup-operator.0.0.9
+    replaces: windup-operator.0.0.8
+name: alpha
+package: mta-operator
+schema: olm.channel

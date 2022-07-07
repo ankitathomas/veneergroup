@@ -1,0 +1,6 @@
+entries:
+  - name: tackle-operator.v2.0.0
+    skipRange: '>=0.0.0 <2.0.0'
+name: stable-v2.0
+package: tackle-operator
+schema: olm.channel

@@ -1,0 +1,7 @@
+entries:
+  - name: nfs-provisioner-operator.v0.0.3
+  - name: nfs-provisioner-operator.v0.0.4
+    replaces: nfs-provisioner-operator.v0.0.3
+name: alpha
+package: nfs-provisioner-operator
+schema: olm.channel

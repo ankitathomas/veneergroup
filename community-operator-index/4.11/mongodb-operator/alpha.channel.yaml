@@ -1,0 +1,5 @@
+entries:
+  - name: mongodb-operator.v0.3.0
+name: alpha
+package: mongodb-operator
+schema: olm.channel

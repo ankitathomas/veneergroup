@@ -1,0 +1,21 @@
+image: quay.io/openshift-community-operators/jaeger@sha256:bace498081edfdd562e333ef80fdda94d9baf39d3664e11e53e6eb54436d8cdf
+name: jaeger-operator.v1.32.0
+package: jaeger
+properties:
+  - type: olm.gvk
+    value:
+      group: jaegertracing.io
+      kind: Jaeger
+      version: v1
+  - type: olm.package
+    value:
+      packageName: jaeger
+      version: 1.32.0
+relatedImages:
+  - image: gcr.io/kubebuilder/kube-rbac-proxy:v0.8.0
+    name: ""
+  - image: quay.io/jaegertracing/jaeger-operator:1.32.0
+    name: ""
+  - image: quay.io/openshift-community-operators/jaeger@sha256:bace498081edfdd562e333ef80fdda94d9baf39d3664e11e53e6eb54436d8cdf
+    name: ""
+schema: olm.bundle

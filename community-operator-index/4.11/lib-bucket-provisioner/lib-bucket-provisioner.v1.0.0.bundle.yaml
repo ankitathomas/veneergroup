@@ -1,0 +1,28 @@
+image: quay.io/openshift-community-operators/lib-bucket-provisioner@sha256:552c14a9fd9adde5a96999b4eeacc8c614262097cc307bc2d2d826937e7397ab
+name: lib-bucket-provisioner.v1.0.0
+package: lib-bucket-provisioner
+properties:
+  - type: olm.deprecated
+    value: {}
+  - type: olm.gvk
+    value:
+      group: objectbucket.io
+      kind: ObjectBucket
+      version: v1alpha1
+  - type: olm.gvk
+    value:
+      group: objectbucket.io
+      kind: ObjectBucketClaim
+      version: v1alpha1
+  - type: olm.maxOpenShiftVersion
+    value: "4.8"
+  - type: olm.package
+    value:
+      packageName: lib-bucket-provisioner
+      version: 1.0.0
+relatedImages:
+  - image: quay.io/noobaa/pause
+    name: ""
+  - image: quay.io/openshift-community-operators/lib-bucket-provisioner@sha256:552c14a9fd9adde5a96999b4eeacc8c614262097cc307bc2d2d826937e7397ab
+    name: ""
+schema: olm.bundle

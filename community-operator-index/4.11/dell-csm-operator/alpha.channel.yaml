@@ -1,0 +1,5 @@
+entries:
+  - name: dell-csm-operator.v0.1.0
+name: alpha
+package: dell-csm-operator
+schema: olm.channel

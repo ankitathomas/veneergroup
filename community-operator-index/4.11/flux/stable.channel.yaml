@@ -1,0 +1,75 @@
+entries:
+  - name: flux.v0.13.4
+  - name: flux.v0.14.0
+    replaces: flux.v0.13.4
+  - name: flux.v0.14.1
+    replaces: flux.v0.14.0
+  - name: flux.v0.14.2
+    replaces: flux.v0.14.1
+  - name: flux.v0.15.2
+    replaces: flux.v0.14.2
+  - name: flux.v0.15.3
+    replaces: flux.v0.15.2
+  - name: flux.v0.16.0
+    replaces: flux.v0.15.3
+  - name: flux.v0.16.1
+    replaces: flux.v0.16.0
+  - name: flux.v0.16.2
+    replaces: flux.v0.16.1
+  - name: flux.v0.17.0
+    replaces: flux.v0.16.2
+  - name: flux.v0.17.1
+    replaces: flux.v0.17.0
+  - name: flux.v0.17.2
+    replaces: flux.v0.17.1
+  - name: flux.v0.18.1
+    replaces: flux.v0.17.2
+  - name: flux.v0.18.3
+    replaces: flux.v0.18.1
+  - name: flux.v0.19.1
+    replaces: flux.v0.18.3
+  - name: flux.v0.20.0
+    replaces: flux.v0.19.1
+  - name: flux.v0.20.1
+    replaces: flux.v0.20.0
+  - name: flux.v0.21.0
+    replaces: flux.v0.20.1
+  - name: flux.v0.21.1
+    replaces: flux.v0.21.0
+  - name: flux.v0.22.0
+    replaces: flux.v0.21.1
+  - name: flux.v0.22.1
+    replaces: flux.v0.22.0
+  - name: flux.v0.23.0
+    replaces: flux.v0.22.1
+  - name: flux.v0.24.0
+    replaces: flux.v0.23.0
+  - name: flux.v0.24.1
+    replaces: flux.v0.24.0
+  - name: flux.v0.25.2
+    replaces: flux.v0.24.1
+  - name: flux.v0.25.3
+    replaces: flux.v0.25.2
+  - name: flux.v0.26.0
+    replaces: flux.v0.25.3
+  - name: flux.v0.26.1
+    replaces: flux.v0.26.0
+  - name: flux.v0.27.0
+    replaces: flux.v0.26.1
+  - name: flux.v0.27.2
+    replaces: flux.v0.27.0
+  - name: flux.v0.27.3
+    replaces: flux.v0.27.2
+  - name: flux.v0.27.4
+    replaces: flux.v0.27.3
+  - name: flux.v0.28.3
+    replaces: flux.v0.27.4
+  - name: flux.v0.28.4
+    replaces: flux.v0.28.3
+  - name: flux.v0.28.5
+    replaces: flux.v0.28.4
+  - name: flux.v0.30.2
+    replaces: flux.v0.28.5
+name: stable
+package: flux
+schema: olm.channel

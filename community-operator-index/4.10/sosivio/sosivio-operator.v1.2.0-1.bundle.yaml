@@ -1,0 +1,55 @@
+image: quay.io/openshift-community-operators/sosivio@sha256:c1c6be52e10ee8279f56a8be5799c9667f880d61f72211752ccd934aaee1576e
+name: sosivio-operator.v1.2.0-1
+package: sosivio
+properties:
+  - type: olm.gvk
+    value:
+      group: sosivio.sosiv.io
+      kind: Sosivio
+      version: v1alpha1
+  - type: olm.package
+    value:
+      packageName: sosivio
+      version: 1.2.0
+relatedImages:
+  - image: gcr.io/kubebuilder/kube-rbac-proxy:v0.8.0
+    name: ""
+  - image: quay.io/openshift-community-operators/sosivio@sha256:c1c6be52e10ee8279f56a8be5799c9667f880d61f72211752ccd934aaee1576e
+    name: ""
+  - image: quay.io/sosivio/sosivio-operator:v1.2.0-1
+    name: ""
+  - image: release.sosiv.io/actuator:release-1.2.0
+    name: ""
+  - image: release.sosiv.io/analyzer:release-1.2.0
+    name: ""
+  - image: release.sosiv.io/authentication:release-1.2.0
+    name: ""
+  - image: release.sosiv.io/classifier:release-1.2.0
+    name: ""
+  - image: release.sosiv.io/communicator:release-1.2.0
+    name: ""
+  - image: release.sosiv.io/contract-testing:release-1.2.0
+    name: ""
+  - image: release.sosiv.io/correlation-entities:release-1.2.0
+    name: ""
+  - image: release.sosiv.io/crud-manager:release-1.2.0
+    name: ""
+  - image: release.sosiv.io/nsqadmin:release-1.2.0
+    name: ""
+  - image: release.sosiv.io/nsqd:release-1.2.0
+    name: ""
+  - image: release.sosiv.io/nsqlookupd:release-1.2.0
+    name: ""
+  - image: release.sosiv.io/ruleengine:release-1.2.0
+    name: ""
+  - image: release.sosiv.io/sequence-recognition:release-1.2.0
+    name: ""
+  - image: release.sosiv.io/sosivio-dashboard:release-1.2.0
+    name: ""
+  - image: release.sosiv.io/sosivio-node-collector:release-1.2.0
+    name: ""
+  - image: release.sosiv.io/sosivio-node-exporter:release-1.2.0
+    name: ""
+  - image: release.sosiv.io/sosiviodb:release-1.2.0
+    name: ""
+schema: olm.bundle

@@ -1,0 +1,24 @@
+image: quay.io/openshift-community-operators/project-quay@sha256:91e082c9c6a482af4fca04037741b2a1d44c66624f8103c741d6b991de16de57
+name: quay-operator.v3.7.0
+package: project-quay
+properties:
+  - type: olm.gvk
+    value:
+      group: quay.redhat.com
+      kind: QuayRegistry
+      version: v1
+  - type: olm.gvk
+    value:
+      group: redhatcop.redhat.io
+      kind: QuayEcosystem
+      version: v1alpha1
+  - type: olm.package
+    value:
+      packageName: project-quay
+      version: 3.7.0
+relatedImages:
+  - image: quay.io/openshift-community-operators/project-quay@sha256:91e082c9c6a482af4fca04037741b2a1d44c66624f8103c741d6b991de16de57
+    name: ""
+  - image: quay.io/projectquay/quay-operator:3.7.0
+    name: ""
+schema: olm.bundle

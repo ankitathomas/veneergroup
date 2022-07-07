@@ -1,0 +1,21 @@
+image: quay.io/openshift-community-operators/cluster-impairment-operator@sha256:70a6220329ae475818900a83b67128588ac45c45f4f60bf1743e7ba884d7a6db
+name: cluster-impairment-operator.v1.0.1
+package: cluster-impairment-operator
+properties:
+  - type: olm.gvk
+    value:
+      group: apps.redhat.com
+      kind: ClusterImpairment
+      version: v1alpha1
+  - type: olm.package
+    value:
+      packageName: cluster-impairment-operator
+      version: 1.0.1
+relatedImages:
+  - image: gcr.io/kubebuilder/kube-rbac-proxy:v0.8.0
+    name: ""
+  - image: quay.io/openshift-community-operators/cluster-impairment-operator@sha256:70a6220329ae475818900a83b67128588ac45c45f4f60bf1743e7ba884d7a6db
+    name: ""
+  - image: quay.io/redhat-performance/cluster-impairment-operator:1.0.1
+    name: ""
+schema: olm.bundle

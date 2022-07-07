@@ -1,0 +1,5 @@
+entries:
+  - name: shipwright-operator.v0.9.0
+name: alpha
+package: shipwright-operator
+schema: olm.channel

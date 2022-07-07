@@ -1,0 +1,19 @@
+image: quay.io/openshift-community-operators/neuvector-community-operator@sha256:edd25d92a9e653894d50835b097032d6250b27822fbc3c16d8d4374c00c58d00
+name: neuvector-operator.v1.3.3
+package: neuvector-community-operator
+properties:
+  - type: olm.gvk
+    value:
+      group: apm.neuvector.com
+      kind: Neuvector
+      version: v1alpha1
+  - type: olm.package
+    value:
+      packageName: neuvector-community-operator
+      version: 1.3.3
+relatedImages:
+  - image: quay.io/openshift-community-operators/neuvector-community-operator@sha256:edd25d92a9e653894d50835b097032d6250b27822fbc3c16d8d4374c00c58d00
+    name: ""
+  - image: registry.neuvector.com/public/operator@sha256:86cf622dc40ff0b9f2186e9912e957ddefc24301d8c178efe5764d76b7ed246a
+    name: ""
+schema: olm.bundle
