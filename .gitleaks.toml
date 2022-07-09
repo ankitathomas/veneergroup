@@ -1,0 +1,11 @@
+[allowlist]
+paths = [
+  '''community-operator-index/4.10/project-quay/quay-operator.v3.7.0-rc.4.bundle.yaml''',
+  '''community-operator-index/4.10/tidb-operator/tidb-operator.v1.3.1.bundle.yaml''',
+  '''community-operator-index/4.11/project-quay/quay-operator.v3.7.0-rc.4.bundle.yaml''',
+  '''community-operator-index/4.11/tidb-operator/tidb-operator.v1.3.1.bundle.yaml''',
+  '''community-operator-index/community-operator-index-4.10.yaml''',
+  '''community-operator-index/community-operator-index-4.11.yaml''',
+  '''community-operator-index/4.10/keda/package.yaml''',
+  '''community-operator-index/4.11/keda/package.yaml''',
+]
