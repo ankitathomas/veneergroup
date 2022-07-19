@@ -1,54 +1,52 @@
-FORMAT?=yaml
+#MAKEFLAGS+="-Orecurse -j 8 -l 2"
+FORMAT?=yaml #output format
+INPUT_FORMATS:=%.yaml# %.sh #accepted input formats
+SRCDIR?=pkg
+BINDIR?=bin
+EXACT_VERSION:=$(or $(VERSION),$(shell ls $(BINDIR) | sort -rV | head -n 1))
+STRIPPED_VERSION:=$(word 1,$(subst ., ,$(EXACT_VERSION))).X
+VERSION_ORDER:=$(EXACT_VERSION) $(STRIPPED_VERSION)
 
-#SHELL:= env OUTDIR=$(OUTDIR) SRCDIR=$(SRCDIR) BINDIR=$(BINDIR) VERSION=$(VERSION) $(SHELL)
-ifndef VERSION
-	VERSION:=$(shell ls $(BINDIR) | sort -rV | head -n 1)
-endif
-OUTDIR?="generated/$(VERSION)"
-SRCDIR?="pkg/"
-BINDIR?="bin/"
+OUTDIR?=output/$(EXACT_VERSION)
+output_path=$(subst $(EXACT_VERSION),,$(subst $(STRIPPED_VERSION),,$(1)))
 
 export TMPOUT:=$(shell mktemp -d)
-export PATH:=$(BINDIR)/$(VERSION):bin:/usr/local/bin:$$PATH
+export PATH:=$(BINDIR)/$(EXACT_VERSION):$(BINDIR):$(PATH)
 
-rwildcard=$(foreach d,$(wildcard $(1:=/*)),$(call rwildcard,$d,$2) $(filter $(subst *,%,$2),$d))
-SOURCES:=$(call rwildcard,$(SRCDIR),*.yaml)
-SRCIMG:=$(call rwildcard,$(SRCDIR),*imagelist)
-SRCSH:=$(call rwildcard,$(SRCDIR),*.sh)
-SRCDIRS:=$(dir $(SOURCES)) $(dir $(SRCIMG)) $(dir $(SRCSH))
+rwildcard=$(foreach d,$(wildcard $(1:=/*)),$(call rwildcard,$d,$2) $(filter $2,$d))
+SRCDIRS:=$(foreach f,$(dir $(foreach v,$(VERSION_ORDER),$(call rwildcard,$(SRCDIR),%/$(v)))),$(firstword $(dir $(wildcard $(patsubst %,$(f)%/*,$(VERSION_ORDER))))))
+SOURCES:=$(subst //,/,$(foreach f,$(INPUT_FORMATS),$(foreach d,$(SRCDIRS),$(call rwildcard,$(d),$(f)))))
 
-.PHONY: all generate validate commit clean FORCE
+.PHONY: all generate validate commit FORCE
 
-all: generate validate commit clean
+all: generate validate commit
 
-generate: $(SOURCES) | $(SRCDIRS)
-	@echo $(SOURCES)
+generate: $(SRCDIRS) $(SOURCES)
 
 validate:
+	@echo Validate generated FBC
 	opm validate $(TMPOUT)
 
-commit: clean
-	mv $(TMPOUT) $(OUTDIR)
+commit:
+	@mkdir -p $(OUTDIR)
+	$(foreach f,$(wildcard $(TMPOUT)/$(SRCDIR)/*),@rm -rf $(OUTDIR)/$(notdir $f))
+	@mv $(TMPOUT)/$(SRCDIR)/* $(OUTDIR)
+	@rm -rf $(TMPOUT)
 
-clean:
-	rm -rf $(OUTDIR)
-
-$(SRCDIRS): 
-	mkdir -p $(TMPOUT)/$@
+$(SRCDIRS): FORCE 
+	@mkdir -p $(TMPOUT)/$(call output_path,$@)
 
 #pre-rendered catalogs
 %.yaml: FORCE
-	cp $@ $(TMPOUT)/$(*D)/$(*F).$(FORMAT)
+	@echo Copy rendered FBC $@ 
+	@cp $@ $(TMPOUT)/$(call output_path,$(*D))$(*F).$(FORMAT)
 
 #basic-veneer
 %.veneer.yaml: FORCE
-	opm alpha render-veneer basic --output=$(FORMAT) $@ > $(TMPOUT)/$(*D)/$(*F).$(FORMAT)
+	@echo Render basic veneer $@
+	@opm alpha render-veneer basic --output=$(FORMAT) $@ > $(TMPOUT)/$(call output_path,$(*D))$(*F).$(FORMAT)
 
 #semver-veneer
 %.semver.veneer.yaml: FORCE
-	opm alpha render-veneer semver --output=$(FORMAT) $@ > $(TMPOUT)/$(*D)/$(*F).$(FORMAT)
-
-#catalog image list
-%imagelist: FORCE
-	foreach src,$(shell cat $@),$(shell opm render $(src))
-
+	@echo Render semver veneer $@ $(*D)
+	@opm alpha render-veneer semver --output=$(FORMAT) $@ > $(TMPOUT)/$(call output_path,$(*D))$(*F).$(FORMAT)

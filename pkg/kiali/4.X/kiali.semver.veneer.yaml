@@ -1,0 +1,114 @@
+schema: olm.semver
+generateMinorChannels: true
+stable:
+  bundles:
+    #1.29.0
+    - image: quay.io/openshift-community-operators/kiali@sha256:ed2962a3f0c967778e68b6de2810b835d030e9ae8765d74c697e3c0bb32dab16
+    #1.30.0
+    - image: quay.io/openshift-community-operators/kiali@sha256:37162ece0738c21f492fe674ac272e204f107f368927d42bff3a5e4c7c0a833f
+    #1.31.0
+    - image: quay.io/openshift-community-operators/kiali@sha256:8652b99fb382b5539fab0c30ef4cefb935e2d2245cb4e0f472ea0edd3435fb8a
+    #1.32.0
+    - image: quay.io/openshift-community-operators/kiali@sha256:c7787e60c82663afb289874f581bf88203ae8260aeec1aa66b5aca7956d36d08
+    #1.33.0
+    - image: quay.io/openshift-community-operators/kiali@sha256:c4c045c56d966f13147531022250570cb60d587fb956d56c2aca5cb095efddff
+    #1.34.0
+    - image: quay.io/openshift-community-operators/kiali@sha256:c2f9d9cdb6e38be276f5af90a837dd1afb350aadd0d689c65b63d54d3fc243e2
+    #1.35.0
+    - image: quay.io/openshift-community-operators/kiali@sha256:e0b6d10b1a68b23d232ce605d179d26b8858ef01adcd4cbdb94ae9d117070c74
+    #1.36.0
+    - image: quay.io/openshift-community-operators/kiali@sha256:c810014defbc38599ad40284ed54948f45fd9ec6993ddfd26d376ee73693bf94
+    #1.37.0
+    - image: quay.io/openshift-community-operators/kiali@sha256:341f3bc2b9d9ad66d1e3f321acbca6732cf26861756d1e0c67226e8014ee982d
+    #1.38.1
+    - image: quay.io/openshift-community-operators/kiali@sha256:f0faa928f4243f886786b6577d725bfb7986ea2a14c2a932691753246bf0c8af
+    #1.39.0
+    - image: quay.io/openshift-community-operators/kiali@sha256:842bf07dd405e98a188edf3d9f355d88e47c7d1d94d99e34ceffd642b9847f98
+    #1.40.1
+    - image: quay.io/openshift-community-operators/kiali@sha256:05c91cd74e99e6a60fb10d108f846eaad0827a9a9d25e012087d8b87e4e0d12c
+    #1.41.0
+    - image: quay.io/openshift-community-operators/kiali@sha256:fc2d396ffcf9a6ca2eccb688b02a564b30fc0226b6eb855023d5c0bdb4081d23
+    #1.42.0
+    - image: quay.io/openshift-community-operators/kiali@sha256:0c8086a43201a92c8dab6c5a32dbdadf083a87f00d45e50f93e9403c059df79d
+    #1.43.0
+    - image: quay.io/openshift-community-operators/kiali@sha256:6e0ae51c06e6c25b4ddf70e8d416216233912eeeaa82679d6e2764b1e8698053
+    #1.44.0
+    - image: quay.io/openshift-community-operators/kiali@sha256:8a87adcc84b1e0bc77e292880168aa63d7800addebf09e001fa8214cf14fd660
+    #1.45.0
+    - image: quay.io/openshift-community-operators/kiali@sha256:2e2fca1862ec83a1ed4a9847464e83b893c36beb9490b4f98024c51d0899842d
+    #1.46.0
+    - image: quay.io/openshift-community-operators/kiali@sha256:5ece94fa1954abdc94290bf4f76547268d9a8e94baf035ca011318c97214a4b7
+    #1.47.0
+    - image: quay.io/openshift-community-operators/kiali@sha256:9d9a45be152dad67b6ba55d22ee687b888d49e08d19b2203d613a919cfdc3ad8
+    # skipRange: '>=1.0.0 <1.47.0'
+    #1.48.0
+    - image: quay.io/openshift-community-operators/kiali@sha256:0423e59bc7919cdcd0706cf9e909551c2c385ebc29f3d0879c859203b21fead9
+    # skipRange: '>=1.0.0 <1.48.0'
+    #1.49.0
+    - image: quay.io/openshift-community-operators/kiali@sha256:5a39d3b40dc07bf5615a12af54e4437f17ec9c1c161a9f6a6c642e2287c4e58d
+    # skipRange: '>=1.0.0 <1.49.0'
+    #1.50.0
+    - image: quay.io/openshift-community-operators/kiali@sha256:a160b5ad4f138844349cc755cadbe95296e2e80365c783c151a5b89381fe7af5
+    # skipRange: '>=1.0.0 <1.50.0'
+    #1.51.0
+    - image: quay.io/openshift-community-operators/kiali@sha256:99c8720f647fc89e51b4b4ffd1bfdcbfffabe316d34c24883dbf79d653c5bf1d
+    # skipRange: '>=1.0.0 <1.51.0'
+    #1.52.0
+    - image: quay.io/openshift-community-operators/kiali@sha256:1897d03efa8a285cde261b50534a84f2ea11d335485d88b8bd85506c6e68a3ae
+    # skipRange: '>=1.0.0 <1.52.0'
+candidate:
+  bundles:
+    #1.29.0
+    - image: quay.io/openshift-community-operators/kiali@sha256:ed2962a3f0c967778e68b6de2810b835d030e9ae8765d74c697e3c0bb32dab16
+    #1.30.0
+    - image: quay.io/openshift-community-operators/kiali@sha256:37162ece0738c21f492fe674ac272e204f107f368927d42bff3a5e4c7c0a833f
+    #1.31.0
+    - image: quay.io/openshift-community-operators/kiali@sha256:8652b99fb382b5539fab0c30ef4cefb935e2d2245cb4e0f472ea0edd3435fb8a
+    #1.32.0
+    - image: quay.io/openshift-community-operators/kiali@sha256:c7787e60c82663afb289874f581bf88203ae8260aeec1aa66b5aca7956d36d08
+    #1.33.0
+    - image: quay.io/openshift-community-operators/kiali@sha256:c4c045c56d966f13147531022250570cb60d587fb956d56c2aca5cb095efddff
+    #1.34.0
+    - image: quay.io/openshift-community-operators/kiali@sha256:c2f9d9cdb6e38be276f5af90a837dd1afb350aadd0d689c65b63d54d3fc243e2
+    #1.35.0
+    - image: quay.io/openshift-community-operators/kiali@sha256:e0b6d10b1a68b23d232ce605d179d26b8858ef01adcd4cbdb94ae9d117070c74
+    #1.36.0
+    - image: quay.io/openshift-community-operators/kiali@sha256:c810014defbc38599ad40284ed54948f45fd9ec6993ddfd26d376ee73693bf94
+    #1.37.0
+    - image: quay.io/openshift-community-operators/kiali@sha256:341f3bc2b9d9ad66d1e3f321acbca6732cf26861756d1e0c67226e8014ee982d
+    #1.38.1
+    - image: quay.io/openshift-community-operators/kiali@sha256:f0faa928f4243f886786b6577d725bfb7986ea2a14c2a932691753246bf0c8af
+    #1.39.0
+    - image: quay.io/openshift-community-operators/kiali@sha256:842bf07dd405e98a188edf3d9f355d88e47c7d1d94d99e34ceffd642b9847f98
+    #1.40.1
+    - image: quay.io/openshift-community-operators/kiali@sha256:05c91cd74e99e6a60fb10d108f846eaad0827a9a9d25e012087d8b87e4e0d12c
+    #1.41.0
+    - image: quay.io/openshift-community-operators/kiali@sha256:fc2d396ffcf9a6ca2eccb688b02a564b30fc0226b6eb855023d5c0bdb4081d23
+    #1.42.0
+    - image: quay.io/openshift-community-operators/kiali@sha256:0c8086a43201a92c8dab6c5a32dbdadf083a87f00d45e50f93e9403c059df79d
+    #1.43.0
+    - image: quay.io/openshift-community-operators/kiali@sha256:6e0ae51c06e6c25b4ddf70e8d416216233912eeeaa82679d6e2764b1e8698053
+    #1.44.0
+    - image: quay.io/openshift-community-operators/kiali@sha256:8a87adcc84b1e0bc77e292880168aa63d7800addebf09e001fa8214cf14fd660
+    #1.45.0
+    - image: quay.io/openshift-community-operators/kiali@sha256:2e2fca1862ec83a1ed4a9847464e83b893c36beb9490b4f98024c51d0899842d
+    #1.46.0
+    - image: quay.io/openshift-community-operators/kiali@sha256:5ece94fa1954abdc94290bf4f76547268d9a8e94baf035ca011318c97214a4b7
+    #1.47.0
+    - image: quay.io/openshift-community-operators/kiali@sha256:9d9a45be152dad67b6ba55d22ee687b888d49e08d19b2203d613a919cfdc3ad8
+    # skipRange: '>=1.0.0 <1.47.0'
+    #1.48.0
+    - image: quay.io/openshift-community-operators/kiali@sha256:0423e59bc7919cdcd0706cf9e909551c2c385ebc29f3d0879c859203b21fead9
+    # skipRange: '>=1.0.0 <1.48.0'
+    #1.49.0
+    - image: quay.io/openshift-community-operators/kiali@sha256:5a39d3b40dc07bf5615a12af54e4437f17ec9c1c161a9f6a6c642e2287c4e58d
+    # skipRange: '>=1.0.0 <1.49.0'
+    #1.50.0
+    - image: quay.io/openshift-community-operators/kiali@sha256:a160b5ad4f138844349cc755cadbe95296e2e80365c783c151a5b89381fe7af5
+    # skipRange: '>=1.0.0 <1.50.0'
+    #1.51.0
+    - image: quay.io/openshift-community-operators/kiali@sha256:99c8720f647fc89e51b4b4ffd1bfdcbfffabe316d34c24883dbf79d653c5bf1d
+    # skipRange: '>=1.0.0 <1.51.0'
+    #1.52.0
+    - image: quay.io/openshift-community-operators/kiali@sha256:1897d03efa8a285cde261b50534a84f2ea11d335485d88b8bd85506c6e68a3ae
+    # skipRange: '>=1.0.0 <1.52.0'
