@@ -11,7 +11,7 @@ OUTDIR?=output/$(EXACT_VERSION)
 output_path=$(subst $(EXACT_VERSION),,$(subst $(STRIPPED_VERSION),,$(1)))
 
 export TMPOUT:=$(shell mktemp -d)
-export PATH:=$(BINDIR)/$(EXACT_VERSION):$(BINDIR):$(PATH)
+export PATH:=$(BINDIR)/$(EXACT_VERSION):$(BINDIR)/$(STRIPPED_VERSION):$(BINDIR):$(PATH)
 
 rwildcard=$(foreach d,$(wildcard $(1:=/*)),$(call rwildcard,$d,$2) $(filter $2,$d))
 SRCDIRS:=$(foreach f,$(dir $(foreach v,$(VERSION_ORDER),$(call rwildcard,$(SRCDIR),%/$(v)))),$(firstword $(dir $(wildcard $(patsubst %,$(f)%/*,$(VERSION_ORDER))))))
